@@ -443,6 +443,7 @@ function Committe() {
     <div className="mx-4">
       <Head>
         <title>Committees- ICIMMI - International conference on information management & machine intelligence</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
         <Schedule />

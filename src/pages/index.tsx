@@ -114,6 +114,7 @@ const Home = () => {
     <>
       <Head>
         <title>ICIMMI - International conference on information management & machine intelligence</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={"mx-8"}>
         <div
