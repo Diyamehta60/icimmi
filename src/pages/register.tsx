@@ -10,29 +10,7 @@ const Register = () => {
         <>
 
             <Head>
-                <title>Register - ICAC3N - Galgotias College of Engineering and Technology</title>
-                <meta name="title" content="Register - ICAC3N - Galgotias College of Engineering" />
-                <meta name="description"
-                    content="Register - 5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://icac3n.in/" />
-                <meta property="og:title" content="Register - ICAC3N - Galgotias College of Engineering" />
-                <meta name="description"
-                    content="Register - 5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N" />
-                <meta property="og:image"
-                    content="https://icac3n.in/api/og" />
-
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://icac3n.in/" />
-                <meta property="twitter:title" content="Register - ICAC3N - Galgotias College of Engineering" />
-                <meta property="twitter:description"
-                    content="Register - 5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N" />
-                <meta property="twitter:image"
-                    content="https://icac3n.in/api/og" />
+                <title>Register - ICIMMI - International conference on information management & machine intelligence</title>
             </Head>
             <div className={"mx-4 my-8 w-full"}>
                 <Schedule />

@@ -31,13 +31,13 @@ import axios from "axios";
 import InaugurationPdf from "@/components/inaugurationPdf";
 // import EntryModal from "@/components/entryModal";
 import Sponsored from "@/components/sponsored";
+import Schedule from "@/components/schedule";
 
 const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
   ssr: false,
 });
 
 const Home = () => {
-  const [showModal, setShowModal] = useState(false);
 
   const [visitorCounter, setVisitorCounter] = useState(20000);
 
@@ -78,15 +78,6 @@ const Home = () => {
     },
   ];
 
-  //   useEffect(() => {
-  //     let isModalShown = sessionStorage.getItem("alreadyShown");
-  //     if (isModalShown != "already_shown") {
-  //       setTimeout(() => {
-  //         setShowModal(true);
-  //       }, 1000);
-  //       sessionStorage.setItem("alreadyShow", "already_shown");
-  //     }
-  //   }, []);
 
   const fetch = (i: number) => {
     const options = { method: "GET", url: `/api/counter?i=${i}` };
@@ -122,45 +113,9 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>ICAC3N - Galgotias College of Engineering and Technology </title>
-        <meta
-          name="title"
-          content="ICAC3N - Galgotias College of Engineering and Technology"
-        />
-        <meta
-          name="description"
-          content="5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://icac3n.in/" />
-        <meta
-          property="og:title"
-          content="ICAC3N - Galgotias College of Engineering and Technology"
-        />
-        <meta
-          name="description"
-          content="5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
-        />
-        <meta property="og:image" content="https://icac3n.in/api/og" />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://icac3n.in/" />
-        <meta
-          property="twitter:title"
-          content="ICAC3N - Galgotias College of Engineering and Technology"
-        />
-        <meta
-          property="twitter:description"
-          content="5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
-        />
-        <meta property="twitter:image" content="https://icac3n.in/api/og" />
+        <title>ICIMMI - International conference on information management & machine intelligence</title>
       </Head>
       <main className={"mx-8"}>
-        {/* <EntryModal showModal={showModal} setShowModal={setShowModal} /> */}
-        {/*    landing   */}
         <div
           className={
             "mt-2 grid grid-cols-5 items-center justify-center gap-5 text-center lg:text-start"
@@ -177,9 +132,9 @@ const Home = () => {
               }
             >
               <RiCalendarTodoFill
-                className={"hidden text-xl text-red-800 lg:block"}
+                className={"hidden text-xl text-[#034EA2] lg:block"}
               />
-              <p className={"font-semibold text-red-800"}>
+              <p className={"font-semibold text-[#034EA2]"}>
                 7th & 8th March, 2025
               </p>
             </div>
@@ -201,10 +156,10 @@ const Home = () => {
             >
               <RiBuildingFill
                 className={
-                  "hidden h-8 w-8 self-start text-xl text-red-800 lg:block"
+                  "hidden h-8 w-8 self-start text-xl text-[#034EA2] lg:block"
                 }
               />
-              <div className={"text-red-800"}>
+              <div className={"text-[#034EA2]"}>
                 <p
                   className={"text font-semibold"}
                   itemProp={"organizing-department"}
@@ -221,10 +176,10 @@ const Home = () => {
             >
               <RiMapPin2Fill
                 className={
-                  "mt-1 hidden self-start text-xl text-red-800 lg:block"
+                  "mt-1 hidden self-start text-xl text-[#034EA2] lg:block"
                 }
               />
-              <div className={"text-red-800"}>
+              <div className={"text-[#034EA2]"}>
                 <p
                   className={"text font-semibold"}
                   itemProp={"organizing-college"}
@@ -236,18 +191,18 @@ const Home = () => {
             </div>
             <div
               className={
-                "mt-4 flex items-center justify-center space-x-5 text-2xl text-red-800 lg:justify-start"
+                "mt-4 flex items-center justify-center space-x-5 text-2xl text-[#034EA2] lg:justify-start"
               }
             >
               <Link
-                href={"https://twitter.com/icac3n"}
-                aria-label={"icac3n twitter"}
+                href={"https://www.piet.poornima.org/"}
+                aria-label={"icimmi twitter"}
               >
                 <RiTwitterFill
                   className={"grow-on-hover cursor-pointer hover:text-sky-500"}
                 />
               </Link>
-              <Link href={"tel:+91-7835878146"} aria-label={"icac3n phone"}>
+              <Link href={"tel:+91-7835878236"} aria-label={"icimmi phone"}>
                 <RiPhoneFill
                   className={
                     "grow-on-hover  cursor-pointer hover:text-emerald-500"
@@ -255,8 +210,8 @@ const Home = () => {
                 />
               </Link>
               <Link
-                href={"https://www.facebook.com/IEEE.ICAC3N.21"}
-                aria-label={"icac3n facebook"}
+                href={"https://www.piet.poornima.org/"}
+                aria-label={"icimmi facebook"}
               >
                 <RiFacebookBoxFill
                   className={
@@ -265,8 +220,8 @@ const Home = () => {
                 />
               </Link>
               <Link
-                href={"mailto:sachin.kumar@galgotiacollege.edu"}
-                aria-label={"icac3n mail"}
+                href={"https://www.piet.poornima.org/"}
+                aria-label={"icimmi mail"}
               >
                 <RiMailFill
                   className={
@@ -333,6 +288,7 @@ const Home = () => {
           </div>
         </div>
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+        <Schedule />
         <div className={"flex flex-col space-y-5"}>
           <div className={"mx-2 grid grid-cols-1 md:mx-auto lg:grid-cols-3"}>
             <div className={"col-span-full lg:col-span-2 lg:mr-10"}>

@@ -1,4 +1,5 @@
 import Schedule from '@/components/schedule'
+import Head from 'next/head';
 import Image from 'next/image';
 import React from 'react'
 
@@ -166,6 +167,9 @@ function SpecialSession() {
     ];
     return (
         <div className='mx-4'>
+            <Head>
+                <title>Special Sessions - International conference on information management & machine intelligence</title>
+            </Head>
             <Schedule />
             <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <h1 className='text-center'>SPECIAL SESSIONS</h1>
@@ -186,7 +190,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -217,7 +221,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -248,7 +252,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -279,7 +283,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -313,7 +317,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -344,7 +348,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -375,7 +379,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -406,7 +410,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -437,7 +441,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -468,7 +472,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -500,7 +504,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -531,7 +535,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 
@@ -561,7 +565,7 @@ function SpecialSession() {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
+                                        <img src={item.image} className={'h-full w-full object-cover rounded-lg '} alt={item.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
 

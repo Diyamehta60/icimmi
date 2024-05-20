@@ -35,7 +35,7 @@ const Post = ({
   return (
     <>
       <Head>
-        <title>ICAC3N {year}- Galgotias College of Engineering</title>
+        <title>ICIMMI {year} - International conference on information management & machine intelligence</title>
         <meta
           name="description"
           content="International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
@@ -110,7 +110,7 @@ const Post = ({
                   return (
                     <SwiperSlide key={index}>
 
-                      <Image
+                      <img
                         className={" h-80 w-full rounded-md object-cover"}
                         src={image}
                         alt=""
@@ -141,14 +141,14 @@ const Post = ({
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
           <div className="grid gap-4">
             <div>
-              <Image
+              <img
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[0]}`}
                 alt="Image 1"
               />
             </div>
             <div>
-              <Image
+              <img
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[1]}`}
                 alt="Image 2"
@@ -157,14 +157,14 @@ const Post = ({
           </div>
           <div className="grid gap-4">
             <div>
-              <Image
+              <img
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[2]}`}
                 alt="Image 3"
               />
             </div>
             <div>
-              <Image
+              <img
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[3]}`}
                 alt="Image 4"
@@ -173,14 +173,14 @@ const Post = ({
           </div>
           <div className="grid gap-4">
             <div>
-              <Image
+              <img
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[4]}`}
                 alt="Image 5"
               />
             </div>
             <div>
-              <Image
+              <img
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[5]}`}
                 alt="Image 6"

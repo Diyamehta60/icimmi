@@ -103,7 +103,7 @@ function Index() {
     },
     {
       title: "Publications",
-      link: "/publication",
+      link: "/publications",
       enabled: true,
     },
     {
@@ -170,13 +170,13 @@ function Index() {
       <nav className="bg-[#034EA2]">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between gap-y-6 p-4">
           <div className={"flex w-full flex-row items-center justify-between"}>
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center justify-center">
               <div className={"h-12"}>
                 <Image
                   width={35}
                   height={35}
-                  src="/idea_lab.png"
-                  className="mr-3 object-cover"
+                  src="/pietlogo.png"
+                  className="mr-3 mt-3 object-cover"
                   alt="Logo"
                 />
               </div>

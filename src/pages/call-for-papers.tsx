@@ -1,15 +1,16 @@
 import { StarterLayout } from "layout";
 import Head from "next/head";
 import React from "react";
-import Button from "@/components/button";
 import Sponsored from "@/components/sponsored";
+import Schedule from "@/components/schedule";
 
 const callForPapers = () => {
   return (
     <>
       <Head>
-        <title>Call for Papers</title>
+        <title>Call for Papers - ICIMMI  - International conference on information management & machine intelligence</title>
       </Head>
+      <Schedule />
       <div className={"prose mx-4 my-8"}>
         <h1 className={"heading"}>Call for Papers</h1>
         <p>

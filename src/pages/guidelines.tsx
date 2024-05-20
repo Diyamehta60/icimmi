@@ -9,29 +9,8 @@ const Guidelines = () => {
         <>
 
             <Head>
-                <title>Guidelines - ICAC3N - Galgotias College of Engineering and Technology</title>
-                <meta name="title" content="Guidelines - ICAC3N - Galgotias College of Engineering and Technology" />
-                <meta name="description"
-                    content="Guidelines - 5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <title>Guidelines - ICIMMI - International conference on information management & machine intelligence </title>
                 <link rel="icon" href="/favicon.ico" />
-
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://icac3n.in/" />
-                <meta property="og:title" content="Guidelines - ICAC3N - Galgotias College of Engineering and Technology" />
-                <meta name="description"
-                    content="Guidelines - 5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N" />
-                <meta property="og:image"
-                    content="https://icac3n.in/api/og" />
-
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://icac3n.in/" />
-                <meta property="Guidelines - twitter:title" content="Guidelines - ICAC3N - Galgotias College of Engineering and Technology" />
-                <meta property="twitter:description"
-                    content="Guidelines - 5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N" />
-                <meta property="twitter:image"
-                    content="https://icac3n.in/api/og" />
             </Head>
             <div className={"prose mx-4 my-8"}>
                 <h1 className={"heading"}>Submission Guidelines</h1>

@@ -1,11 +1,16 @@
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 
 export default function PaperSubmission() {
   return (
+
     <div className="mx-4">
+      <Head>
+        <title>Paper Submission - ICIMMI - International conference on information management & machine intelligence</title>
+      </Head>
       <Schedule />
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
       <div className={"prose my-8"}>
@@ -37,12 +42,11 @@ export default function PaperSubmission() {
           Submission Guidelines:
         </h2>
       </div>
-      <p className="w-full py-4">
-        {" "}
+      <p className="w-full px-4 py-4 md:px-0">
         To submit a paper for ICIMMI-2024, authors must follow the ACM
         conference proceedings format. The submission template for the
         conference is available at{" "}
-        <span className="break-all py-4 text-center text-sm font-bold text-[#034EA2] underline lg:break-normal lg:text-start">
+        <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
             href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
             className="break-all"
@@ -51,13 +55,15 @@ export default function PaperSubmission() {
           </Link>
         </span>{" "}
         for Word users and{" "}
-        <span className="text-[#034EA2] underline">
+        <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
             href={
               "https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip"
             }
-          ></Link>
-          https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip
+            className="break-all"
+          >
+            https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip
+          </Link>
         </span>{" "}
         for LaTeX users. The maximum length of the paper is six (6) pages.
         Authors must ensure that their research paper is original and has not
@@ -66,12 +72,14 @@ export default function PaperSubmission() {
         with a similarity score of more than 10% will not be processed.
       </p>
       <br />
-      <p className="font-bold">Review Process & Oral Presentation:</p>
+      <p className="px-4 font-bold md:px-0">
+        Review Process & Oral Presentation:
+      </p>
       <ul className="prose mx-4 my-4 list-disc">
         <li>
           All papers with a similarity score of less than 10% will undergo a
           double-blind review. The technical committee of the conference will
-          review the papers, and the authors will be notified of the paper s
+          review the papers, and the authors will be notified of the paper's
           status, which can be one of the following:
           <ul>
             <li>Accepted for oral presentation</li>
@@ -92,7 +100,7 @@ export default function PaperSubmission() {
         <Link
           href="/acm_submission_template.docx"
           download="/acm_submission_template.docx"
-          className="inline-flex w-[20%] items-center rounded bg-[#034EA2] px-4 py-2 font-bold text-white hover:bg-[#034EA2]"
+          className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
         >
           <svg
             className="mr-2 h-4 w-4 fill-current"
@@ -104,9 +112,9 @@ export default function PaperSubmission() {
           <span>Paper Template Doc</span>
         </Link>
         <Link
-          href={"/acmart-primary.zip"}
-          download={"/acmart-primary.zip"}
-          className="inline-flex w-[20%] items-center rounded bg-[#034EA2] px-4 py-2 font-bold text-white hover:bg-[#034EA2]"
+          href="/acmart-primary.zip"
+          download="/acmart-primary.zip"
+          className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
         >
           <svg
             className="mr-2 h-4 w-4 fill-current"

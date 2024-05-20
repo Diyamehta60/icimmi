@@ -9,7 +9,7 @@ const Speakers = () => {
     return (
         <>
             <Head>
-                <title>Speakers - ICIMMI - POORNIMA INSTITUTE OF Engineering and Technology</title>
+                <title>Speakers - ICIMMI - International conference on information management & machine intelligence</title>
                 <link rel="icon" href="/favicon.ico" />
 
             </Head>
@@ -24,7 +24,7 @@ const Speakers = () => {
                                 <div key={index}
                                     className={'col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg'}>
                                     <div className={'col-span-1 w-full h-44'}>
-                                        <Image src={speaker.image} className={'h-full w-full object-cover rounded-lg '} alt={speaker.name} />
+                                        <img src={speaker.image} className={'h-full w-full object-cover rounded-lg '} alt={speaker.name} />
                                     </div>
                                     <div className={"flex flex-col gap-1 col-span-2 my-2"}>
                                         <div className={"py-2"}>

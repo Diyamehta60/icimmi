@@ -1,5 +1,6 @@
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
+import Head from "next/head";
 import React from "react";
 
 function Committe() {
@@ -440,6 +441,9 @@ function Committe() {
 
   return (
     <div className="mx-4">
+      <Head>
+        <title>Committees- ICIMMI - International conference on information management & machine intelligence</title>
+      </Head>
       <div>
         <Schedule />
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />

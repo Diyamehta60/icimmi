@@ -28,7 +28,7 @@ const Footer = () => {
                 <Image
                   width={27}
                   height={27}
-                  src="/idea_lab.png"
+                  src="/pietlogo.png"
                   className="mr-3 mb- 4 object-cover"
                   alt="Logo"
                 />
