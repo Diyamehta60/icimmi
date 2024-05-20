@@ -10,7 +10,7 @@ const Speakers = () => {
         <>
             <Head>
                 <title>Speakers - ICIMMI - International conference on information management & machine intelligence</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/gallery/favicon.ico" />
 
             </Head>
             <Schedule />

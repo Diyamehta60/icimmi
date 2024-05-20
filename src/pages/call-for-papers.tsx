@@ -9,7 +9,7 @@ const callForPapers = () => {
     <>
       <Head>
         <title>Call for Papers - ICIMMI  - International conference on information management & machine intelligence</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
       <div className={"prose mx-4 my-8"}>

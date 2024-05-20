@@ -8,7 +8,7 @@ function Partners() {
     <>
       <Head>
         <title>Conference Partners - ICIMMI - International conference on information management & machine intelligence</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <div className="my-12 mx-4">
         <Schedule />

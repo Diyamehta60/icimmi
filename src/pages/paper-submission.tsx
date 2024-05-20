@@ -10,7 +10,7 @@ export default function PaperSubmission() {
     <div className="mx-4">
       <Head>
         <title>Paper Submission - ICIMMI - International conference on information management & machine intelligence</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
