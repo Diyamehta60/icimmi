@@ -376,7 +376,7 @@ const Home = () => {
               <img
                 className="rounded object-cover object-center"
                 alt="hero"
-                src="/bg.jpg"
+                src={"/bg.jpg"}
               />
             </div>
           </div>
