@@ -29,8 +29,8 @@ import Carousel from "framer-motion-carousel";
 import Image from "next/image";
 import axios from "axios";
 import InaugurationPdf from "@/components/inaugurationPdf";
+// import EntryModal from "@/components/entryModal";
 import Sponsored from "@/components/sponsored";
-import Schedule from "@/components/schedule";
 
 const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
   ssr: false,
@@ -122,12 +122,41 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>ICIMMI - PIET </title>
-
+        <title>ICAC3N - Galgotias College of Engineering and Technology </title>
+        <meta
+          name="title"
+          content="ICAC3N - Galgotias College of Engineering and Technology"
+        />
+        <meta
+          name="description"
+          content="5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://icac3n.in/" />
+        <meta
+          property="og:title"
+          content="ICAC3N - Galgotias College of Engineering and Technology"
+        />
+        <meta
+          name="description"
+          content="5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
+        />
+        <meta property="og:image" content="https://icac3n.in/api/og" />
 
-
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://icac3n.in/" />
+        <meta
+          property="twitter:title"
+          content="ICAC3N - Galgotias College of Engineering and Technology"
+        />
+        <meta
+          property="twitter:description"
+          content="5th International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
+        />
+        <meta property="twitter:image" content="https://icac3n.in/api/og" />
       </Head>
       <main className={"mx-8"}>
         {/* <EntryModal showModal={showModal} setShowModal={setShowModal} /> */}
@@ -148,9 +177,9 @@ const Home = () => {
               }
             >
               <RiCalendarTodoFill
-                className={"hidden text-xl text-[#034EA2] lg:block"}
+                className={"hidden text-xl text-red-800 lg:block"}
               />
-              <p className={"font-semibold text-[#034EA2]"}>
+              <p className={"font-semibold text-red-800"}>
                 7th & 8th March, 2025
               </p>
             </div>
@@ -172,10 +201,10 @@ const Home = () => {
             >
               <RiBuildingFill
                 className={
-                  "hidden h-8 w-8 self-start text-xl text-[#034EA2] lg:block"
+                  "hidden h-8 w-8 self-start text-xl text-red-800 lg:block"
                 }
               />
-              <div className={"text-[#034EA2]"}>
+              <div className={"text-red-800"}>
                 <p
                   className={"text font-semibold"}
                   itemProp={"organizing-department"}
@@ -192,10 +221,10 @@ const Home = () => {
             >
               <RiMapPin2Fill
                 className={
-                  "mt-1 hidden self-start text-xl text-[#034EA2] lg:block"
+                  "mt-1 hidden self-start text-xl text-red-800 lg:block"
                 }
               />
-              <div className={"text-[#034EA2]"}>
+              <div className={"text-red-800"}>
                 <p
                   className={"text font-semibold"}
                   itemProp={"organizing-college"}
@@ -207,18 +236,18 @@ const Home = () => {
             </div>
             <div
               className={
-                "mt-4 flex items-center justify-center space-x-5 text-2xl text-[#034EA2] lg:justify-start"
+                "mt-4 flex items-center justify-center space-x-5 text-2xl text-red-800 lg:justify-start"
               }
             >
               <Link
-                href={"https://www.piet.poornima.org/"}
+                href={"https://twitter.com/icac3n"}
                 aria-label={"icac3n twitter"}
               >
                 <RiTwitterFill
                   className={"grow-on-hover cursor-pointer hover:text-sky-500"}
                 />
               </Link>
-              <Link href={"tel:+91-9887153864"} aria-label={"icac3n phone"}>
+              <Link href={"tel:+91-7835878146"} aria-label={"icac3n phone"}>
                 <RiPhoneFill
                   className={
                     "grow-on-hover  cursor-pointer hover:text-emerald-500"
@@ -226,7 +255,7 @@ const Home = () => {
                 />
               </Link>
               <Link
-                href={"https://www.piet.poornima.org/"}
+                href={"https://www.facebook.com/IEEE.ICAC3N.21"}
                 aria-label={"icac3n facebook"}
               >
                 <RiFacebookBoxFill
@@ -236,7 +265,7 @@ const Home = () => {
                 />
               </Link>
               <Link
-                href={"https://www.piet.poornima.org/"}
+                href={"mailto:sachin.kumar@galgotiacollege.edu"}
                 aria-label={"icac3n mail"}
               >
                 <RiMailFill
@@ -270,7 +299,7 @@ const Home = () => {
                         <div
                           key={index}
                           className={`${index == activeIndex ? "bg-amber-400" : "bg-white"
-                            } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-[#034EA2]`}
+                            } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
                           onClick={() => setActiveIndex(index)}
                         ></div>
                       );
@@ -304,9 +333,6 @@ const Home = () => {
           </div>
         </div>
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-        <div className="w-full">
-          <Schedule />
-        </div>
         <div className={"flex flex-col space-y-5"}>
           <div className={"mx-2 grid grid-cols-1 md:mx-auto lg:grid-cols-3"}>
             <div className={"col-span-full lg:col-span-2 lg:mr-10"}>
@@ -319,13 +345,13 @@ const Home = () => {
               </h2>
               <p className={"text-justify"}>
                 5th International Conference on Information Management & Machine
-                Intelligence (ICIMMI- 2024) will be held at Poornima Institute
+                Intelligence (ICIMMI- 2023) will be held at Poornima Institute
                 of Engineering & Technology, Jaipur, Rajasthan, India on
-                November 23-25, 2024, with Scopus publication partner
+                November 23-25, 2023, with Scopus publication partner
                 Association for Computing Machinery (ACM).
                 {<br />}
                 {<br />}
-                The ICIMMI-2024 conference aims to showcase the latest trends in
+                The ICIMMI-2023 conference aims to showcase the latest trends in
                 the development of intelligence across all areas of Information
                 Management. The current state of the technology industry has
                 permeated all branches of engineering, from Infrastructure
@@ -391,7 +417,7 @@ const Home = () => {
               </ul>
             </div>
             <div className="mx-auto w-5/6 py-12 md:w-1/2 lg:w-full lg:max-w-lg">
-              <Image
+              <img
                 className="rounded object-cover object-center"
                 alt="hero"
                 src="/bg.jpg"

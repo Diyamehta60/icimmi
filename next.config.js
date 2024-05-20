@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "export",
-  basePath: "/icimmi",
   async redirects() {
     return [
       {
@@ -26,7 +24,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/publication",
+        source: "/publications",
         destination: "/publications",
         permanent: true,
       },
@@ -38,11 +36,6 @@ const nextConfig = {
       {
         source: "/committes",
         destination: "/committe",
-        permanent: true,
-      },
-      {
-        source: "/specialsession",
-        destination: "/special-session",
         permanent: true,
       },
     ];

@@ -3,7 +3,6 @@ import Head from "next/head";
 import React from "react";
 import Button from "@/components/button";
 import Sponsored from "@/components/sponsored";
-import Schedule from "@/components/schedule";
 
 const callForPapers = () => {
   return (
@@ -11,13 +10,11 @@ const callForPapers = () => {
       <Head>
         <title>Call for Papers</title>
       </Head>
-      <Schedule />
-      <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
       <div className={"prose mx-4 my-8"}>
         <h1 className={"heading"}>Call for Papers</h1>
         <p>
           Prospective authors from academia as well as industry are invited to
-          submit their full papers in main conference ICIMMI-2024 which have not
+          submit their full papers in main conference ICIMMI-2023 which have not
           been yet submitted /published and that illustrate research, surveying
           works, and industrial application in all disciplines of Engineering
           for Intelligence based applications & automation activities,

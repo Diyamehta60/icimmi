@@ -58,7 +58,7 @@ const Register = () => {
                             placeholder="Leave a comment..."></textarea>
                     </div>
                     <button disabled={true} type="submit"
-                        className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-700 sm:w-fit hover:bg-[#034EA2] focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Submit
+                        className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-700 sm:w-fit hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Submit
                     </button>
                 </form>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
