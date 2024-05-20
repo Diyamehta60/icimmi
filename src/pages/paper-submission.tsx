@@ -79,7 +79,7 @@ export default function PaperSubmission() {
         <li>
           All papers with a similarity score of less than 10% will undergo a
           double-blind review. The technical committee of the conference will
-          review the papers, and the authors will be notified of the paper's
+          review the papers, and the authors will be notified of the paper s
           status, which can be one of the following:
           <ul>
             <li>Accepted for oral presentation</li>
