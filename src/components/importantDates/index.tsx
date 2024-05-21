@@ -121,7 +121,7 @@ export default function ImportantDates() {
                   <div className={"flex items-center justify-center space-x-2"}>
                     <div
                       className={
-                        "mt-1 rounded-full bg-[#034EA2] bg-opacity-20 font-semibold"
+                        "mt-1 rounded-full bg-[#1a1212] bg-opacity-20 font-semibold"
                       }
                     >
                       <p className={"px-2 py-0.5 text-xs text-[#034EA2]"}>

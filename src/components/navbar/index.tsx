@@ -125,6 +125,10 @@ function Index() {
       title: "Archive",
       dropdown: [
         {
+          title: "ICIMMI - 2023",
+          link: "/archive/2023",
+        },
+        {
           title: "ICIMMI - 2022",
           link: "/archive/2022",
         },
@@ -167,23 +171,33 @@ function Index() {
 
   return (
     <div >
-      <nav className="bg-[#034EA2]">
+      <nav className="bg-[#1a1212]">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between gap-y-6 p-4">
-          <div className={"flex w-full flex-row items-center justify-between"}>
-            <Link href="/" className="flex items-center justify-center">
+          <div className={"flex w-full flex-row items-center "}>
+            <Link href="/" className="flex items-center flex-auto">
               <div className={"h-12"}>
                 <Image
                   width={35}
                   height={35}
                   src="/pietlogo.png"
-                  className="mr-3 mt-3 object-cover"
+                  className="mr-3 mt-2 object-cover"
                   alt="Logo"
                 />
               </div>
+              
               <span className="mr-3 text-2xl font-semibold tracking-tight text-white">
-                ICIMMI
+                6th ICIMMI-2024
               </span>
             </Link>
+            <div className={"h-12 hidden lg:block" }>
+                <Image
+                  width={200}
+                  height={100}
+                  src="/clglogo.png"
+                  className="mr-3 object-cover"
+                  alt="Logo"
+                />
+            </div>
 
             <div className={"flex flex-row items-center justify-normal gap-1"}>
               <span

@@ -28,7 +28,7 @@ export default function InaugurationPdf() {
                 <Link target="_blank" href={"/documents/inauguration_schedule.pdf"}
                     download={'/documents/inauguration_schedule.pdf'}
 
-                    className={`inline-flex items-center justify-center px-3 py-2 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-[#034EA2] focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900`}
+                    className={`inline-flex items-center justify-center px-3 py-2 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-[#1a1212] focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900`}
                 >Download
                 </Link>
             </div>
@@ -44,7 +44,7 @@ export default function InaugurationPdf() {
                         {/*<Link target="_blank" href={"/documents/inauguration_schedule.pdf"}*/}
                         {/*      download={'/documents/inauguration_schedule.pdf'}*/}
 
-                        {/*      className={`absolute bottom-2 right-2 z-10 inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-[#034EA2] focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900`}*/}
+                        {/*      className={`absolute bottom-2 right-2 z-10 inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-[#1a1212] focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900`}*/}
                         {/*>Download*/}
                         {/*</Link>*/}
                     </>

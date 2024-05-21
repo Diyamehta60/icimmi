@@ -64,17 +64,34 @@ const Home = () => {
     {
       image: "/clg.jpg",
       id: "e5f6g7h8",
-      alt: "Mr. Sunil Galgotia with CM Yogi Adityanath",
+      alt: "",
     },
     {
       image: "/clg2.jpg",
       id: "i9j0k1l2",
-      alt: "Mr. Dhruv Galgotia with Former President Pranab Mukherjee",
+      alt: "",
     },
     {
       image: "/clg3.jpg",
       id: "i9j0k1l2",
-      alt: "Mr. Sunil Galgotia with PM Narendra Modi",
+      alt: "",
+    },
+  ];
+  const logoImages = [
+    {
+      image: "/gallery/logos/springer1.jpeg",
+      id: "e5f6g7h8",
+      alt: "",
+    },
+    {
+      image: "/gallery/logos/scopus1.png",
+      id: "i9j0k1l2",
+      alt: "",
+    },
+    {
+      image: "/gallery/logos/icps1.jpg",
+      id: "i9j0k1l2",
+      alt: "",
     },
   ];
 
@@ -301,14 +318,13 @@ const Home = () => {
                 Preamble
               </h2>
               <p className={"text-justify"}>
-                5th International Conference on Information Management & Machine
-                Intelligence (ICIMMI- 2023) will be held at Poornima Institute
+                6th International Conference on Information Management & Machine
+                Intelligence (ICIMMI- 2024) will be held at Poornima Institute
                 of Engineering & Technology, Jaipur, Rajasthan, India on
-                November 23-25, 2023, with Scopus publication partner
-                Association for Computing Machinery (ACM).
+                November 23-24, 2024.
                 {<br />}
                 {<br />}
-                The ICIMMI-2023 conference aims to showcase the latest trends in
+                The ICIMMI-2024 conference aims to showcase the latest trends in
                 the development of intelligence across all areas of Information
                 Management. The current state of the technology industry has
                 permeated all branches of engineering, from Infrastructure
@@ -322,20 +338,73 @@ const Home = () => {
                 intelligence to their machines and systems.
                 {<br />}
                 {<br />}
-                <span className="font-bold">Note:</span> Only fully vaccinated
-                participants will be allowed to attend the conference.
+
               </p>
               <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             </div>
             <div id={"important"} className={"col-span-full lg:col-span-1"}>
               {/* <ImportantMessage /> */}
-              <ImportantDates />
+              <div
+                className={
+                  "col-span-full flex h-full w-full overflow-hidden rounded-lg px-1 lg:col-span-3"
+                }
+              >
+                <Carousel
+                  autoPlay={true}
+                  interval={4000}
+                  loop={true}
+                  renderArrowLeft={() => null}
+                  renderArrowRight={({ activeIndex, handleNext }) => null}
+                  renderDots={({ setActiveIndex, activeIndex }) => {
+                    return (
+                      <div
+                        className={
+                          "absolute bottom-0 left-0 flex h-10 w-full flex-row items-center justify-center gap-2 rounded-lg bg-gray-800 bg-opacity-20"
+                        }
+                      >
+                        {logoImages.map((image, index) => {
+                          return (
+                            <div
+                              key={index}
+                              className={`${index == activeIndex ? "bg-amber-400" : "bg-white"
+                                } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
+                              onClick={() => setActiveIndex(index)}
+                            ></div>
+                          );
+                        })}
+                      </div>
+                    );
+                  }}
+                >
+                  {logoImages.map((image, index) => {
+                    return (
+                      <div
+                        key={index}
+                        className={
+                          "flex h-full w-full cursor-grab active:cursor-grabbing"
+                        }
+                      >
+                        <Image
+                          height={2000}
+                          width={3000}
+                          draggable={false}
+                          className={
+                            " mx-auto h-full rounded-md object-fit shadow-lg"
+                          }
+                          src={image.image}
+                          alt=""
+                        />
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
             </div>
           </div>
         </div>
         <section className="body-font text-gray-600">
           <div className="container flex flex-col  px-3 py-12 md:flex-row-reverse">
-            <div className="mb-16 flex flex-col items-center text-left md:mb-0 md:w-3/4 md:items-start md:justify-between md:pl-16 md:text-left lg:flex-grow lg:pl-24">
+            <div className="mb-16 flex flex-col items-center text-left md:mb-0 md:w-3/4 md:items-start  md:pl-16 md:text-left lg:flex-grow lg:pl-24">
               <h1 className="my-3 text-center text-lg font-bold text-black lg:text-start lg:text-2xl">
                 Objectives
               </h1>
@@ -373,11 +442,16 @@ const Home = () => {
                 </li>
               </ul>
             </div>
-            <div className="mx-auto w-5/6 py-12 md:w-1/2 lg:w-full lg:max-w-lg">
+            <div className="mx-auto flex w-5/6 flex-col gap-y-4 py-12 md:w-1/2 lg:w-full lg:max-w-lg">
               <img
                 className="rounded object-cover object-center"
                 alt="hero"
-                src={"/gallery/collegImg/bg.JPG"}
+                src="/bg.jpg"
+              />
+              <img
+                className=" rounded object-cover object-center"
+                alt="hero"
+                src="/gallery/2022/i1.jpg"
               />
             </div>
           </div>

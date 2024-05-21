@@ -32,6 +32,10 @@ const Post = ({
   const sliderImages = archive[year].sliderImages;
   // @ts-ignore
   const url = archive[year].proceeding;
+  // @ts-ignore
+  const publisherName=archive[year].publisherName;
+  // @ts-ignore
+  const publisherLogo=archive[year].publisherLogo;
   return (
     <>
       <Head>
@@ -125,15 +129,21 @@ const Post = ({
 
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
 
-        <h1 className={"heading text-sm font-bold lg:text-2xl"}>
-          ICIMMI {year} Proceedings :{" "}
-          <span className="text-blue-500">
-            <Link target="_blank" href={url}>
-              ICIMMI {year}
-            </Link>
+        <h1 className="heading text-sm font-bold lg:text-2xl flex items-center justify-between">
+      ICIMMI {year} 
+      <span className="text-blue-500 flex items-center underline">
+        <Link href={url} target="_blank">
+          <span className="flex items-center">
+            <span> Proceedings With Publisher {publisherName}</span>
+            <img
+              src={publisherLogo} // Springer logo URL
+              alt="Springer Logo"
+              className="w-16 h-16 ml-2" // Adjusted size classes
+            />
           </span>
-        </h1>
-
+        </Link>
+      </span>
+    </h1>
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
         <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
           Gallery {year}
@@ -198,7 +208,7 @@ const Post = ({
 };
 
 export const getStaticPaths = async () => {
-  const years = ["2022", "2021", "2020", "2019"];
+  const years = ["2023","2022", "2021", "2020", "2019"];
 
   const paths = years.map((post) => ({
     params: { slug: post },

@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#034EA2] dark:bg-gray-900">
+    <footer className="bg-[#1a1212] dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6">
         <div className="items-center md:flex  md:justify-between">
           <div className={"h-full"}>

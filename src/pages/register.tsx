@@ -30,7 +30,7 @@ const Register = () => {
                 <div >
                     <div className="relative overflow-x-auto container w-[100%] my-16">
                         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                            <thead className="text-xs text-white uppercase bg-[#034EA2] dark:bg-red-700 dark:text-white">
+                            <thead className="text-xs text-white uppercase bg-[#1a1212] dark:bg-red-700 dark:text-white">
                                 <tr>
                                     <th scope="col" className="px-6 py-3">
                                         Category

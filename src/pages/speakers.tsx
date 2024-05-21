@@ -38,7 +38,7 @@ const Speakers = () => {
                                             {
                                                 speaker.national &&
                                                 <div
-                                                    className={"rounded-full font-semibold w-fit bg-[#034EA2] bg-opacity-20"}>
+                                                    className={"rounded-full font-semibold w-fit bg-[#1a1212] bg-opacity-20"}>
                                                     <p className={"px-2 py-0.5 text-sm text-[#034EA2]"}>National Speaker</p>
                                                 </div>
                                             }

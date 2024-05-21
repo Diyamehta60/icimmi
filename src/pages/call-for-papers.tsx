@@ -12,47 +12,54 @@ const callForPapers = () => {
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
-      <div className={"prose mx-4 my-8"}>
-        <h1 className={"heading"}>Call for Papers</h1>
-        <p>
+      <div className={" mx-4 my-8"}>
+        <h1 className={"heading pros text-sm font-bold text-black lg:text-2xl"}>Call for Papers</h1>
+        <p className="mx-4 mt-4 ">
           Prospective authors from academia as well as industry are invited to
-          submit their full papers in main conference ICIMMI-2023 which have not
-          been yet submitted /published and that illustrate research, surveying
+          submit their full papers in main conference ICIMMI-2024 which have not
+          been yet submitted published and that illustrate research, surveying
           works, and industrial application in all disciplines of Engineering
           for Intelligence based applications & automation activities,
           especially with the emergence of Data Analytics, AI, Machine Learning
           & Deep Learning or in following broad areas, but not limited to:
         </p>
 
-        <ul>
-          <li>Information Management</li>
-          <li>Information Security</li>
-          <li>Information Processing Techniques</li>
-          <li>Information Interpretation</li>
-          <li>Big Data Analytics</li>
-          <li>Data Analytics</li>
-          <li>Automations and Robotics in Construction</li>
-          <li>Artificial Intelligence and Soft Computing</li>
-          <li>Intelligent Software Methodologies, Tools and Techniques</li>
-          <li>Artificial Intelligence and Pattern Recognition</li>
-          <li>Multimedia Analytics using Machine Learning</li>
-          <li>Soft Computing Techniques in Power Systems</li>
-          <li>Intelligent Power Distribution System</li>
-          <li>Computer and Intelligent Communication</li>
-          <li>Adaptive Wireless Communication</li>
-          <li>Wireless Sensor Networks</li>
-          <li>Network Security</li>
-          <li>Cloud Based Applications for Machine Learning</li>
-          <li>Healthcare Automation using ML & DL</li>
-          <li>Intelligent Devices</li>
-          <li>IoT Based Automation</li>
-          <li>Industrial Automation over IoT</li>
-          <li>Industrial Automation over Robotics</li>
-          <li>Smart Systems</li>
-          <li>Smart Society</li>
-          <li>Information Security using Machine Learning</li>
-          <li>Network Security using Machine Learning</li>
-        </ul>
+        <div className="mt-1 mx-8 flex ">
+          <ul className="mt-16 flex flex-wrap w-full max-w-4xl list-disc">
+            <li className="w-1/2 p-2">Information Management</li>
+            <li className="w-1/2 p-2">Information Security</li>
+            <li className="w-1/2 p-2">Information Processing Techniques</li>
+            <li className="w-1/2 p-2">Information Interpretation</li>
+            <li className="w-1/2 p-2">Big Data Analytics</li>
+            <li className="w-1/2 p-2">Data Analytics</li>
+            <li className="w-1/2 p-2">Automations and Robotics in Construction</li>
+            <li className="w-1/2 p-2">Artificial Intelligence and Soft Computing</li>
+            <li className="w-1/2 p-2">
+              Intelligent Software Methodologies, Tools and Techniques
+            </li>
+            <li className="w-1/2 p-2">
+              Artificial Intelligence and Pattern Recognition
+            </li>
+            <li className="w-1/2 p-2">Multimedia Analytics using Machine Learning</li>
+            <li className="w-1/2 p-2">Soft Computing Techniques in Power Systems</li>
+            <li className="w-1/2 p-2">Intelligent Power Distribution System</li>
+            <li className="w-1/2 p-2">Computer and Intelligent Communication</li>
+            <li className="w-1/2 p-2">Adaptive Wireless Communication</li>
+            <li className="w-1/2 p-2">Wireless Sensor Networks</li>
+            <li className="w-1/2 p-2">Network Security</li>
+            <li className="w-1/2 p-2">Cloud Based Applications for Machine Learning</li>
+            <li className="w-1/2 p-2">Healthcare Automation using ML &amp; DL</li>
+            <li className="w-1/2 p-2">Intelligent Devices</li>
+            <li className="w-1/2 p-2">IoT Based Automation</li>
+            <li className="w-1/2 p-2">Industrial Automation over IoT</li>
+            <li className="w-1/2 p-2">Industrial Automation over Robotics</li>
+            <li className="w-1/2 p-2">Smart Systems</li>
+            <li className="w-1/2 p-2">Smart Society</li>
+            <li className="w-1/2 p-2">Information Security using Machine Learning</li>
+            <li className="w-1/2 p-2">Network Security using Machine Learning</li>
+          </ul>
+        </div>
+
       </div>
       <Sponsored />
     </>
