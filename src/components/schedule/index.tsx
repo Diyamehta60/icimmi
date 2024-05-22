@@ -30,7 +30,7 @@ const dates = [
     },
     {
         label: "Conference Dates",
-        date: "Dec 14–16, 2024 (New)",
+        date: "Dec 23-24, 2024 (New)",
         color: "black",
     },
 ];

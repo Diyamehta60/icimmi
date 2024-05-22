@@ -44,26 +44,26 @@ export default function PaperSubmission() {
         </h2>
       </div>
       <p className="w-full px-4 py-4 md:px-0">
-        To submit a paper for ICIMMI-2024, authors must follow the ACM
+        To submit a paper for ICIMMI-2024, authors must follow the
         conference proceedings format. The submission template for the
         conference is available at{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
-            href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
+            href=""
             className="break-all"
           >
-            https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx
+            https://authors..org/binaries/content/assets/publications/taps/_submission_template.docx
           </Link>
         </span>{" "}
         for Word users and{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
             href={
-              "https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip"
+              ""
             }
             className="break-all"
           >
-            https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip
+            https://portalparts..org/hippo/latex_templates/art-primary.zip
           </Link>
         </span>{" "}
         for LaTeX users. The maximum length of the paper is six (6) pages.
@@ -99,8 +99,8 @@ export default function PaperSubmission() {
       </h2>
       <div className="flex flex-col gap-y-3">
         <Link
-          href="/acm_submission_template.docx"
-          download="/acm_submission_template.docx"
+          href="#"
+          // download="/_submission_template.docx"
           className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
         >
           <svg
@@ -113,8 +113,8 @@ export default function PaperSubmission() {
           <span>Paper Template Doc</span>
         </Link>
         <Link
-          href="/acmart-primary.zip"
-          download="/acmart-primary.zip"
+          href="#"
+          // download="/art-primary.zip"
           className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
         >
           <svg

@@ -18,15 +18,7 @@ const Register = () => {
                 <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
                 <h1 className={"heading font-semibold text-xl mb-12"}>Registration Fees Details
                     For Conference Registration the Author can pay the corresponding fees in the following Bank Account:</h1>
-                <div className="prose mb- ">
-                    <p>Account Name: POORNIMA INSTITUTE PART ONE</p>
-                    <p>Account Number: 50200067728610</p>
-                    <p>Bank: HDFC BANK LTD. F-129 RIICO INDUSTRIAL AREA SITAPURA, JAIPUR</p>
-                    <p>IFSC Code: HDFC0003873</p>
-                    <p>Account Name: POORNIMA INSTITUTE PART ONE</p>
-                    <p>SWIFT Code: HDFCINBBXXX</p>
 
-                </div>
                 <div >
                     <div className="relative overflow-x-auto container w-[100%] my-16">
                         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -145,81 +137,30 @@ const Register = () => {
                                     <td className="px-6 py-4">INR 1500	</td>
                                 </tr>
                             </tbody>
+
                         </table>
+                    </div>
+                    <h1 className={"heading font-semibold text-xl mb-2"}>Account Details</h1>
+                    <div
+                        className="mb-8 flex flex-col gap-y-3 rounded-lg bg-white p-4 shadow-xl pt-3 border"
+                        style={{ width: "100% !important" }}>
+                        <div className="w-full mb-2">
+                            <p className="mb-2"><strong>Account Name:</strong> POORNIMA INSTITUTE PART ONE</p>
+                            <hr className="my-2" />
+                            <p className="mb-2"><strong>Account Number:</strong> 50200067728610</p>
+                            <hr className="my-2" />
+                            <p className="mb-2"><strong>Bank:</strong> HDFC BANK LTD. F-129 RIICO INDUSTRIAL AREA SITAPURA, JAIPUR</p>
+                            <hr className="my-2" />
+                            <p className="mb-2"><strong>IFSC Code:</strong> HDFC0003873</p>
+                            <hr className="my-2" />
+                            <p className="mb-2"><strong>Account Name:</strong> POORNIMA INSTITUTE PART ONE</p>
+                            <hr className="my-2" />
+                            <p className="mb-2"><strong>SWIFT Code:</strong> HDFCINBBXXX</p>
+                        </div>
                     </div>
                     <Sponsored />
 
                 </div>
-                {/*<Button link={"https://forms.gle/NR6eA7N2Akp9S51XA"}>Register Now</Button>*/}
-                {/* <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" /> */}
-                {/* <h2 className={"heading"}>Registration Fee</h2>
-                    <h3>Yet to be Announced</h3> */}
-                {/*<div>*/}
-                {/*    <img src="images/misc/registration_fee.png" alt=""/>*/}
-                {/*    <p>* Including 18% GST</p>*/}
-                {/*</div>*/}
-
-                {/* <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700"/>
-                <h2 className={"heading"}>Camera Ready Format</h2>
-                <p>Authors are requested to follow the IEEE conference paper format.</p>
-                <div className={"flex flex-col space-y-4"}>
-                    <Button link={"/documents/PAPER_ID_ICAC3N23.docx"} >Download Docx File</Button>
-                    <Button link={"/documents/PAPER_ID_ICAC3N23.pdf"}>Download PDF File</Button>
-                </div>
-
-                <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700"/>
-                <h2 className={"heading"}>Sample PPT Format</h2>
-                <p>
-                    Please follow the below format for the presentation. The presentation should be in the PPT format.
-                </p>
-                <div className={"flex flex-col space-y-4"}>
-                    <Button link={"/documents/SamplePPTICAC3N-2024.pptx"}>Download PPTX File</Button>
-                </div>
-
-
-                <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700"/>
-                <h2 className={"heading"}>Bank Account Details</h2>
-                <p>
-                    Here are the bank account details for the registration fee payment.
-                </p>
-                <p><strong>PAYMENT MODE</strong> – NEFT / IMPS / DIRECT DEPOSIT / SWIFT TRANSFER/UPI</p>
-
-                <table className="table-auto">
-                    <tbody>
-                    <tr>
-                        <td>Account Number</td>
-                        <td>6420000100006852</td>
-                    </tr>
-                    <tr>
-                        <td>Account Name</td>
-                        <td>GALGOTIAS COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
-                    </tr>
-                    <tr>
-                        <td>IFSC Code</td>
-                        <td>PUNB0671700
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Swift Code</td>
-                        <td>PUNBINBBMSN
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Bank Name</td>
-                        <td>PUNJAB NATIONAL BANK
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Account Type</td>
-                        <td>Saving</td>
-                    </tr>
-                    <tr>
-                        <td>Bank Address</td>
-                        <td>Punjab National Bank, Sector-63 Gautam Buddha Nagar-201301, U.P.</td>
-                    </tr>
-                    </tbody>
-                </table>
-                */}
             </div>
         </>
     )

@@ -33,9 +33,12 @@ const Post = ({
   // @ts-ignore
   const url = archive[year].proceeding;
   // @ts-ignore
-  const publisherName=archive[year].publisherName;
+  const publisherName = archive[year].publisherName;
   // @ts-ignore
-  const publisherLogo=archive[year].publisherLogo;
+  const publisherLogo = archive[year].publisherLogo;
+  // @ts-ignore
+  const id = archive[year].id;
+
   return (
     <>
       <Head>
@@ -71,7 +74,7 @@ const Post = ({
                 "mx-4 my-3 text-3xl font-bold lg:mx-0 lg:my-5 lg:text-4xl"
               }
             >
-              International Conference On Information Management & Machine
+              {id} {" "}International Conference On Information Management & Machine
               Intelligence {year}
             </p>
 
@@ -130,20 +133,32 @@ const Post = ({
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
 
         <h1 className="heading text-sm font-bold lg:text-2xl flex items-center justify-between">
-      ICIMMI {year} 
-      <span className="text-blue-500 flex items-center underline">
-        <Link href={url} target="_blank">
-          <span className="flex items-center">
-            <span> Proceedings With Publisher {publisherName}</span>
-            <img
-              src={publisherLogo} // Springer logo URL
-              alt="Springer Logo"
-              className="w-16 h-16 ml-2" // Adjusted size classes
-            />
+          ICIMMI {year}
+          <span className="text-blue-500 flex items-center underline">
+            <Link href={url} target="_blank">
+              <span className="flex items-center">
+                <span> Proceedings With Publisher {publisherName}</span>
+
+                {publisherLogo.map((image, index) => {
+                  if (index == 1) {
+                    return <img key={index}
+                      src={image} // Springer logo URL
+                      alt="Springer Logo"
+                      className="w-22 h-20" // Adjusted size classes
+                    />
+                  } else {
+                    return <img key={index}
+                      src={image} // Springer logo URL
+                      alt="Springer Logo"
+                      className="w-16 h-16 ml-2" // Adjusted size classes
+                    />
+                  }
+                })}
+
+              </span>
+            </Link>
           </span>
-        </Link>
-      </span>
-    </h1>
+        </h1>
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
         <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
           Gallery {year}
@@ -208,7 +223,7 @@ const Post = ({
 };
 
 export const getStaticPaths = async () => {
-  const years = ["2023","2022", "2021", "2020", "2019"];
+  const years = ["2023", "2022", "2021", "2020", "2019"];
 
   const paths = years.map((post) => ({
     params: { slug: post },

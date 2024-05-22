@@ -133,6 +133,8 @@ const Home = () => {
         <title>ICIMMI - International conference on information management & machine intelligence</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
+      <Schedule />
+      <br />
       <main className={"mx-8"}>
         <div
           className={
@@ -153,7 +155,7 @@ const Home = () => {
                 className={"hidden text-xl text-[#034EA2] lg:block"}
               />
               <p className={"font-semibold text-[#034EA2]"}>
-                7th & 8th March, 2025
+                23rd & 24th December, 2024
               </p>
             </div>
 
@@ -172,19 +174,7 @@ const Home = () => {
                 "flex items-center justify-center space-x-2 lg:justify-start"
               }
             >
-              <RiBuildingFill
-                className={
-                  "hidden h-8 w-8 self-start text-xl text-[#034EA2] lg:block"
-                }
-              />
-              <div className={"text-[#034EA2]"}>
-                <p
-                  className={"text font-semibold"}
-                  itemProp={"organizing-department"}
-                >
-                  Computer Science and Engineering
-                </p>
-              </div>
+
             </div>
 
             <div
@@ -306,10 +296,10 @@ const Home = () => {
           </div>
         </div>
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-        <Schedule />
+
         <div className={"flex flex-col space-y-5"}>
           <div className={"mx-2 grid grid-cols-1 md:mx-auto lg:grid-cols-3"}>
-            <div className={"col-span-full lg:col-span-2 lg:mr-10"}>
+            <div className={"col-span-full lg:col-span-2 lg:mr-10"} style={{ width: "90%" }}>
               <h2
                 className={
                   "my-3 text-center text-lg font-bold lg:text-start lg:text-2xl"
@@ -342,7 +332,7 @@ const Home = () => {
               </p>
               <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             </div>
-            <div id={"important"} className={"col-span-full lg:col-span-1"}>
+            <div id={"important"} className={"col-span-full lg:col-span-1"} style={{ width: "92%", height: "87%" }}>
               {/* <ImportantMessage /> */}
               <div
                 className={
@@ -408,7 +398,7 @@ const Home = () => {
               <h1 className="my-3 text-center text-lg font-bold text-black lg:text-start lg:text-2xl">
                 Objectives
               </h1>
-              <p className="mb-8">
+              <p className="mb-8 text-justify">
                 The main objective of this conference is to provide a platform
                 for researchers, academicians, industry professionals, and
                 students to showcase their expertise and knowledge in the latest
@@ -419,7 +409,7 @@ const Home = () => {
                 students from all over the world.
               </p>
               Other Objectives of the conference include:{" "}
-              <ul className="prose mx-4 my-4 list-disc">
+              <ul className="prose mx-4 my-4 list-disc text-justify">
                 <li>
                   Encouraging the proposal of new technologies, sharing of
                   experiences, and discussion of recent developments and
@@ -439,6 +429,9 @@ const Home = () => {
                 <li>
                   Highlighting pioneering issues internationally by bringing
                   together experts from different countries.
+                </li>
+                <li>
+                  Promoting interdisciplinary collaborations to explore the integration of information Management and Machine Learning across diverse domains.
                 </li>
               </ul>
             </div>

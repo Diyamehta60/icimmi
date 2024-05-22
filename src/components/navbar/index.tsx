@@ -97,7 +97,7 @@ function Index() {
       enabled: true,
     },
     {
-      title: "Committess",
+      title: "Committees",
       link: "/committe",
       enabled: true,
     },
@@ -194,7 +194,7 @@ function Index() {
                   width={200}
                   height={100}
                   src="/clglogo.png"
-                  className="mr-3 object-cover"
+                  className="mr-16 object-cover"
                   alt="Logo"
                 />
             </div>
