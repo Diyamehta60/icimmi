@@ -45,7 +45,7 @@ export default function PaperSubmission() {
       </div>
       <p className="w-full px-4 py-4 md:px-0">
         To submit a paper for ICIMMI-2024, authors must follow the
-        conference proceedings format. The submission template for the
+        conference proceedings <span className="font-bold">* </span>format. The submission template for the
         conference is available at{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
@@ -89,6 +89,7 @@ export default function PaperSubmission() {
           </ul>
         </li>
       </ul>
+      <p><span className="font-bold">Note:* </span>yet to be announced</p>
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
       <h2
         className={

@@ -17,7 +17,6 @@ function Publications() {
             <p>Selected, Extended Versions of the Conference papers may be considered for the following Journal. Extended papers must have at least 70% of new contents in the extended manuscripts for consideration for following Journal.</p>
             <ul className='prose mx-4 my-12 list-disc'>
                 <li>Journal of Discrete Mathematical Sciences and Cryptography</li>
-                <li>Communications in Computer and Information Science (ISSN 1865-0929)</li>
                 <li>Journal of Interdisciplinary Mathematics</li>
             </ul>
             <Sponsored />

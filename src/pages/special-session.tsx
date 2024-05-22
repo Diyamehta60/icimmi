@@ -173,7 +173,7 @@ function SpecialSession() {
             </Head>
             <Schedule />
             <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-            <h1 className='text-center'>SPECIAL SESSIONS</h1>
+            <h1 className='text-center font-semibold text-sm lg:text-2xl'>SPECIAL SESSIONS</h1>
             <div className="my-12">
                 <h1 className={"heading my-2 text-sm font-bold lg:text-2xl mb-12"}>
                     Track 1: Exploring Optimization Tools and Techniques in Engineering and Technology: Current Trends and Applications
