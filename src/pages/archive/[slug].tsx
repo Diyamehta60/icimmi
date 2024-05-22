@@ -139,7 +139,7 @@ const Post = ({
               <span className="flex items-center">
                 <span> Proceedings With Publisher {publisherName}</span>
 
-                {publisherLogo.map((image, index) => {
+                {publisherLogo.map((image: string, index: number) => {
                   if (index == 1) {
                     return <img key={index}
                       src={image} // Springer logo URL
