@@ -13,7 +13,7 @@ export const archive = {
     ],
     publisherName: 'ACM',
     publisherLogo: ['/gallery/logos/acm.png', "/gallery/logos/icps.png"],
-    id:'5th',
+    id: '5th',
   },
   "2022": {
     proceeding: "https://dl.acm.org/doi/proceedings/10.1145/3590837",
@@ -29,7 +29,7 @@ export const archive = {
     ],
     publisherName: 'ACM',
     publisherLogo: ['/gallery/logos/acm.png'],
-    id:'4th',
+    id: '4th',
   },
   "2021": {
     proceeding: "https://link.springer.com/book/10.1007/978-981-19-2065-3",
@@ -45,7 +45,7 @@ export const archive = {
     ],
     publisherName: 'springer',
     publisherLogo: ['/gallery/logos/springer1.png'],
-    id:'3rd',
+    id: '3rd',
   },
   "2020": {
     proceeding: "https://link.springer.com/book/10.1007/978-981-15-9689-6",
@@ -61,7 +61,7 @@ export const archive = {
     ],
     publisherName: 'springer',
     publisherLogo: ['/gallery/logos/springer1.png'],
-    id:'2nd',
+    id: '2nd',
   },
   "2019": {
     proceeding: "https://link.springer.com/book/10.1007/978-981-15-4936-6",
@@ -77,6 +77,6 @@ export const archive = {
     ],
     publisherName: 'springer',
     publisherLogo: ['/gallery/logos/springer1.png'],
-    id:'1st',
+    id: '1st',
   },
 };
