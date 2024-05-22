@@ -12,7 +12,7 @@ export const archive = {
       "/gallery/2023/i6.jpg",
     ],
     publisherName: 'ACM',
-    publisherLogo: ['/gallery/logos/acm.png', "/gallery/logos/icps.png"],
+    publisherLogo: ["/gallery/logos/acm.png", "/gallery/logos/icps.png"],
     id: '5th',
   },
   "2022": {
