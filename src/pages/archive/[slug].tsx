@@ -43,12 +43,7 @@ const Post = ({
     <>
       <Head>
         <title>ICIMMI {year} - International conference on information management & machine intelligence</title>
-        <meta
-          name="description"
-          content="International Conference on Advances in Computing, Communication Control and Networking- ICAC3N"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <main className={"mx-4"}>
         <Schedule />
