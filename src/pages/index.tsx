@@ -210,7 +210,7 @@ const Home = () => {
                   className={"grow-on-hover cursor-pointer hover:text-sky-500"}
                 />
               </Link>
-              <Link href={"tel:+91-7835878236"} aria-label={"icimmi phone"}>
+              <Link href={"tel:+91-9896017351"} aria-label={"icimmi phone"}>
                 <RiPhoneFill
                   className={
                     "grow-on-hover  cursor-pointer hover:text-emerald-500"
@@ -228,7 +228,7 @@ const Home = () => {
                 />
               </Link>
               <Link
-                href={"https://www.piet.poornima.org/"}
+                href={"mailto:icimmi@poornima.org"}
                 aria-label={"icimmi mail"}
               >
                 <RiMailFill
