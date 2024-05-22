@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-[#1a1212] dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6">
         <div className="items-center md:flex  md:justify-between">
-          <div className={"h-full"}>
+          <div className={"h-full hidden lg:block"}>
             <Image
               width={300}
               height={200}
