@@ -9,12 +9,12 @@ const dates = [
     },
     {
         label: "Notification of Acceptance",
-        date: "Nov 15, 2024",
+        date: "Oct 30, 2024",
         color: "red",
     },
     {
         label: "Revised Paper Submission",
-        date: "Nov 20, 2024",
+        date: "Nov 15, 2024",
         color: "cyan",
     },
     {
@@ -24,7 +24,7 @@ const dates = [
     },
     {
         label: "Late Registration",
-        date: "Nov 30, 2024",
+        date: "Nov 25, 2024",
         color: "purple",
     },
     {
@@ -41,11 +41,8 @@ function Schedule() {
                 <div key={index} className="flex w-full flex-col items-center text-center sm:w-auto">
 
                     <div className={`mb - 2 h-16 w-16 bg-${dateInfo.color}- 500 flex transform items - center justify - center rounded - full text - white transition - transform duration - 300 hover: scale - 110`}><FaCalendarAlt size={32} color={`${dateInfo.color}`} /></div >
-
                     <div className="font-semibold">{dateInfo.label}</div>
                     <div className="text-sm">{dateInfo.date}</div>
-
-
                 </div>
             ))}
 

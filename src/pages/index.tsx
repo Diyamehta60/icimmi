@@ -311,7 +311,7 @@ const Home = () => {
                 6th International Conference on Information Management & Machine
                 Intelligence (ICIMMI- 2024) will be held at Poornima Institute
                 of Engineering & Technology, Jaipur, Rajasthan, India on
-                November 23-24, 2024.
+                December 23-24, 2024.
                 {<br />}
                 {<br />}
                 The ICIMMI-2024 conference aims to showcase the latest trends in

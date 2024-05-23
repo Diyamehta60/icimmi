@@ -20,7 +20,7 @@ const Register = () => {
                     For Conference Registration the Author can pay the corresponding fees in the following Bank Account:</h1>
 
                 <div >
-                    <div className="relative overflow-x-auto container w-[100%] my-16">
+                    <div className="relative overflow-x-auto container w-[100%] my-12">
                         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                             <thead className="text-xs text-white uppercase bg-[#1a1212] dark:bg-red-700 dark:text-white">
                                 <tr>
@@ -41,9 +41,9 @@ const Register = () => {
                                         scope="row"
                                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                                     >
-                                        Member (ACM/IEEE/FIP)
+                                        Faculty Member (ACM/IEEE/FIP)
                                     </th>
-                                    <td className="px-6 py-4">INR 6000</td>
+                                    <td className="px-6 py-4">INR 9000</td>
                                     <td className="px-6 py-4">INR 6500</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -51,9 +51,9 @@ const Register = () => {
                                         scope="row"
                                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                                     >
-                                        (ACM/IEEE/FIP) With International co- Author
+                                        Faculty (ACM/IEEE/FIP) With International co- Author
                                     </th>
-                                    <td className="px-6 py-4">INR 5000</td>
+                                    <td className="px-6 py-4">INR 8000</td>
                                     <td className="px-6 py-4">INR 5500</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
@@ -61,7 +61,7 @@ const Register = () => {
                                         scope="row"
                                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                                     >
-                                        International Author and Member (ACM/IEEE/FIP)
+                                        Faculty International Author and Member (ACM/IEEE/FIP)
                                     </th>
                                     <td className="px-6 py-4">$150</td>
                                     <td className="px-6 py-4">$180</td>
@@ -71,9 +71,9 @@ const Register = () => {
                                         scope="row"
                                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                                     >
-                                        Non-Member (ACM/IEEE/FIP)
+                                        Faculty Non-Member (ACM/IEEE/FIP)
                                     </th>
-                                    <td className="px-6 py-4">INR 7000</td>
+                                    <td className="px-6 py-4">INR 10000</td>
                                     <td className="px-6 py-4">INR 7500</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
@@ -81,9 +81,9 @@ const Register = () => {
                                         scope="row"
                                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                                     >
-                                        Non-Member (ACM/IEEE/FIP) with international co-Author
+                                        Faculty Non-Member (ACM/IEEE/FIP) with international co-Author
                                     </th>
-                                    <td className="px-6 py-4">INR 6000</td>
+                                    <td className="px-6 py-4">INR 9000</td>
                                     <td className="px-6 py-4">INR 6500</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
@@ -103,7 +103,7 @@ const Register = () => {
                                     >
                                         Corporate/Industry Professional
                                     </th>
-                                    <td className="px-6 py-4">INR 9000</td>
+                                    <td className="px-6 py-4">INR 11000</td>
                                     <td className="px-6 py-4">INR 9500</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
@@ -113,7 +113,7 @@ const Register = () => {
                                     >
                                         PG Student
                                     </th>
-                                    <td className="px-6 py-4">INR 4000</td>
+                                    <td className="px-6 py-4">INR 8000</td>
                                     <td className="px-6 py-4">INR 4500</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
@@ -121,9 +121,9 @@ const Register = () => {
                                         scope="row"
                                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                                     >
-                                        UG Student
+                                        PG/UG Student
                                     </th>
-                                    <td className="px-6 py-4">INR 3000</td>
+                                    <td className="px-6 py-4">INR 7000</td>
                                     <td className="px-6 py-4">INR 3500</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
@@ -133,13 +133,14 @@ const Register = () => {
                                     >
                                         Attendee
                                     </th>
-                                    <td className="px-6 py-4">INR 1000	</td>
+                                    <td className="px-6 py-4">INR 2000	</td>
                                     <td className="px-6 py-4">INR 1500	</td>
                                 </tr>
                             </tbody>
 
                         </table>
                     </div>
+                    <p className="font-bold text-sm lg:text-xl mb-4">No Paper To Have More Than 5 Authors</p>
                     <h1 className={"heading font-semibold text-xl mb-2"}>Account Details</h1>
                     <div
                         className="mb-8 flex flex-col gap-y-3 rounded-lg bg-white p-4 shadow-xl pt-3 border"

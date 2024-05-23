@@ -30,7 +30,7 @@ function Committe() {
         "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
     },
     {
-      name: "Prof. O. G. Kakde",
+      name: "Prof. O. G. Kakde",//to be eddited
       designation: "Director, IIIT Nagpur",
     },
   ];
@@ -43,6 +43,15 @@ function Committe() {
       name: "Dr. Pooja Jain",
       designation: "Professor, IIIT, Nagpur",
     },
+    {
+      name: "Dr. JC Bansal",
+      designation: "#",
+    },
+    {
+      name: "Dr. Carlos M. Travieso-Gonzalez",
+      designation:
+        "Signals and Communication Department. University of Las Palmas de Gran Canaria, Spain",
+    },
   ];
   const conferenceCoChair = [
     {
@@ -53,23 +62,35 @@ function Committe() {
       name: "Prof. (Dr.) Budesh Kanwar",
       designation: "Professor & HoD AI & DS, PIET, Jaipur",
     },
+    {
+      name: "Prof. (Dr.) Rambilas",
+      designation: "Professor ,IIT Indore",
+    },
+    {
+      name: "#",
+      designation: "#",
+    },
   ];
   const organizingChair = [
     {
       name: "Dr. Uday Pratap Singh",
       designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
-  ];
-  const organizingCoChair = [
     {
-      name: "Mr. Udit Mamodiya",
-      designation: "Assistant Professor, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Bhanu Pratap Singh",
-      designation: "Associate Professor, PIET, Jaipur",
+      name: "Dr. Sandeep",
+      designation: "#",
     },
   ];
+  // const organizingCoChair = [
+  //   {
+  //     name: "Mr. Udit Mamodiya",
+  //     designation: "Assistant Professor, PIET, Jaipur",
+  //   },
+  //   {
+  //     name: "Dr. Bhanu Pratap Singh",
+  //     designation: "Associate Professor, PIET, Jaipur",
+  //   },
+  // ];
   const technicalProgramChair = [
     {
       name: "Dr. Atul Gunsai",
@@ -77,11 +98,11 @@ function Committe() {
     },
     {
       name: "Dr. Manoj Kumar",
-      designation: "Professor, Saurasthra University, Rajkot",
+      designation: "Professor, Delhi Technical University, Delhi",
     },
     {
-      name: "Dr. Bhanu Pratap Singh",
-      designation: "Associate Professor, PIET, Jaipur",
+      name: "Dr. OP Verma",
+      designation: "#",
     },
     {
       name: "Mr. Vivek Saxena",
@@ -119,6 +140,10 @@ function Committe() {
       name: "Dr. Uday Pratap Singh",
       designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
+    {
+      name: "Dr. Payal Bansal",
+      designation: "#",
+    },
   ];
   const keynoteSpeakers = [
     {
@@ -134,11 +159,7 @@ function Committe() {
       name: "Dr. Harish Sharma",
       designation: "Associate Professor, RTU",
     },
-    {
-      name: "Dr. Carlos M. Travieso-Gonzalez",
-      designation:
-        "Signals and Communication Department. University of Las Palmas de Gran Canaria, Spain",
-    },
+    
     {
       name: "Dr. Maria Ganzha",
       designation:
@@ -170,12 +191,16 @@ function Committe() {
       designation: "IIIT, Kota",
     },
     {
-      name: "Dr. Vijandra Singh",
-      designation: "Manipal University, Jaipur",
+      name: "#",
+      designation: "MNIT, Jaipur",
     },
     {
       name: "Dr. Priya Mathur",
       designation: "PIET, Jaipur",
+    },
+    {
+      name: "#",
+      designation: "IEEE",
     },
   ];
   const internationalAdvisoryCommittee = [
@@ -230,10 +255,6 @@ function Committe() {
   ];
   const nationalAdvisoryCommittee = [
     {
-      name: "Dr. O P Verma",
-      designation: "DTU, New Delhi",
-    },
-    {
       name: "Dr. Rajat Rastogi",
       designation: "Professor, IIT Roorkee",
     },
@@ -242,16 +263,8 @@ function Committe() {
       designation: "MNIT, Jaipur",
     },
     {
-      name: "Dr. Ritu Agrawal",
-      designation: "MNIT, Jaipur",
-    },
-    {
       name: "Dr. Paresh Vallabhbhai Virparia",
       designation: "Professor, SPU",
-    },
-    {
-      name: "Dr. Amit Chaturvedi",
-      designation: "GEC, Ajmer",
     },
     {
       name: "Dr. Rajesh Kumar",
@@ -270,37 +283,8 @@ function Committe() {
       designation: "BITS, Pilani",
     },
     {
-      name: "Dr. K. Kalaiselvi",
-      designation:
-        "Associate Professor, Saveetha College of Liberal Arts and Sciences, Chennai",
-    },
-    {
-      name: "Dr. Brojo Kishore Mishra",
-      designation: "GIET University, Gunupur",
-    },
-    {
-      name: "Prof. Roheet Bahtnagar",
-      designation: "Manipal University, Jaipur",
-    },
-    {
-      name: "Prof. Uma Shankar Rawat",
-      designation: "Manipal University, Jaipur",
-    },
-    {
       name: "Dr. Vinod Kumar Chaubey",
       designation: "BITS, Pilani",
-    },
-    {
-      name: "Dr. Vinod Madan",
-      designation: "Kalasalingam University",
-    },
-    {
-      name: "Dr. Sudha Morwal",
-      designation: "Banasthali Vidyapeeth",
-    },
-    {
-      name: "Dr. Sumit Srivastava",
-      designation: "Manipal University, Jaipur",
     },
     {
       name: "Dr. Ravinder Agarwal",
@@ -315,18 +299,6 @@ function Committe() {
       designation: "BITS, Pilani",
     },
     {
-      name: "Prof. Sandeep Joshi",
-      designation: "Manipal University, Jaipur",
-    },
-    {
-      name: "Dr. Prashant Sahai Saxena",
-      designation: "JNU, Jaipur",
-    },
-    {
-      name: "Prof. Uma Shankar Rawat",
-      designation: "Manipal University, Jaipur",
-    },
-    {
       name: "Dr. A.K. Dwevedi",
       designation: "RTU, Kota",
     },
@@ -337,14 +309,6 @@ function Committe() {
     {
       name: "Dr. C.P. Gupta",
       designation: "RTU, Kota",
-    },
-    {
-      name: "Dr. P V Virparia",
-      designation: "Sardar Patel University, Anand",
-    },
-    {
-      name: "Dr. Sweta Bhatia",
-      designation: "Manav Rachna University, Faridabad",
     },
     {
       name: "Dr. Balamurugan Shanmugam",
@@ -363,10 +327,6 @@ function Committe() {
     },
     {
       name: "Dr. Saurabh Raj",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Mr. Vivek Saxena",
       designation: "PIET, Jaipur",
     },
     {
@@ -394,14 +354,6 @@ function Committe() {
       designation: "PIET, Jaipur",
     },
     {
-      name: "Ms. Astha Joshi",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Ms. Shiwangi Sharma",
-      designation: "PIET, Jaipur",
-    },
-    {
       name: "Mr. Punit Kumawat",
       designation: "PIET, Jaipur",
     },
@@ -418,19 +370,11 @@ function Committe() {
       designation: "PIET, Jaipur",
     },
     {
-      name: "Ms. Shiwangi Khandelwal",
-      designation: "PIET, Jaipur",
-    },
-    {
       name: "Ms. Shefali Khandelwal",
       designation: "PIET, Jaipur",
     },
     {
       name: "Mr. Indra Kishor",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Mr. Ephin M.",
       designation: "PIET, Jaipur",
     },
     {
@@ -603,7 +547,7 @@ function Committe() {
             })}
           </ul>
         </div>
-        <div className="my-12">
+        {/* <div className="my-12">
           <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
             Organizing Co Chair
           </h1>
@@ -633,7 +577,7 @@ function Committe() {
               );
             })}
           </ul>
-        </div>
+        </div> */}
         <div className="my-12">
           <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
             Technical Program Chair
