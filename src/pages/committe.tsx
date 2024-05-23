@@ -102,7 +102,7 @@ function Committe() {
     },
     {
       name: "Dr. OP Verma",
-      designation: "Professor, DTU Delhi",
+      designation: "Professor, DTU",
     },
     {
       name: "Mr. Vivek Saxena",
