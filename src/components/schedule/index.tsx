@@ -5,7 +5,6 @@ const dates = [
     {
         label: "Full Paper Submission Date",
         date: "Sept 15, 2024",
-        extended: "Nov 10, 2024",
         color: "green",
     },
     {
@@ -46,13 +45,6 @@ function Schedule() {
                     <div className="font-semibold">{dateInfo.label}</div>
                     <div className="text-sm">{dateInfo.date}</div>
 
-                    {
-                        dateInfo.extended && (
-                            <div className="text-xs text-gray-500">
-                                Extended: {dateInfo.extended}
-                            </div>
-                        )
-                    }
 
                 </div>
             ))}
