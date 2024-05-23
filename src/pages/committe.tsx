@@ -6,7 +6,7 @@ import React from "react";
 function Committe() {
   const honaryPateron = [
     {
-      name: "Mr. Hari Singh Shekhawat",
+      name: "Mr. Hari Singh",
       designation: "Director (Infrastructure), Poornima Group, Jaipur",
     },
     {
@@ -102,7 +102,7 @@ function Committe() {
     },
     {
       name: "Dr. OP Verma",
-      designation: "#",
+      designation: "Professor, DTU Delhi",
     },
     {
       name: "Mr. Vivek Saxena",
