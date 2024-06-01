@@ -31,7 +31,7 @@ function Committe() {
     },
     {
       name: "Dr. Sugandha Singh",
-      designation: "Dean-Faculty of Engineering and Technology and Prof- CSE(SGTU) Gurugra",
+      designation: "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugra",
     },
     {
       name: "Dr. Monika Agrawal",
@@ -163,7 +163,7 @@ function Committe() {
       name: "Dr. Harish Sharma",
       designation: "Associate Professor, RTU",
     },
-    
+
     {
       name: "Dr. Maria Ganzha",
       designation:
