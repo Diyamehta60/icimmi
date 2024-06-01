@@ -16,7 +16,7 @@ function Committe() {
   ];
   const honarayChair = [
     {
-      name: "Prof Dharm Singh",
+      name: "Prof Dharam Singh",
       designation: "Namibia University of Science & Tech., Namibia",
     },
     {
@@ -50,15 +50,15 @@ function Committe() {
     {
       name: "Dr. Carlos M. Travieso-Gonzalez",
       designation:
-        "Signals and Communication Department. University of Las Palmas de Gran Canaria, Spain",
+        "Professor Signals and Communication Department. University of Las Palmas de Gran Canaria, Spain",
     },
     {
       name: "Dr. Saurabh Sinha",
-      designation: "University Of Canterbury",
+      designation: "Professor University Of Canterbury",
     },
     {
-      name: "Dr. Dharam Singh",
-      designation: "Namibia University Of Science And Technology",
+      name: "Dr. Nischal Verma",
+      designation: "Professor ,IIT Kanpur",
     },
   ];
   const conferenceCoChair = [
@@ -80,6 +80,11 @@ function Committe() {
       name: "Dr. Uday Pratap Singh",
       designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
+    {
+      name: "Dr. Shalini Choudhary",
+      designation: "Asso. Prof., CS, PIET, Jaipur",
+    },
+
   ];
   // const organizingCoChair = [
   //   {
