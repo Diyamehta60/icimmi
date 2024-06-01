@@ -79,7 +79,7 @@ const Home = () => {
   ];
   const logoImages = [
     {
-      image: "/gallery/logos/springer1.jpeg",
+      image: "/gallery/logos/taru.png",
       id: "e5f6g7h8",
       alt: "",
     },

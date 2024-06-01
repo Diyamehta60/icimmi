@@ -188,11 +188,6 @@ function Committe() {
         "Associate Professor, Warsaw University of Technology (Warsaw, Poland)",
     },
     {
-      name: "Dr. Nasib Singh Gill",
-      designation:
-        "Professor, Department of Computer Science & Applications, MAHARSHI DAYANAND UNIVERSITY ROHTAK-124001 (HARYANA)",
-    },
-    {
       name: "Dr. Pooja Jain",
       designation: "Professor, IIIT, Nagpur",
     },
@@ -433,13 +428,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -464,13 +459,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -495,13 +490,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -526,13 +521,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -557,13 +552,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -588,13 +583,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -619,13 +614,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -650,13 +645,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -681,13 +676,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -712,13 +707,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -743,13 +738,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -774,13 +769,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -805,13 +800,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
@@ -836,13 +831,13 @@ function Committe() {
                   className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
                 >
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1 truncate">
+                    <div className="flex-1">
                       <div className="flex items-center space-x-3">
                         <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
                           {item.name}
                         </h3>
                       </div>
-                      <p className="mt-1 truncate text-sm text-gray-500">
+                      <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
                     </div>
