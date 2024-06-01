@@ -126,7 +126,7 @@ function Committe() {
     },
     {
       name: "Dr. Monika Agrawal",
-      designation: "IIT, Delhi",
+      designation: "Associate Professor, IIT, Delhi",
     },
     {
       name: "Prof. (Dr.) Rambilas",
@@ -138,7 +138,7 @@ function Committe() {
     },
     {
       name: "Dr. Dilip Singh Sisodia",
-      designation: "Computer Science & Engineering National Institute of Technology, Raipur, India",
+      designation: "Associate Professor, Computer Science & Engineering National Institute of Technology, Raipur, India",
     },
   ];
   const editorial = [
@@ -149,6 +149,10 @@ function Committe() {
     {
       name: "Dr. Anil Kumar",
       designation: "Professor & HOD, CSE, PIET, Jaipur",
+    },
+    {
+      name: "Dr. Payal Bansal",
+      designation: "Professor, AI & DS, PIET Jaipur",
     },
     {
       name: "Prof. Dharm Singh",
@@ -188,6 +192,10 @@ function Committe() {
       designation: "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
     },
     {
+      name: "Dr. Saurabh Sinha",
+      designation: "University Of Canterbury",
+    },
+    {
       name: "Dr. Maria Ganzha",
       designation:
         "Associate Professor, Warsaw University of Technology (Warsaw, Poland)",
@@ -201,6 +209,18 @@ function Committe() {
       name: "Dr. Pooja Jain",
       designation: "Professor, IIIT, Nagpur",
     },
+    {
+      name: "Dr. Enrico Cambiaso",
+      designation: "Consiglio Nazionale delle Ricerche (CNR) A Via De Marini, 16 - 16149 Genoa (Italy)"
+    },
+    {
+      name: "Dr. Anshuman Kalla",
+      designation: "Centre for Wireless Communications (CWC) University of Oulu, Finland."
+    },
+    {
+      name: "Dr. Majusri Misra",
+      designation: "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada"
+    },
   ];
   const financeCommittee = [
     {
@@ -211,7 +231,7 @@ function Committe() {
   const publicityChair = [
     {
       name: "Dr. Basant Agarwal",
-      designation: "IIIT, Kota",
+      designation: "Associate Professor, Central University Rajasthan",
     },
     {
       name: "Dr. Priya Mathur",
@@ -294,8 +314,8 @@ function Committe() {
       designation: "MNIT, Jaipur",
     },
     {
-      name: "Dr. Asthana",
-      designation: "Professor",
+      name: "Dr. Rajendra K Asthana",
+      designation: "IEEE Senior Life Member",
     },
     {
       name: "Dr. Amit Srivastava",
@@ -398,10 +418,6 @@ function Committe() {
     },
     {
       name: "Mr. Indra Kishor",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Ms. Anita Kumari",
       designation: "PIET, Jaipur",
     },
   ];
