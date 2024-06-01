@@ -72,7 +72,7 @@ function Committe() {
     },
     {
       name: "Dr. Payal Bansal",
-      designation: "Professor, AI & DS, PIET Jaipur",
+      designation: "Professor, IOT, PIET Jaipur",
     },
   ];
   const organizingChair = [
@@ -152,7 +152,7 @@ function Committe() {
     },
     {
       name: "Dr. Payal Bansal",
-      designation: "Professor, AI & DS, PIET Jaipur",
+      designation: "Professor, IOT, PIET Jaipur",
     },
     {
       name: "Prof. Dharm Singh",
@@ -162,19 +162,6 @@ function Committe() {
       name: "Prof. Marcin Paprzycki",
       designation:
         "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
-    },
-    {
-      name: "Dr. Pooja Jain",
-      designation: "Professor, IIIT, Nagpur",
-    },
-    {
-      name: "Prof. B.B. Gupta",
-      designation:
-        "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
-    },
-    {
-      name: "Dr. Uday Pratap Singh",
-      designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
   ];
   const keynoteSpeakers = [
@@ -342,7 +329,7 @@ function Committe() {
       designation: "BITS, Pilani",
     },
     {
-      name: "Dr. A.K. Dwevedi",
+      name: "Dr. A.K. Dwivedi",
       designation: "RTU, Kota",
     },
     {
