@@ -30,8 +30,12 @@ function Committe() {
         "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
     },
     {
-      name: "Prof. O. G. Kakde",//to be eddited
-      designation: "Director, IIIT Nagpur",
+      name: "Dr. Sugandha Singh",
+      designation: "Dean-Faculty of Engineering and Technology and Prof- CSE(SGTU) Gurugra",
+    },
+    {
+      name: "Dr. Monika Agrawal",
+      designation: "IIT, Delhi",
     },
   ];
   const conferenceChair = [
@@ -67,8 +71,8 @@ function Committe() {
       designation: "Professor ,IIT Indore",
     },
     {
-      name: "#",
-      designation: "#",
+      name: "Dr.Ashish Khanna",
+      designation: "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
     },
   ];
   const organizingChair = [
@@ -174,6 +178,10 @@ function Committe() {
       name: "Dr. Pooja Jain",
       designation: "Professor, IIIT, Nagpur",
     },
+    {
+      name: "Dr. Akash Saxena",
+      designation: "Professor,University Of Haryana",
+    },
   ];
   const financeCommittee = [
     {
@@ -199,8 +207,12 @@ function Committe() {
       designation: "PIET, Jaipur",
     },
     {
-      name: "#",
+      name: "Shruti Jain",
       designation: "IEEE",
+    },
+    {
+      name: "Dr. Dharam Singh",
+      designation: "Namibia University Of Science And Technology",
     },
   ];
   const internationalAdvisoryCommittee = [
@@ -251,6 +263,10 @@ function Committe() {
     {
       name: "Dr. Ahmed Elngar",
       designation: "Assistant Professor, Egypt",
+    },
+    {
+      name: "Dr. Saurabh Sinha",
+      designation: "University Of Canterbury",
     },
   ];
   const nationalAdvisoryCommittee = [
@@ -313,6 +329,14 @@ function Committe() {
     {
       name: "Dr. Balamurugan Shanmugam",
       designation: "Director R & D, QUANTS IS & CS, Tamil Nadu",
+    },
+    {
+      name: "Dr. Asthana",
+      designation: "Professor",
+    },
+    {
+      name: "Dr. Jasdeep Kaur Dhanoa",
+      designation: "Professor, IGDTUW",
     },
   ];
 
