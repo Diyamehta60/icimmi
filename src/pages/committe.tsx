@@ -33,10 +33,6 @@ function Committe() {
       name: "Dr. Sugandha Singh",
       designation: "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugra",
     },
-    {
-      name: "Dr. Monika Agrawal",
-      designation: "IIT, Delhi",
-    },
   ];
   const conferenceChair = [
     {
@@ -49,12 +45,20 @@ function Committe() {
     },
     {
       name: "Dr. JC Bansal",
-      designation: "#",
+      designation: "Professor, South Asian University",
     },
     {
       name: "Dr. Carlos M. Travieso-Gonzalez",
       designation:
         "Signals and Communication Department. University of Las Palmas de Gran Canaria, Spain",
+    },
+    {
+      name: "Dr. Saurabh Sinha",
+      designation: "University Of Canterbury",
+    },
+    {
+      name: "Dr. Dharam Singh",
+      designation: "Namibia University Of Science And Technology",
     },
   ];
   const conferenceCoChair = [
@@ -67,22 +71,14 @@ function Committe() {
       designation: "Professor & HoD AI & DS, PIET, Jaipur",
     },
     {
-      name: "Prof. (Dr.) Rambilas",
-      designation: "Professor ,IIT Indore",
-    },
-    {
-      name: "Dr.Ashish Khanna",
-      designation: "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
+      name: "Dr. Payal Bansal",
+      designation: "Professor, AI & DS, PIET Jaipur",
     },
   ];
   const organizingChair = [
     {
       name: "Dr. Uday Pratap Singh",
       designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Sandeep",
-      designation: "#",
     },
   ];
   // const organizingCoChair = [
@@ -97,7 +93,7 @@ function Committe() {
   // ];
   const technicalProgramChair = [
     {
-      name: "Dr. Atul Gunsai",
+      name: "Dr. Atul Gonsai",
       designation: "Professor, Saurasthra University, Rajkot",
     },
     {
@@ -105,12 +101,44 @@ function Committe() {
       designation: "Professor, Delhi Technical University, Delhi",
     },
     {
+      name: "Dr. Harish Sharma",
+      designation: "Associate Professor, RTU",
+    },
+    {
       name: "Dr. OP Verma",
       designation: "Professor, DTU",
     },
     {
+      name: "Dr. Akash Saxena",
+      designation: "Professor,University Of Haryana",
+    },
+    {
+      name: "Dr. Shruti Thapar",
+      designation: "Associate Professor, PIET, Jaipur",
+    },
+    {
+      name: "Dr. Jasdeep Kaur Dhanoa",
+      designation: "Professor, IGDTUW",
+    },
+    {
       name: "Mr. Vivek Saxena",
       designation: "Assistant Professor, PIET, Jaipur",
+    },
+    {
+      name: "Dr. Monika Agrawal",
+      designation: "IIT, Delhi",
+    },
+    {
+      name: "Prof. (Dr.) Rambilas",
+      designation: "Professor ,IIT Indore",
+    },
+    {
+      name: "Dr. Sandeep Gupta",
+      designation: "Associate Professor, AI & DS, PIET, Jaipur",
+    },
+    {
+      name: "Dr. Dilip Singh Sisodia",
+      designation: "Computer Science & Engineering National Institute of Technology, Raipur, India",
     },
   ];
   const editorial = [
@@ -144,10 +172,6 @@ function Committe() {
       name: "Dr. Uday Pratap Singh",
       designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
-    {
-      name: "Dr. Payal Bansal",
-      designation: "#",
-    },
   ];
   const keynoteSpeakers = [
     {
@@ -160,10 +184,9 @@ function Committe() {
       designation: "Associate Professor, South Asian University, New Delhi",
     },
     {
-      name: "Dr. Harish Sharma",
-      designation: "Associate Professor, RTU",
+      name: "Dr.Ashish Khanna",
+      designation: "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
     },
-
     {
       name: "Dr. Maria Ganzha",
       designation:
@@ -178,19 +201,11 @@ function Committe() {
       name: "Dr. Pooja Jain",
       designation: "Professor, IIIT, Nagpur",
     },
-    {
-      name: "Dr. Akash Saxena",
-      designation: "Professor,University Of Haryana",
-    },
   ];
   const financeCommittee = [
     {
       name: "Dr. Ajay Maurya",
       designation: "Professor, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Shruti Thapar",
-      designation: "Associate Professor, PIET, Jaipur",
     },
   ];
   const publicityChair = [
@@ -199,20 +214,12 @@ function Committe() {
       designation: "IIIT, Kota",
     },
     {
-      name: "#",
-      designation: "MNIT, Jaipur",
-    },
-    {
       name: "Dr. Priya Mathur",
       designation: "PIET, Jaipur",
     },
     {
       name: "Shruti Jain",
       designation: "IEEE",
-    },
-    {
-      name: "Dr. Dharam Singh",
-      designation: "Namibia University Of Science And Technology",
     },
   ];
   const internationalAdvisoryCommittee = [
@@ -264,10 +271,6 @@ function Committe() {
       name: "Dr. Ahmed Elngar",
       designation: "Assistant Professor, Egypt",
     },
-    {
-      name: "Dr. Saurabh Sinha",
-      designation: "University Of Canterbury",
-    },
   ];
   const nationalAdvisoryCommittee = [
     {
@@ -289,6 +292,10 @@ function Committe() {
     {
       name: "Dr. Arun Kumar Verma",
       designation: "MNIT, Jaipur",
+    },
+    {
+      name: "Dr. Asthana",
+      designation: "Professor",
     },
     {
       name: "Dr. Amit Srivastava",
@@ -329,14 +336,6 @@ function Committe() {
     {
       name: "Dr. Balamurugan Shanmugam",
       designation: "Director R & D, QUANTS IS & CS, Tamil Nadu",
-    },
-    {
-      name: "Dr. Asthana",
-      designation: "Professor",
-    },
-    {
-      name: "Dr. Jasdeep Kaur Dhanoa",
-      designation: "Professor, IGDTUW",
     },
   ];
 
