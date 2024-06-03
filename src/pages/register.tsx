@@ -44,7 +44,7 @@ const Register = () => {
                                         Faculty Member (ACM/IEEE/FIP)
                                     </th>
                                     <td className="px-6 py-4">INR 9000</td>
-                                    <td className="px-6 py-4">INR 6500</td>
+                                    <td className="px-6 py-4">INR 10,000</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                                     <th
@@ -54,7 +54,7 @@ const Register = () => {
                                         Faculty (ACM/IEEE/FIP) With International co- Author
                                     </th>
                                     <td className="px-6 py-4">INR 8000</td>
-                                    <td className="px-6 py-4">INR 5500</td>
+                                    <td className="px-6 py-4">INR 9000</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
                                     <th
@@ -73,8 +73,8 @@ const Register = () => {
                                     >
                                         Faculty Non-Member (ACM/IEEE/FIP)
                                     </th>
-                                    <td className="px-6 py-4">INR 10000</td>
-                                    <td className="px-6 py-4">INR 7500</td>
+                                    <td className="px-6 py-4">INR 10,000</td>
+                                    <td className="px-6 py-4">INR 11,000</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
                                     <th
@@ -84,7 +84,7 @@ const Register = () => {
                                         Faculty Non-Member (ACM/IEEE/FIP) with international co-Author
                                     </th>
                                     <td className="px-6 py-4">INR 9000</td>
-                                    <td className="px-6 py-4">INR 6500</td>
+                                    <td className="px-6 py-4">INR 10,000</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
                                     <th
@@ -103,18 +103,18 @@ const Register = () => {
                                     >
                                         Corporate/Industry Professional
                                     </th>
-                                    <td className="px-6 py-4">INR 11000</td>
-                                    <td className="px-6 py-4">INR 9500</td>
+                                    <td className="px-6 py-4">INR 11,000</td>
+                                    <td className="px-6 py-4">INR 12,000</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
                                     <th
                                         scope="row"
                                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                                     >
-                                        PG Student
+                                        Ph.D Student
                                     </th>
                                     <td className="px-6 py-4">INR 8000</td>
-                                    <td className="px-6 py-4">INR 4500</td>
+                                    <td className="px-6 py-4">INR 9000</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
                                     <th
@@ -124,7 +124,7 @@ const Register = () => {
                                         PG/UG Student
                                     </th>
                                     <td className="px-6 py-4">INR 7000</td>
-                                    <td className="px-6 py-4">INR 3500</td>
+                                    <td className="px-6 py-4">INR 8000</td>
                                 </tr>
                                 <tr className="bg-white border-b dark:bg-gray-800">
                                     <th
@@ -134,7 +134,7 @@ const Register = () => {
                                         Attendee
                                     </th>
                                     <td className="px-6 py-4">INR 2000	</td>
-                                    <td className="px-6 py-4">INR 1500	</td>
+                                    <td className="px-6 py-4">INR 3000	</td>
                                 </tr>
                             </tbody>
 
