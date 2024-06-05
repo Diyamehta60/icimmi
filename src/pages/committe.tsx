@@ -156,8 +156,8 @@ function Committe() {
       designation: "Professor & HOD, CSE, PIET, Jaipur",
     },
     {
-      name: "Dr. Payal Bansal",
-      designation: "Professor, IOT, PIET Jaipur",
+      name: "Dr. Uday Pratap Singh",
+      designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
     {
       name: "Prof. Dharm Singh",

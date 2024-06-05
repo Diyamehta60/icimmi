@@ -8,7 +8,6 @@ const Register = () => {
 
     return (
         <>
-
             <Head>
                 <title>Register - ICIMMI - International conference on information management & machine intelligence</title>
                 <link rel="icon" href="/gallery/favicon.ico" />
