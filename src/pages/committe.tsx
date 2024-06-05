@@ -78,11 +78,11 @@ function Committe() {
   const organizingChair = [
     {
       name: "Dr. Uday Pratap Singh",
-      designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
+      designation: "Associate Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
     {
       name: "Dr. Shalini Choudhary",
-      designation: "Asso. Prof., CS, PIET, Jaipur",
+      designation: "Associate Prof., CS, PIET, Jaipur",
     },
 
   ];
@@ -157,7 +157,7 @@ function Committe() {
     },
     {
       name: "Dr. Uday Pratap Singh",
-      designation: "Asso. Prof. & Dy HoD, AI & DS, PIET, Jaipur",
+      designation: "Associate Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
     {
       name: "Prof. Dharm Singh",
