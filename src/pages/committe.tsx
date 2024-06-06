@@ -151,7 +151,10 @@ function Committe() {
       name: "Dr. Dinesh Goyal",
       designation: "Professor & Director, PIET, Jaipur",
     },
- 
+    {
+      name: "Dr. Anil Kumar",
+      designation: "Professor & HOD, CSE, PIET, Jaipur",
+    },
     {
       name: "Dr. Uday Pratap Singh",
       designation: "Associate Prof. & Dy HoD, AI & DS, PIET, Jaipur",
