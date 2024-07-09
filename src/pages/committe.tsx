@@ -1,6 +1,7 @@
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 
 function Committe() {
@@ -44,6 +45,7 @@ function Committe() {
     {
       name: "Dr. Dinesh Goyal",
       designation: "Professor & Director, PIET, Jaipur",
+      LinkedIn:"https://www.linkedin.com/in/dr-dinesh-goyal/",
     },
     
   ];
@@ -515,9 +517,9 @@ function Committe() {
                       <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.LinkedIn}
-                      </p>
+                      <Link className="mt-1 text-sm text-blue-500" href={item.LinkedIn}>
+                        LinkedIn Profile
+                      </Link>
                     </div>
                   </div>
                 </li>
@@ -549,6 +551,9 @@ function Committe() {
                       <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
+                      <Link className="mt-1 text-sm text-blue-500" href={item.LinkedIn}>
+                        LinkedIn Profile
+                      </Link>
                     </div>
                   </div>
                 </li>
