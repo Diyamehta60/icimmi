@@ -37,7 +37,9 @@ function Committe() {
     {
       name: "Prof Dharam Singh",
       designation: "Namibia University of Science & Tech., Namibia",
-      LinkedIn:"www.linkedin.com/in/dharm-singh-jat-a7748ba7/",
+      LinkedIn:"https://www.linkedin.com/in/dharm-singh-jat-a7748ba7/",
+      InstitutionalProfile: "Prof Dharm Singh Jat | Faculty of Computing and Informatics (nust.na)",
+
     },
     
   ];
@@ -520,6 +522,11 @@ function Committe() {
                       <Link className="mt-1 text-sm text-blue-500" href={item.LinkedIn}>
                         LinkedIn Profile
                       </Link>
+                      <br />
+                      <Link className="mt-1 text-sm text-blue-500" href={item.InstitutionalProfile}>
+                      Institutional Profile
+                      </Link>
+                      
                     </div>
                   </div>
                 </li>
