@@ -334,6 +334,13 @@ const Home = () => {
             </div>
             <div id={"important"} className={"col-span-full lg:col-span-1"} style={{ width: "92%", height: "87%" }}>
               {/* <ImportantMessage /> */}
+              <h2
+                className={
+                  "my-3 text-center text-lg font-bold lg:text-start lg:text-2xl"
+                }
+              >
+                Past Publication Partners
+              </h2>
               <div
                 className={
                   "col-span-full flex h-full w-full overflow-hidden rounded-lg px-1 lg:col-span-3"

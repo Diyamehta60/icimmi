@@ -16,10 +16,6 @@ function Committe() {
   ];
   const honarayChair = [
     {
-      name: "Prof Dharam Singh",
-      designation: "Namibia University of Science & Tech., Namibia",
-    },
-    {
       name: "Prof. Marcin Paprzycki",
       designation:
         "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
@@ -33,12 +29,25 @@ function Committe() {
       name: "Dr. Sugandha Singh",
       designation: "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugra",
     },
+    
+  ];
+  const GeneralChair
+  = [
+    {
+      name: "Prof Dharam Singh",
+      designation: "Namibia University of Science & Tech., Namibia",
+      LinkedIn:"www.linkedin.com/in/dharm-singh-jat-a7748ba7/",
+    },
+    
   ];
   const conferenceChair = [
     {
       name: "Dr. Dinesh Goyal",
       designation: "Professor & Director, PIET, Jaipur",
     },
+    
+  ];
+  const SteeringCommittee = [
     {
       name: "Dr. Pooja Jain",
       designation: "Professor, IIIT, Nagpur",
@@ -60,6 +69,7 @@ function Committe() {
       name: "Dr. Nischal Verma",
       designation: "Professor ,IIT Kanpur",
     },
+    
   ];
   const conferenceCoChair = [
     {
@@ -482,6 +492,41 @@ function Committe() {
         </div>
         <div className="my-12">
           <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
+            General Chair
+          </h1>
+          <ul
+            role="list"
+            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          >
+            {GeneralChair
+.map((item, index) => {
+              return (
+                <li
+                  key={index}
+                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
+                >
+                  <div className="flex w-full items-center justify-between space-x-6 p-6">
+                    <div className="flex-1">
+                      <div className="flex items-center space-x-3">
+                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
+                          {item.name}
+                        </h3>
+                      </div>
+                      <p className="mt-1 text-sm text-gray-500">
+                        {item.designation}
+                      </p>
+                      <p className="mt-1 text-sm text-gray-500">
+                        {item.LinkedIn}
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="my-12">
+          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
             Conference Chair
           </h1>
           <ul
@@ -489,6 +534,37 @@ function Committe() {
             className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
           >
             {conferenceChair.map((item, index) => {
+              return (
+                <li
+                  key={index}
+                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
+                >
+                  <div className="flex w-full items-center justify-between space-x-6 p-6">
+                    <div className="flex-1">
+                      <div className="flex items-center space-x-3">
+                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
+                          {item.name}
+                        </h3>
+                      </div>
+                      <p className="mt-1 text-sm text-gray-500">
+                        {item.designation}
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="my-12">
+          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
+          Steering Committee
+          </h1>
+          <ul
+            role="list"
+            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          >
+            {SteeringCommittee.map((item, index) => {
               return (
                 <li
                   key={index}

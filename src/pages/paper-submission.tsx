@@ -44,9 +44,7 @@ export default function PaperSubmission() {
         </h2>
       </div>
       <p className="w-full px-4 py-4 md:px-0">
-        To submit a paper for ICIMMI-2024, authors must follow the
-        conference proceedings <span className="font-bold">* </span>format. The submission template for the
-        conference is available at{" "}
+      To submit a paper for ICIMMI-2024, authors must follow the conference proceedings * format (Link will be active post approval). <span className="font-bold">* </span>The submission template for the conference is available at {" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
             href=""
@@ -63,14 +61,11 @@ export default function PaperSubmission() {
             }
             className="break-all"
           >
-            https://portalparts..org/hippo/latex_templates/art-primary.zip
+             https://portalparts..org/hippo/latex_templates/art-primary.zip 
           </Link>
         </span>{" "}
-        for LaTeX users. The maximum length of the paper is six (6) pages.
-        Authors must ensure that their research paper is original and has not
-        been previously submitted to any other journal or conference. The
-        similarity score of the manuscript should not exceed 10%. Manuscripts
-        with a similarity score of more than 10% will not be processed.
+        for LaTeX users. The maximum length of the paper is six (6) pages. Authors must ensure that their research paper is original and has not been previously submitted to any other journal or conference. The similarity score of the manuscript should not exceed 10%. Manuscripts with a similarity score of more than 10% will not be processed.
+
       </p>
       <br />
       <p className="px-4 font-bold md:px-0">
