@@ -38,7 +38,7 @@ function Committe() {
       name: "Prof Dharam Singh",
       designation: "Namibia University of Science & Tech., Namibia",
       LinkedIn:"https://www.linkedin.com/in/dharm-singh-jat-a7748ba7/",
-      InstitutionalProfile: "Prof Dharm Singh Jat | Faculty of Computing and Informatics (nust.na)",
+      InstitutionalProfile: "https://fci.nust.na/prof-dharm-singh-jat",
 
     },
     
