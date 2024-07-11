@@ -45,6 +45,7 @@ function Committe() {
       name: "Dr. Dinesh Goyal",
       designation: "Professor & Director, PIET, Jaipur",
       LinkedIn: "https://www.linkedin.com/in/dr-dinesh-goyal/",
+      profile: "/conference_chair",
     },
   ];
   const SteeringCommittee = [
@@ -558,9 +559,11 @@ function Committe() {
                   <div className="flex w-full items-center justify-between space-x-6 p-6">
                     <div className="flex-1">
                       <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
+                        <Link href={item.profile}>
+                          <h3 className="truncate text-sm font-medium text-gray-900 underline lg:text-xl">
+                            {item.name}
+                          </h3>
+                        </Link>
                       </div>
                       <p className="mt-1 text-sm text-gray-500">
                         {item.designation}

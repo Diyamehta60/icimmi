@@ -9,6 +9,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/conference_chair",
+        destination: "/conference_chair",
+        permanent: true,
+      },
+      {
         source: "/registration",
         destination: "/register",
         permanent: true,
