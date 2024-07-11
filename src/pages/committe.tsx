@@ -28,28 +28,24 @@ function Committe() {
     },
     {
       name: "Dr. Sugandha Singh",
-      designation: "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugra",
+      designation:
+        "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugra",
     },
-    
   ];
-  const GeneralChair
-  = [
+  const GeneralChair = [
     {
       name: "Prof Dharam Singh",
       designation: "Namibia University of Science & Tech., Namibia",
-      LinkedIn:"https://www.linkedin.com/in/dharm-singh-jat-a7748ba7/",
+      LinkedIn: "https://www.linkedin.com/in/dharm-singh-jat-a7748ba7/",
       InstitutionalProfile: "https://fci.nust.na/prof-dharm-singh-jat",
-
     },
-    
   ];
   const conferenceChair = [
     {
       name: "Dr. Dinesh Goyal",
       designation: "Professor & Director, PIET, Jaipur",
-      LinkedIn:"https://www.linkedin.com/in/dr-dinesh-goyal/",
+      LinkedIn: "https://www.linkedin.com/in/dr-dinesh-goyal/",
     },
-    
   ];
   const SteeringCommittee = [
     {
@@ -73,7 +69,6 @@ function Committe() {
       name: "Dr. Nischal Verma",
       designation: "Professor ,IIT Kanpur",
     },
-    
   ];
   const conferenceCoChair = [
     {
@@ -98,7 +93,6 @@ function Committe() {
       name: "Dr. Shalini Choudhary",
       designation: "Associate Prof., CS, PIET, Jaipur",
     },
-
   ];
   // const organizingCoChair = [
   //   {
@@ -157,7 +151,8 @@ function Committe() {
     },
     {
       name: "Dr. Dilip Singh Sisodia",
-      designation: "Associate Professor, Computer Science & Engineering National Institute of Technology, Raipur, India",
+      designation:
+        "Associate Professor, Computer Science & Engineering National Institute of Technology, Raipur, India",
     },
   ];
   const editorial = [
@@ -195,7 +190,8 @@ function Committe() {
     },
     {
       name: "Dr.Ashish Khanna",
-      designation: "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
+      designation:
+        "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
     },
     {
       name: "Dr. Saurabh Sinha",
@@ -212,15 +208,18 @@ function Committe() {
     },
     {
       name: "Dr. Enrico Cambiaso",
-      designation: "Consiglio Nazionale delle Ricerche (CNR) A Via De Marini, 16 - 16149 Genoa (Italy)"
+      designation:
+        "Consiglio Nazionale delle Ricerche (CNR) A Via De Marini, 16 - 16149 Genoa (Italy)",
     },
     {
       name: "Dr. Anshuman Kalla",
-      designation: "Centre for Wireless Communications (CWC) University of Oulu, Finland."
+      designation:
+        "Centre for Wireless Communications (CWC) University of Oulu, Finland.",
     },
     {
       name: "Dr. Majusri Misra",
-      designation: "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada"
+      designation:
+        "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
     },
   ];
   const financeCommittee = [
@@ -239,8 +238,9 @@ function Committe() {
       designation: "PIET, Jaipur",
     },
     {
-      name: "Shruti Jain",
-      designation: "IEEE",
+      name: "Dr. Shruti Jain",
+      designation:
+        "Professor at Jaypee University of Information Technology, Waknaghat",
     },
   ];
   const internationalAdvisoryCommittee = [
@@ -316,7 +316,7 @@ function Committe() {
     },
     {
       name: "Dr. Rajendra K Asthana",
-      designation: "IEEE Senior Life Member",
+      designation: "Ex - Director, SDS Softpro (P) Ltd, NOIDA",
     },
     {
       name: "Dr. Amit Srivastava",
@@ -426,7 +426,10 @@ function Committe() {
   return (
     <div className="mx-4">
       <Head>
-        <title>Committees- ICIMMI - International conference on information management & machine intelligence</title>
+        <title>
+          Committees- ICIMMI - International conference on information
+          management & machine intelligence
+        </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <div>
@@ -502,8 +505,7 @@ function Committe() {
             role="list"
             className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
           >
-            {GeneralChair
-.map((item, index) => {
+            {GeneralChair.map((item, index) => {
               return (
                 <li
                   key={index}
@@ -519,14 +521,19 @@ function Committe() {
                       <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
-                      <Link className="mt-1 text-sm text-blue-500" href={item.LinkedIn}>
+                      <Link
+                        className="mt-1 text-sm text-blue-500"
+                        href={item.LinkedIn}
+                      >
                         LinkedIn Profile
                       </Link>
                       <br />
-                      <Link className="mt-1 text-sm text-blue-500" href={item.InstitutionalProfile}>
-                      Institutional Profile
+                      <Link
+                        className="mt-1 text-sm text-blue-500"
+                        href={item.InstitutionalProfile}
+                      >
+                        Institutional Profile
                       </Link>
-                      
                     </div>
                   </div>
                 </li>
@@ -558,7 +565,10 @@ function Committe() {
                       <p className="mt-1 text-sm text-gray-500">
                         {item.designation}
                       </p>
-                      <Link className="mt-1 text-sm text-blue-500" href={item.LinkedIn}>
+                      <Link
+                        className="mt-1 text-sm text-blue-500"
+                        href={item.LinkedIn}
+                      >
                         LinkedIn Profile
                       </Link>
                     </div>
@@ -570,7 +580,7 @@ function Committe() {
         </div>
         <div className="my-12">
           <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-          Steering Committee
+            Steering Committee
           </h1>
           <ul
             role="list"
