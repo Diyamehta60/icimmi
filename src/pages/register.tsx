@@ -44,7 +44,7 @@ const Register = () => {
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
                   >
-                    Faculty Member (International Professional Membership/FIP)
+                    Faculty Member (International Professional Membership)
                   </th>
                   <td className="px-6 py-4">INR 9000</td>
                   <td className="px-6 py-4">INR 10,000</td>
@@ -54,7 +54,7 @@ const Register = () => {
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
                   >
-                    Faculty (International Professional Membership/FIP) With
+                    Faculty (International Professional Membership) With
                     International co- Author
                   </th>
                   <td className="px-6 py-4">INR 8000</td>
@@ -66,7 +66,7 @@ const Register = () => {
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
                   >
                     Faculty International Author and Member (International
-                    Professional Membership/FIP)
+                    Professional Membership)
                   </th>
                   <td className="px-6 py-4">$150</td>
                   <td className="px-6 py-4">$180</td>
@@ -76,8 +76,7 @@ const Register = () => {
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
                   >
-                    Faculty Non-Member (International Professional
-                    Membership/FIP)
+                    Faculty Non-Member (International Professional Membership)
                   </th>
                   <td className="px-6 py-4">INR 10,000</td>
                   <td className="px-6 py-4">INR 11,000</td>
@@ -87,8 +86,8 @@ const Register = () => {
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
                   >
-                    Faculty Non-Member (International Professional
-                    Membership/FIP) with international co-Author
+                    Faculty Non-Member (International Professional Membership)
+                    with international co-Author
                   </th>
                   <td className="px-6 py-4">INR 9000</td>
                   <td className="px-6 py-4">INR 10,000</td>
@@ -99,7 +98,7 @@ const Register = () => {
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
                   >
                     International Author Non-Member (International Professional
-                    Membership/FIP)
+                    Membership)
                   </th>
                   <td className="px-6 py-4">$200</td>
                   <td className="px-6 py-4">$250</td>
