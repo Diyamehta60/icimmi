@@ -6,10 +6,12 @@ import React from "react";
 
 export default function PaperSubmission() {
   return (
-
     <div className="mx-4">
       <Head>
-        <title>Paper Submission - ICIMMI - International conference on information management & machine intelligence</title>
+        <title>
+          Paper Submission - ICIMMI - International conference on information
+          management & machine intelligence
+        </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
@@ -44,28 +46,25 @@ export default function PaperSubmission() {
         </h2>
       </div>
       <p className="w-full px-4 py-4 md:px-0">
-      To submit a paper for ICIMMI-2024, authors must follow the conference proceedings * format (Link will be active post approval). <span className="font-bold">* </span>The submission template for the conference is available at {" "}
+        To submit a paper for ICIMMI-2024, authors must follow the conference
+        proceedings format.The submission template for the conference is
+        available at{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
-          <Link
-            href=""
-            className="break-all"
-          >
+          <Link href="" className="break-all">
             https://authors..org/binaries/content/assets/publications/taps/_submission_template.docx
           </Link>
         </span>{" "}
         for Word users and{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
-          <Link
-            href={
-              ""
-            }
-            className="break-all"
-          >
-             https://portalparts..org/hippo/latex_templates/art-primary.zip 
+          <Link href={""} className="break-all">
+            https://portalparts..org/hippo/latex_templates/art-primary.zip
           </Link>
         </span>{" "}
-        for LaTeX users. The maximum length of the paper is six (6) pages. Authors must ensure that their research paper is original and has not been previously submitted to any other journal or conference. The similarity score of the manuscript should not exceed 10%. Manuscripts with a similarity score of more than 10% will not be processed.
-
+        for LaTeX users. The maximum length of the paper is six (6) pages.
+        Authors must ensure that their research paper is original and has not
+        been previously submitted to any other journal or conference. The
+        similarity score of the manuscript should not exceed 10%. Manuscripts
+        with a similarity score of more than 10% will not be processed.
       </p>
       <br />
       <p className="px-4 font-bold md:px-0">
@@ -84,7 +83,9 @@ export default function PaperSubmission() {
           </ul>
         </li>
       </ul>
-      <p><span className="font-bold">Note:* </span>yet to be announced</p>
+      <p>
+        <span className="font-bold">Note:* </span>yet to be announced
+      </p>
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
       <h2
         className={
