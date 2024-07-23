@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-[#1a1212] dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6">
         <div className="items-center md:flex  md:justify-between">
-          <div className={"h-full hidden lg:block"}>
+          <div className={"hidden h-full lg:block"}>
             <Image
               width={300}
               height={200}
@@ -29,7 +29,7 @@ const Footer = () => {
                   width={27}
                   height={27}
                   src="/pietlogo.png"
-                  className="mr-3 mb- 4 object-cover"
+                  className="mb- 4 mr-3 object-cover"
                   alt="Logo"
                 />
               </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                 aria-label={"icac3n twitter"}
               />
             </Link>
-            <Link href={"tel:+91-9887153864"}>
+            <Link href={"tel:+91-9896017351"}>
               <RiPhoneFill
                 className={
                   "grow-on-hover  cursor-pointer hover:text-emerald-500"
