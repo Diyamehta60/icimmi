@@ -1,4 +1,5 @@
 import Button from "@/components/button";
+import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Head from "next/head";
@@ -16,6 +17,7 @@ const Register = () => {
       </Head>
       <div className={"mx-4 my-8 w-full"}>
         <Schedule />
+        <ImportantDetails />
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
         <h1 className={"heading mb-12 text-xl font-semibold"}>
           Registration Fees Details For Conference Registration the Author can

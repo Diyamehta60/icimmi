@@ -1,3 +1,4 @@
+import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Head from "next/head";
@@ -15,6 +16,7 @@ export default function PaperSubmission() {
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
+      <ImportantDetails />
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
       <div className={"prose my-8"}>
         <h1 className={"heading"}>Paper Submission</h1>

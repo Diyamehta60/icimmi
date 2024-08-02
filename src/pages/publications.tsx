@@ -1,6 +1,8 @@
+import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 
 function Publications() {
@@ -14,6 +16,7 @@ function Publications() {
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
+      <ImportantDetails />
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
 
       <p>
@@ -29,7 +32,6 @@ function Publications() {
       </p>
       <ul className="prose mx-4 my-12 list-disc">
         <li>ACM International Conference Proceeding Series</li>
-
         <li>
           {" "}
           Journal of Discrete Mathematical Sciences & Cryptography
