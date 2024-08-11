@@ -59,8 +59,8 @@ const Register = () => {
                     Faculty (International Professional Membership) With
                     International co- Author
                   </th>
-                  <td className="px-6 py-4">INR 8000</td>
-                  <td className="px-6 py-4">INR 9000</td>
+                  <td className="px-6 py-4">INR 3000</td>
+                  <td className="px-6 py-4">INR 4000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -70,8 +70,8 @@ const Register = () => {
                     Faculty International Author and Member (International
                     Professional Membership)
                   </th>
-                  <td className="px-6 py-4">$150</td>
-                  <td className="px-6 py-4">$180</td>
+                  <td className="px-6 py-4">$100</td>
+                  <td className="px-6 py-4">$130</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -80,8 +80,8 @@ const Register = () => {
                   >
                     Faculty Non-Member (International Professional Membership)
                   </th>
-                  <td className="px-6 py-4">INR 10,000</td>
-                  <td className="px-6 py-4">INR 11,000</td>
+                  <td className="px-6 py-4">INR 5,000</td>
+                  <td className="px-6 py-4">INR 6,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -91,8 +91,8 @@ const Register = () => {
                     Faculty Non-Member (International Professional Membership)
                     with international co-Author
                   </th>
-                  <td className="px-6 py-4">INR 9000</td>
-                  <td className="px-6 py-4">INR 10,000</td>
+                  <td className="px-6 py-4">INR 4,000</td>
+                  <td className="px-6 py-4">INR 5,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -102,8 +102,8 @@ const Register = () => {
                     International Author Non-Member (International Professional
                     Membership)
                   </th>
+                  <td className="px-6 py-4">$150</td>
                   <td className="px-6 py-4">$200</td>
-                  <td className="px-6 py-4">$250</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -112,8 +112,8 @@ const Register = () => {
                   >
                     Corporate/Industry Professional
                   </th>
-                  <td className="px-6 py-4">INR 11,000</td>
-                  <td className="px-6 py-4">INR 12,000</td>
+                  <td className="px-6 py-4">INR 6,000</td>
+                  <td className="px-6 py-4">INR 7,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -122,8 +122,8 @@ const Register = () => {
                   >
                     Ph.D Student
                   </th>
-                  <td className="px-6 py-4">INR 8000</td>
-                  <td className="px-6 py-4">INR 9000</td>
+                  <td className="px-6 py-4">INR 5,000</td>
+                  <td className="px-6 py-4">INR 4,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -132,8 +132,8 @@ const Register = () => {
                   >
                     PG/UG Student
                   </th>
-                  <td className="px-6 py-4">INR 7000</td>
-                  <td className="px-6 py-4">INR 8000</td>
+                  <td className="px-6 py-4">INR 2,000</td>
+                  <td className="px-6 py-4">INR 3,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -142,8 +142,8 @@ const Register = () => {
                   >
                     Attendee
                   </th>
+                  <td className="px-6 py-4">INR 1000 </td>
                   <td className="px-6 py-4">INR 2000 </td>
-                  <td className="px-6 py-4">INR 3000 </td>
                 </tr>
               </tbody>
             </table>
