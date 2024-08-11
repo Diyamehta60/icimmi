@@ -48,8 +48,8 @@ const Register = () => {
                   >
                     Faculty Member (International Professional Membership)
                   </th>
-                  <td className="px-6 py-4">INR 9000</td>
-                  <td className="px-6 py-4">INR 10,000</td>
+                  <td className="px-6 py-4">INR 4,000</td>
+                  <td className="px-6 py-4">INR 5,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
                   <th
@@ -122,8 +122,8 @@ const Register = () => {
                   >
                     Ph.D Student
                   </th>
-                  <td className="px-6 py-4">INR 5,000</td>
                   <td className="px-6 py-4">INR 4,000</td>
+                  <td className="px-6 py-4">INR 5,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -132,8 +132,8 @@ const Register = () => {
                   >
                     PG/UG Student
                   </th>
+                  <td className="px-6 py-4">INR 1,500</td>
                   <td className="px-6 py-4">INR 2,000</td>
-                  <td className="px-6 py-4">INR 3,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
