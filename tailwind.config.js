@@ -7,6 +7,11 @@ module.exports = {
       animation: {
         marquee: "marquee 20s linear infinite",
       },
+      textStroke: {
+        sm: "1px",
+        DEFAULT: "2px",
+        lg: "3px",
+      },
       keyframes: {
         marquee: {
           "0%": { transform: "translateX(68%)" },

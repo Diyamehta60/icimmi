@@ -52,14 +52,32 @@ export default function PaperSubmission() {
         proceedings format.The submission template for the conference is
         available at{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
-          <Link href="" className="break-all">
-            https://authors..org/binaries/content/assets/publications/taps/_submission_template.docx
+          <Link
+            href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
+            className="break-all"
+          >
+            https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx
           </Link>
-        </span>{" "}
+        </span>
+        {", "}
+        <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
+          <Link
+            href="https://portalparts.acm.org/hippo/enhanced_word_templates/Windows/windows.zip"
+            className="break-all"
+          >
+            https://portalparts.acm.org/hippo/enhanced_word_templates/Windows/windows.zip
+          </Link>
+        </span>
+        {", "}
         for Word users and{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
-          <Link href={""} className="break-all">
-            https://portalparts..org/hippo/latex_templates/art-primary.zip
+          <Link
+            href={
+              "https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip"
+            }
+            className="break-all"
+          >
+            https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip
           </Link>
         </span>{" "}
         for LaTeX users. The maximum length of the paper is six (6) pages.

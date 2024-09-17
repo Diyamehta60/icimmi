@@ -49,8 +49,15 @@ function Schedule() {
           >
             <FaCalendarAlt size={32} color={`${dateInfo.color}`} />
           </div>
-          <div className="font-semibold">{dateInfo.label}</div>
-          <div className="text-sm">{dateInfo.date}</div>
+          <div className="font-semibold">{dateInfo.label}</div>{" "}
+          <div className={index == 0 ? " text-gray-500" : "text-sm"}>
+            {dateInfo.date}
+          </div>
+          {index == 0 ? (
+            <span className="text-sm"> (Extended Sept 31, 2024) </span>
+          ) : (
+            ""
+          )}
         </div>
       ))}
     </div>
