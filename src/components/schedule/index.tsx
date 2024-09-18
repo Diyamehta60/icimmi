@@ -54,7 +54,7 @@ function Schedule() {
             {dateInfo.date}
           </div>
           {index == 0 ? (
-            <span className="text-sm"> (Extended Sept 31, 2024) </span>
+            <span className="text-sm"> (Extended Sept 30, 2024) </span>
           ) : (
             ""
           )}
