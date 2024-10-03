@@ -38,7 +38,6 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 });
 
 const Home = () => {
-
   const [visitorCounter, setVisitorCounter] = useState(20000);
 
   const counterData = [
@@ -95,7 +94,6 @@ const Home = () => {
     },
   ];
 
-
   const fetch = (i: number) => {
     const options = { method: "GET", url: `/api/counter?i=${i}` };
     axios
@@ -130,7 +128,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>ICIMMI - International conference on information management & machine intelligence</title>
+        <title>
+          ICIMMI - International conference on information management & machine
+          intelligence
+        </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
@@ -173,9 +174,7 @@ const Home = () => {
               className={
                 "flex items-center justify-center space-x-2 lg:justify-start"
               }
-            >
-
-            </div>
+            ></div>
 
             <div
               className={
@@ -261,8 +260,9 @@ const Home = () => {
                       return (
                         <div
                           key={index}
-                          className={`${index == activeIndex ? "bg-amber-400" : "bg-white"
-                            } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
+                          className={`${
+                            index == activeIndex ? "bg-amber-400" : "bg-white"
+                          } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
                           onClick={() => setActiveIndex(index)}
                         ></div>
                       );
@@ -299,7 +299,10 @@ const Home = () => {
 
         <div className={"flex flex-col space-y-5"}>
           <div className={"mx-2 grid grid-cols-1 md:mx-auto lg:grid-cols-3"}>
-            <div className={"col-span-full lg:col-span-2 lg:mr-10"} style={{ width: "90%" }}>
+            <div
+              className={"col-span-full lg:col-span-2 lg:mr-10"}
+              style={{ width: "90%" }}
+            >
               <h2
                 className={
                   "my-3 text-center text-lg font-bold lg:text-start lg:text-2xl"
@@ -328,11 +331,14 @@ const Home = () => {
                 intelligence to their machines and systems.
                 {<br />}
                 {<br />}
-
               </p>
               <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             </div>
-            <div id={"important"} className={"col-span-full lg:col-span-1"} style={{ width: "92%", height: "87%" }}>
+            <div
+              id={"important"}
+              className={"col-span-full lg:col-span-1"}
+              style={{ width: "92%", height: "87%" }}
+            >
               {/* <ImportantMessage /> */}
               <h2
                 className={
@@ -363,8 +369,11 @@ const Home = () => {
                           return (
                             <div
                               key={index}
-                              className={`${index == activeIndex ? "bg-amber-400" : "bg-white"
-                                } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
+                              className={`${
+                                index == activeIndex
+                                  ? "bg-amber-400"
+                                  : "bg-white"
+                              } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
                               onClick={() => setActiveIndex(index)}
                             ></div>
                           );
@@ -386,7 +395,7 @@ const Home = () => {
                           width={3000}
                           draggable={false}
                           className={
-                            " mx-auto h-full rounded-md object-fit shadow-lg"
+                            " object-fit mx-auto h-full rounded-md shadow-lg"
                           }
                           src={image.image}
                           alt=""
@@ -438,7 +447,9 @@ const Home = () => {
                   together experts from different countries.
                 </li>
                 <li>
-                  Promoting interdisciplinary collaborations to explore the integration of information Management and Machine Learning across diverse domains.
+                  Promoting interdisciplinary collaborations to explore the
+                  integration of information Management and Machine Learning
+                  across diverse domains.
                 </li>
               </ul>
             </div>

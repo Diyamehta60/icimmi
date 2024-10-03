@@ -10,22 +10,22 @@ const dates = [
   },
   {
     label: "Notification of Acceptance",
-    date: "Oct 30, 2024",
+    date: "Nov 15, 2024",
     color: "red",
   },
   {
     label: "Revised Paper Submission",
-    date: "Nov 15, 2024",
+    date: "Nov 25, 2024",
     color: "cyan",
   },
   {
     label: "Early Bird Registration",
-    date: "Nov 20, 2024",
+    date: "Nov 25, 2024",
     color: "orange",
   },
   {
     label: "Late Registration",
-    date: "Nov 25, 2024",
+    date: "Nov 30, 2024",
     color: "purple",
   },
   {
@@ -54,7 +54,7 @@ function Schedule() {
             {dateInfo.date}
           </div>
           {index == 0 ? (
-            <span className="text-sm"> (Extended 12 Oct, 2024) </span>
+            <span className="text-sm"> (Extended 31 Oct, 2024) </span>
           ) : (
             ""
           )}

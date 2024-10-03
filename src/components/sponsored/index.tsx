@@ -29,7 +29,7 @@ function Sponsored() {
               alt="First image"
             />
           </div>
-          <p className="my-4">Indian Society for Technical Education</p>
+          <p className="my-4">Computer Society of India</p>
         </div>
         <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
           <div className="flex justify-center">
@@ -39,7 +39,7 @@ function Sponsored() {
               alt="First image"
             />
           </div>
-          <p className="my-4">Indian Society for Technical Education</p>
+          <p className="my-4">The Institution of Engineers</p>
         </div>
       </div>
     </div>
