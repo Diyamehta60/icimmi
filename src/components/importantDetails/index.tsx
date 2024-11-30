@@ -29,10 +29,10 @@ function ImportantDetails() {
             (which includes over 800 institutions), the paper will be published
             for free.{" "}
             <a
-              href="https://libraries.acm.org/open/open-participants"
+              href="https://libraries.acm.org/acmopen/open-participants"
               className="text-blue-600 underline"
             >
-              List of Institutions
+              https://libraries.acm.org/acmopen/open-participants
             </a>
           </li>
           <li>
@@ -84,6 +84,19 @@ function ImportantDetails() {
             </a>
             )
           </li>
+        </ul>
+      </div>
+      <div className="mb-6">
+        <h3 className="mb-2 text-lg font-semibold">Important Details</h3>
+
+        <ul className="prose mx-4 my-2 list-disc">
+          <li>ACM and (Open Access Fess is to be paid by authors).</li>
+          <li>JDMC (Addition APC is applicable)</li>
+          <li>
+            CRC Press, Taylor & Francis Books Series (Addition APC is
+            applicable)
+          </li>
+          <li>The Indian Journal of Technical Education (UGC Care).</li>
         </ul>
       </div>
     </div>
