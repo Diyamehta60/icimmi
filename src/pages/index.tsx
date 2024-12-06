@@ -1,14 +1,10 @@
 import Head from "next/head";
-import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay } from "swiper";
 import {
-  RiArticleLine,
-  RiBuildingFill,
   RiCalendarTodoFill,
   RiFacebookBoxFill,
   RiMailFill,
@@ -16,19 +12,13 @@ import {
   RiPhoneFill,
   RiTwitterFill,
 } from "react-icons/ri";
-import ImportantDates from "../components/importantDates";
-import ImportantDownloads from "../components/importantDownloads";
 import React, { useEffect, useState } from "react";
-import ImportantMessage from "@/components/importantMessage";
-import Button from "@/components/button";
 import Link from "next/link";
-import { speakers } from "@/data/speakers";
 
 import dynamic from "next/dynamic";
 import Carousel from "framer-motion-carousel";
 import Image from "next/image";
 import axios from "axios";
-import InaugurationPdf from "@/components/inaugurationPdf";
 // import EntryModal from "@/components/entryModal";
 import Sponsored from "@/components/sponsored";
 import Schedule from "@/components/schedule";
@@ -40,24 +30,7 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 const Home = () => {
   const [visitorCounter, setVisitorCounter] = useState(20000);
 
-  const counterData = [
-    {
-      maxCount: 600,
-      subTitle: "Papers Published",
-    },
-    {
-      maxCount: 200,
-      subTitle: "Members",
-    },
-    {
-      maxCount: 1400,
-      subTitle: "Participants",
-    },
-    {
-      maxCount: 500,
-      subTitle: "Active Standards",
-    },
-  ];
+  
 
   const sliderImages = [
     {

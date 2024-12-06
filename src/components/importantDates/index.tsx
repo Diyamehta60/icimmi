@@ -13,7 +13,6 @@ const impDateData: ImportantDate[] = [
     title: "Full Paper Submission Date",
     date: "Sep 15, 2024",
     subtitle: "Full Paper Submission Date",
-
     isImportant: false,
     enabled: true,
   },
