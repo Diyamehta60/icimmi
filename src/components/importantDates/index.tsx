@@ -35,7 +35,7 @@ const impDateData: ImportantDate[] = [
   },
   {
     title: "Revised paper Submission",
-    subtitle: "Nov 20, 2024",
+    subtitle: "Dec 10, 2024",
     date: "Revised paper Submission",
 
     isImportant: false,
@@ -43,7 +43,7 @@ const impDateData: ImportantDate[] = [
   },
   {
     title: "Early Bird Registration",
-    date: "Nov 20, 2024",
+    date: "Dec 10, 2024",
     subtitle: "Early Bird Registration",
 
     isImportant: false,
@@ -51,7 +51,7 @@ const impDateData: ImportantDate[] = [
   },
   {
     title: "Late Registration",
-    date: "Nov 30, 2024",
+    date: "13 Dec, 2024",
     subtitle: "Late Registration",
     isImportant: false,
     enabled: true,

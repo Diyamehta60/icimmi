@@ -13,7 +13,6 @@ function ImportantDetails() {
         Authors can opt for either of the below options for publication, after
         presenting the paper in the Conference:
       </p>
-
       <div className="mb-6">
         <h3 className="mb-2 text-lg font-semibold">
           Free Publishing (Corresponding or 1st Author has to be from either of
