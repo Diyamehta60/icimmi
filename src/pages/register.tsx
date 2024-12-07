@@ -33,10 +33,10 @@ const Register = () => {
                     Category
                   </th>
                   <th scope="col" className="px-6 py-3">
-                    On or Before Nov 20, 2024
+                    On or Before Dec 10, 2024
                   </th>
                   <th scope="col" className="px-6 py-3">
-                    After Nov 20, 2024
+                    After Dec 10, 2024
                   </th>
                 </tr>
               </thead>
