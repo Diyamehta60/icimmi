@@ -15,8 +15,8 @@ const Register = () => {
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <div className={"mx-4 my-8 w-full"}>
         <Schedule />
+      <div className={"mx-4 my-8 w-full"}>
         <ImportantDetails />
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
         <h1 className={"heading mb-12 text-xl font-semibold"}>
