@@ -38,6 +38,11 @@ function Committe() {
       designation: "Namibia University of Science & Tech., Namibia",
       profile: "https://fci.nust.na/prof-dharm-singh-jat",
     },
+    {
+      name: "Jagdish Chand Bansal",
+      designation: "South Asian University NewDelhi",
+      profile: "",
+    },
   ];
   const conferenceChair = [
     {
@@ -177,50 +182,119 @@ function Committe() {
         "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
     },
   ];
+  // const keynoteSpeakers = [
+  //   {
+  //     name: "Prof Dharm Singh",
+  //     designation:
+  //       "Professor & UNESCO Chair Holder Secure on High-performance Computing for Higher Education and Research, Namibia University of Science and Technology",
+  //   },
+  //   {
+  //     name: "Dr. J. C. Bansal",
+  //     designation: "Associate Professor, South Asian University, New Delhi",
+  //   },
+  //   {
+  //     name: "Dr.Ashish Khanna",
+  //     designation:
+  //       "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
+  //   },
+  //   {
+  //     name: "Dr. Saurabh Sinha",
+  //     designation: "University Of Canterbury",
+  //   },
+  //   {
+  //     name: "Dr. Maria Ganzha",
+  //     designation:
+  //       "Associate Professor, Warsaw University of Technology (Warsaw, Poland)",
+  //   },
+  //   {
+  //     name: "Dr. Pooja Jain",
+  //     designation: "Professor, IIIT, Nagpur",
+  //   },
+  //   {
+  //     name: "Dr. Enrico Cambiaso",
+  //     designation:
+  //       "Consiglio Nazionale delle Ricerche (CNR) A Via De Marini, 16 - 16149 Genoa (Italy)",
+  //   },
+  //   {
+  //     name: "Dr. Anshuman Kalla",
+  //     designation:
+  //       "Centre for Wireless Communications (CWC) University of Oulu, Finland.",
+  //   },
+  //   {
+  //     name: "Dr. Majusri Misra",
+  //     designation:
+  //       "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
+  //   },
+  // ];
+
   const keynoteSpeakers = [
     {
-      name: "Prof Dharm Singh",
+      name: "Prof. Mike Hinchey Chair",
+      designation: "UK and Ireland Section IEEE UK",
+    },
+    {
+      name: "Prof. Joao Manuel RS Tavares",
+      designation: "University of Porto, Portugal",
+    },
+    {
+      name: "Prof. Milan Tuba",
       designation:
-        "Professor & UNESCO Chair Holder Secure on High-performance Computing for Higher Education and Research, Namibia University of Science and Technology",
+        "Head, AI, Singidunum University & Vice-Rector, Research at Sinergia University, Belgrade",
     },
     {
-      name: "Dr. J. C. Bansal",
-      designation: "Associate Professor, South Asian University, New Delhi",
+      name: "Prof. Rosalina Babo",
+      designation: "Professor, Polytechnic Institute of Porto, Portugal",
     },
     {
-      name: "Dr.Ashish Khanna",
+      name: "Dr. Eva Tuba",
       designation:
-        "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
+        "Assistant Professor, Computer Science, Trinity University, San Antonio, TX, USA",
     },
     {
-      name: "Dr. Saurabh Sinha",
-      designation: "University Of Canterbury",
+      name: "Prof. Vincenzo Piuri",
+      designation: "University of Milano, Italy",
     },
     {
-      name: "Dr. Maria Ganzha",
+      name: "Prof. Zdzislaw Polkowski",
       designation:
-        "Associate Professor, Warsaw University of Technology (Warsaw, Poland)",
+        "Professor and Rector's Representative for International Cooperation, WSG University Bydgoszcz, Poland",
     },
     {
-      name: "Dr. Pooja Jain",
-      designation: "Professor, IIIT, Nagpur",
-    },
-    {
-      name: "Dr. Enrico Cambiaso",
+      name: "Prof. Gabriel Kabanda",
       designation:
-        "Consiglio Nazionale delle Ricerche (CNR) A Via De Marini, 16 - 16149 Genoa (Italy)",
+        "Adjunct Professor, Machine Learning, Woxsen University, Hyderabad",
     },
     {
-      name: "Dr. Anshuman Kalla",
+      name: "Dr. Vladan Devedzic",
       designation:
-        "Centre for Wireless Communications (CWC) University of Oulu, Finland.",
+        "Professor, Department of Software Engineering, University of Belgrade, Serbia",
     },
     {
-      name: "Dr. Majusri Misra",
+      name: "Prof. Marcel Worring",
       designation:
-        "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
+        "Professor & Director, Informatics Institute, University of Amsterdam, Netherlands",
+    },
+    {
+      name: "Prof. Francesca Di Virgilio",
+      designation: "Professor, University of Molise, Italy",
+    },
+    {
+      name: "Prof. Patrizia Pucci",
+      designation:
+        "Professor, Department of Mathematics and Informatics, University of Perugia, Perugia, Italy",
+    },
+    {
+      name: "Prof. Valentina Emilia Balas",
+      designation:
+        "Professor, Engineering, Aurel Vlaicu University Of Arad, Romania",
+    },
+    {
+      name: "Dr. Daniel D. Dasig Jr. PCpE",
+      designation:
+        "Head, Research Ethics Unit, De La Salle-College of Saint Benilde, Manila, Philippines",
     },
   ];
+
   const financeCommittee = [
     {
       name: "Dr. Ajay Maurya",
@@ -242,120 +316,399 @@ function Committe() {
         "Professor at Jaypee University of Information Technology, Waknaghat",
     },
   ];
-  const internationalAdvisoryCommittee = [
+  // const internationalAdvisoryCommittee = [
+  //   {
+  //     name: "Aleksandra Mileva",
+  //     designation: "Goce Delcev University STIP, Macedonia",
+  //   },
+  //   {
+  //     name: "Carlos M. Travieso",
+  //     designation: "University of Las Palmas de Gran Canaria, Spain",
+  //   },
+  //   {
+  //     name: "Armin Aberle",
+  //     designation: "SERIS National University of Singapore, Singapore",
+  //   },
+  //   {
+  //     name: "Sedat Akleylek",
+  //     designation: "Ondokuz Mayis University Samsun, Turkey",
+  //   },
+  //   {
+  //     name: "Sureswaran Ramadass",
+  //     designation: "USM University Penang, Malaysia",
+  //   },
+  //   {
+  //     name: "Youcef Soufi",
+  //     designation: "University of Tabessa, Algeria",
+  //   },
+  //   {
+  //     name: "Lalit Kumar Goel",
+  //     designation: "NTU Nanyang, Singapore",
+  //   },
+  //   {
+  //     name: "Pinnamaneni Bhanu",
+  //     designation: "Kelenn Technology Antony, France",
+  //   },
+  //   {
+  //     name: "Daniele Riboni",
+  //     designation: "University of Cagliari, Italy",
+  //   },
+  //   {
+  //     name: "Wan Young Chung",
+  //     designation: "Pukyong National University Busan, South Korea",
+  //   },
+  //   {
+  //     name: "Dr. Sheng-Lung Peng",
+  //     designation: "Prof., National Dong Hua University, Taiwan",
+  //   },
+  //   {
+  //     name: "Dr. Ahmed Elngar",
+  //     designation: "Assistant Professor, Egypt",
+  //   },
+  // ];
+  // const nationalAdvisoryCommittee = [
+  //   {
+  //     name: "Dr. Rajat Rastogi",
+  //     designation: "Professor, IIT Roorkee",
+  //   },
+  //   {
+  //     name: "Dr. C. Periswamy",
+  //     designation: "MNIT, Jaipur",
+  //   },
+  //   {
+  //     name: "Dr. Paresh Vallabhbhai Virparia",
+  //     designation: "Professor, SPU",
+  //   },
+  //   {
+  //     name: "Dr. Rajesh Kumar",
+  //     designation: "MNIT, Jaipur",
+  //   },
+  //   {
+  //     name: "Dr. Arun Kumar Verma",
+  //     designation: "MNIT, Jaipur",
+  //   },
+  //   {
+  //     name: "Dr. Rajendra K Asthana",
+  //     designation: "Ex - Director, SDS Softpro (P) Ltd, NOIDA",
+  //   },
+  //   {
+  //     name: "Dr. Amit Srivastava",
+  //     designation: "Jaypee University, Greater Noida",
+  //   },
+  //   {
+  //     name: "Prof. Anu Gupta",
+  //     designation: "BITS, Pilani",
+  //   },
+  //   {
+  //     name: "Dr. Vinod Kumar Chaubey",
+  //     designation: "BITS, Pilani",
+  //   },
+  //   {
+  //     name: "Dr. Ravinder Agarwal",
+  //     designation: "Thapar University, Patiala",
+  //   },
+  //   {
+  //     name: "Dr. Namita Mittal",
+  //     designation: "MNIT, Jaipur",
+  //   },
+  //   {
+  //     name: "Dr. Trilok Mathur",
+  //     designation: "BITS, Pilani",
+  //   },
+  //   {
+  //     name: "Dr. A.K. Dwivedi",
+  //     designation: "RTU, Kota",
+  //   },
+  //   {
+  //     name: "Dr. Anil K Mathur",
+  //     designation: "RTU, Kota",
+  //   },
+  //   {
+  //     name: "Dr. C.P. Gupta",
+  //     designation: "RTU, Kota",
+  //   },
+  //   {
+  //     name: "Dr. Balamurugan Shanmugam",
+  //     designation: "Director R & D, QUANTS IS & CS, Tamil Nadu",
+  //   },
+  // ];
+  const advisoryCommittee = [
     {
-      name: "Aleksandra Mileva",
-      designation: "Goce Delcev University STIP, Macedonia",
+      name: "Saurabh Mukherjee",
+      designation: "Banasthali Vidyapith",
     },
     {
-      name: "Carlos M. Travieso",
-      designation: "University of Las Palmas de Gran Canaria, Spain",
+      name: "Dr. Shailendra Kumar Mishra",
+      designation: "REVA UNIVERSITY, Bengaluru",
     },
     {
-      name: "Armin Aberle",
-      designation: "SERIS National University of Singapore, Singapore",
+      name: "Dr. Shweta Gupta",
+      designation: "Woxsen University, India",
     },
     {
-      name: "Sedat Akleylek",
-      designation: "Ondokuz Mayis University Samsun, Turkey",
+      name: "Dr. BK Swathi Prasad",
+      designation: "MS Ramaiah University of Applied Sciences",
     },
     {
-      name: "Sureswaran Ramadass",
-      designation: "USM University Penang, Malaysia",
+      name: "A K Verma",
+      designation:
+        "Western Norway University of Applied Sciences, Haugesund, Norway",
     },
     {
-      name: "Youcef Soufi",
-      designation: "University of Tabessa, Algeria",
+      name: "Prashant Jamwal",
+      designation: "Nazarbayev University, Kazakhstan",
     },
     {
-      name: "Lalit Kumar Goel",
+      name: "Abdel Salam Gomaa",
+      designation:
+        "Department of Mathematics, Statistics and Physics, College of Art and Sciences, Qatar University, Doha",
+    },
+    {
+      name: "Aboul Ella Hassanien",
+      designation: "Cairo University, Egypt",
+    },
+    {
+      name: "Ali Gharsallah",
+      designation:
+        "Unit of Research in High Frequency Electronic Circuits and Systems, Tunis, Tunisia",
+    },
+    {
+      name: "Ali Mirjalili",
+      designation: "Torrens University, Australia",
+    },
+    {
+      name: "Alok Kanti Deb",
+      designation: "Indian Institute of Technology, Kharagpur",
+    },
+    {
+      name: "Anand Nayyar",
+      designation:
+        "Scientist, Graduate School, Duy Tan University, Da Nang, Viet Nam",
+    },
+    {
+      name: "Anand Paul",
+      designation: "Kyungpook National University, South Korea",
+    },
+    {
+      name: "Anima Johari",
+      designation: "Scientist, SERB",
+    },
+    {
+      name: "Aniruddha Chandra",
+      designation: "NIT Durgapur",
+    },
+    {
+      name: "Anupam Yadav",
+      designation: "National Institute of Technology, Jalandhar",
+    },
+    {
+      name: "Anuradha Ranasinghe",
+      designation: "Liverpool Hope University, UK",
+    },
+    {
+      name: "Aruna Tiwari",
+      designation: "Indian Institute of Technology, Indore",
+    },
+    {
+      name: "Ashvini Chaturvedi",
+      designation: "NIT Suratkal",
+    },
+    {
+      name: "Atulya K. Nagar",
+      designation: "Liverpool Hope University, UK",
+    },
+    {
+      name: "Ayan Kumar Bandyopadhyay",
+      designation: "CEERI, Pilani",
+    },
+    {
+      name: "Carlos E. Palau",
+      designation: "ETSI Telecommunication, UPV, Camino de Vera, Spain",
+    },
+    {
+      name: "Costin Badica",
+      designation: "University of Craiova, Dolj, Romania",
+    },
+    {
+      name: "Dan Simon",
+      designation: "Cleveland State University, USA",
+    },
+    {
+      name: "Debasish Ghose",
+      designation: "IISc Bangalore",
+    },
+    {
+      name: "Deepak Garg",
+      designation: "Bennett University, India",
+    },
+    {
+      name: "Dinesh Goyal",
+      designation: "Poornima Institute of Engineering & Technology, Jaipur",
+    },
+    {
+      name: "Dr. Amit Singhal",
+      designation: "Bennett University, Greater Noida",
+    },
+    {
+      name: "Dr. Mahfuzul H Huda",
+      designation: "Saudi Electronic University",
+    },
+    {
+      name: "Dumitru Baleanu",
+      designation: "Cankaya University",
+    },
+    {
+      name: "Jaisingh Thangaraj",
+      designation: "Assistant Professor, IIT Dhanbad, Jharkhand",
+    },
+    {
+      name: "K. S. Nisar",
+      designation: "Riyadh, Saudi Arabia",
+    },
+    {
+      name: "Kamran Iqbal",
+      designation:
+        "University of Arkansas at Little Rock, Little Rock, Arkansas, United States",
+    },
+    {
+      name: "Kuldeep Singh",
+      designation: "MNIT, Jaipur",
+    },
+    {
+      name: "Kusum Deep",
+      designation: "Indian Institute of Technology, Roorkee, India",
+    },
+    {
+      name: "Lalit Lumar Goyal",
       designation: "NTU Nanyang, Singapore",
     },
     {
-      name: "Pinnamaneni Bhanu",
-      designation: "Kelenn Technology Antony, France",
+      name: "Manoj K. Shukla",
+      designation: "Harcourt Butler Technical University, Kanpur",
     },
     {
-      name: "Daniele Riboni",
-      designation: "University of Cagliari, Italy",
+      name: "Manoj Thakur",
+      designation: "IIT Mandi",
+    },
+    {
+      name: "Marcin Paprzycki",
+      designation: "Polish Academy of Sciences, Warsaw, Poland",
+    },
+    {
+      name: "Miodrag Potkonjak",
+      designation: "UCLA, Los Angeles, USA",
+    },
+    {
+      name: "Mohd Muntjir",
+      designation: "Taif University, Kingdom of Saudi Arabia",
+    },
+    {
+      name: "Neetesh Purohit",
+      designation: "IIIT Allahabad",
+    },
+    {
+      name: "Nilanjan Dey",
+      designation: "Techno India College of Technology, India",
+    },
+    {
+      name: "Nishchal K. Verma",
+      designation: "Indian Institute of Technology, Kanpur, India",
+    },
+    {
+      name: "Nooritawati Md Tahir",
+      designation: "University Technology MARA (UiTM), Malaysia",
+    },
+    {
+      name: "Preetam Kumar",
+      designation: "IIT, Patna",
+    },
+    {
+      name: "Prena Gaur",
+      designation: "NSUT, Dwarka, New Delhi",
+    },
+    {
+      name: "Priti Srinivas Sajja",
+      designation: "Sardar Patel University, Vallabh Vidyanagar, Gujarat",
+    },
+    {
+      name: "Pushpendra Singh",
+      designation: "NIT Hamirpur",
+    },
+    {
+      name: "R. P. Yadav",
+      designation: "MNIT Jaipur",
+    },
+    {
+      name: "R. Gangopadhyay",
+      designation: "LNMIIT, Jaipur",
+    },
+    {
+      name: "Rajveen Chandel",
+      designation: "NIT Hamirpur",
+    },
+    {
+      name: "S. Sundaram",
+      designation: "IISc Bangalore",
+    },
+    {
+      name: "Sandeep Sancheti",
+      designation: "SRM University, India",
+    },
+    {
+      name: "Sanjay Singh",
+      designation: "CEERI, Pilani",
+    },
+    {
+      name: "Sanjeev Yadav",
+      designation: "GWEC, Ajmer",
+    },
+    {
+      name: "Sanyog Rawat",
+      designation: "Manipal University, Jaipur",
+    },
+    {
+      name: "Seemanti Saha",
+      designation: "NIT Patna",
+    },
+    {
+      name: "Shashi Shekhar Jha",
+      designation: "IIT Ropar",
+    },
+    {
+      name: "Sudhir Kumar",
+      designation: "IIT Patna",
+    },
+    {
+      name: "Suneeta Agrawal",
+      designation: "Motilal Nehru National Institute of Technology, Allahabad",
+    },
+    {
+      name: "Surajit Kundu",
+      designation: "NIT, Sikkim",
+    },
+    {
+      name: "Sureswaran Ramadass",
+      designation: "USM University, Penang, Malaysia",
+    },
+    {
+      name: "Sushmita Das",
+      designation: "NIT, Rourkela",
+    },
+    {
+      name: "Swagatam Das",
+      designation: "Indian Statistical Institute, Kolkata, India",
+    },
+    {
+      name: "T. Rama Rao",
+      designation: "SRM Institute of Science & Technology, Chennai",
+    },
+    {
+      name: "Vimal Bhatia",
+      designation: "IIT Indore",
     },
     {
       name: "Wan Young Chung",
-      designation: "Pukyong National University Busan, South Korea",
-    },
-    {
-      name: "Dr. Sheng-Lung Peng",
-      designation: "Prof., National Dong Hua University, Taiwan",
-    },
-    {
-      name: "Dr. Ahmed Elngar",
-      designation: "Assistant Professor, Egypt",
-    },
-  ];
-  const nationalAdvisoryCommittee = [
-    {
-      name: "Dr. Rajat Rastogi",
-      designation: "Professor, IIT Roorkee",
-    },
-    {
-      name: "Dr. C. Periswamy",
-      designation: "MNIT, Jaipur",
-    },
-    {
-      name: "Dr. Paresh Vallabhbhai Virparia",
-      designation: "Professor, SPU",
-    },
-    {
-      name: "Dr. Rajesh Kumar",
-      designation: "MNIT, Jaipur",
-    },
-    {
-      name: "Dr. Arun Kumar Verma",
-      designation: "MNIT, Jaipur",
-    },
-    {
-      name: "Dr. Rajendra K Asthana",
-      designation: "Ex - Director, SDS Softpro (P) Ltd, NOIDA",
-    },
-    {
-      name: "Dr. Amit Srivastava",
-      designation: "Jaypee University, Greater Noida",
-    },
-    {
-      name: "Prof. Anu Gupta",
-      designation: "BITS, Pilani",
-    },
-    {
-      name: "Dr. Vinod Kumar Chaubey",
-      designation: "BITS, Pilani",
-    },
-    {
-      name: "Dr. Ravinder Agarwal",
-      designation: "Thapar University, Patiala",
-    },
-    {
-      name: "Dr. Namita Mittal",
-      designation: "MNIT, Jaipur",
-    },
-    {
-      name: "Dr. Trilok Mathur",
-      designation: "BITS, Pilani",
-    },
-    {
-      name: "Dr. A.K. Dwivedi",
-      designation: "RTU, Kota",
-    },
-    {
-      name: "Dr. Anil K Mathur",
-      designation: "RTU, Kota",
-    },
-    {
-      name: "Dr. C.P. Gupta",
-      designation: "RTU, Kota",
-    },
-    {
-      name: "Dr. Balamurugan Shanmugam",
-      designation: "Director R & D, QUANTS IS & CS, Tamil Nadu",
+      designation: "Pukyong National University, Busan, South Korea",
     },
   ];
 
@@ -843,13 +1196,13 @@ function Committe() {
         </div>
         <div className="my-12">
           <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            International Advisory Committee
+            Advisory Committee
           </h1>
           <ul
             role="list"
             className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
           >
-            {internationalAdvisoryCommittee.map((item, index) => {
+            {advisoryCommittee.map((item, index) => {
               return (
                 <li
                   key={index}
@@ -872,7 +1225,7 @@ function Committe() {
             })}
           </ul>
         </div>
-        <div className="my-12">
+        {/* <div className="my-12">
           <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
             National Advisory Committee
           </h1>
@@ -902,7 +1255,7 @@ function Committe() {
               );
             })}
           </ul>
-        </div>
+        </div> */}
         <div className="my-12">
           <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
             Organizing Committee
