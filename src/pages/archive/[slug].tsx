@@ -218,7 +218,7 @@ const Post = ({
 };
 
 export const getStaticPaths = async () => {
-  const years = ["2023", "2022", "2021", "2020", "2019"];
+  const years = ["2024", "2023", "2022", "2021", "2020", "2019"];
 
   const paths = years.map((post) => ({
     params: { slug: post },

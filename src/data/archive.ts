@@ -1,4 +1,20 @@
 export const archive = {
+  "2024": {
+    proceeding: "#",
+    speakers: [],
+    organizingCommittee: [],
+    sliderImages: [
+      "/gallery/2024/i1.jpeg",
+      "/gallery/2024/i2.jpeg",
+      "/gallery/2024/i3.jpeg",
+      "/gallery/2024/i4.jpeg",
+      "/gallery/2024/i5.jpeg",
+      "/gallery/2024/i6.jpeg",
+    ],
+    publisherName: 'ACM',
+    publisherLogo: ["/gallery/logos/acm.png", "/gallery/logos/icps.png"],
+    id: '6th',
+  },
   "2023": {
     proceeding: "https://dl.acm.org/doi/proceedings/10.1145/3647444",
     speakers: [],
