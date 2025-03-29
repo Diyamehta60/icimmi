@@ -189,8 +189,8 @@ function Index() {
                 />
               </div>
               
-              <span className="mr-3 text-2xl font-semibold tracking-tight text-white">
-                7th ICIMMI-2024
+              <span className="mr-3 text-2xl font-semibold tracking-tight text-white">                
+                7th ICIMMI-2025
               </span>
             </Link>
             <div className={"h-12 hidden lg:block" }>
