@@ -6,31 +6,31 @@ import Marquee from "../marquee";
 const dates = [
   {
     label: "Full Paper Submission Date",
-    date: "Sept 15, 2025",
+    date: "July 31, 2025",
     color: "green",
-    gone: true,
+    gone: false,
   },
   {
     label: "Notification of Acceptance",
-    date: "Nov 15, 2025",
+    date: "Aug 31, 2025",
     color: "red",
-    gone: true,
+    gone: false,
   },
   {
     label: "Revised Paper Submission",
-    date: "Dec 10, 2025",
+    date: "Sep 15, 2025",
     color: "cyan",
     gone: false,
   },
   {
     label: "Early Bird Registration",
-    date: "Dec 10, 2025",
+    date: "Sep 30, 2025",
     color: "orange",
     gone: false,
   },
   {
     label: "Late Registration",
-    date: "Dec 13, 2025",
+    date: "Oct 15, 2025",
     color: "purple",
     gone: false,
   },
@@ -43,17 +43,17 @@ const dates = [
 ];
 
 function Schedule() {
-  const handleClick  = () => {
+  const handleClick = () => {
     window.open("/schedule.pdf");
   }
   return (
     <>
-      <Marquee />
+      {/* <Marquee />
       <div onClick={handleClick} className="mx-auto my-3 w-1/3 rounded-md px-4 py-2 text-center shadow-md cursor-pointer overflow-hidden whitespace-nowrap border border-red-500 bg-red-100 py-2">
-    <h1 className="text-lg font-medium ">
-        Download Schedule
-    </h1>
-</div>
+        <h1 className="text-lg font-medium ">
+          Download Schedule
+        </h1>
+      </div> */}
 
       <div className="flex flex-wrap justify-center gap-6 p-6">
         {dates.map((dateInfo, index) => (
@@ -68,9 +68,8 @@ function Schedule() {
             </div>
             <div className="font-semibold">{dateInfo.label}</div>
             <div
-              className={`text-sm ${
-                dateInfo.gone ? "text-gray-400 line-through" : ""
-              }`}
+              className={`text-sm ${dateInfo.gone ? "text-gray-400 line-through" : ""
+                }`}
             >
               {dateInfo.date}
             </div>
