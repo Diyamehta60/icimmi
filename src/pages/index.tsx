@@ -129,7 +129,7 @@ const Home = () => {
                 className={"hidden text-xl text-[#034EA2] lg:block"}
               />
               <p className={"font-semibold text-[#034EA2]"}>
-                23rd & 24th December, 2024
+                14th & 15th December, 2025
               </p>
             </div>
 
@@ -138,7 +138,7 @@ const Home = () => {
                 "mx-2 my-3 break-words text-3xl font-bold lg:mx-0 lg:my-2 lg:text-4xl"
               }
             >
-              6th
+              7th
               {<br />}
               INTERNATIONAL CONFERENCE ON INFORMATION MANAGEMENT & MACHINE
               INTELLIGENCE
@@ -284,10 +284,10 @@ const Home = () => {
                 Preamble
               </h2>
               <p className={"text-justify"}>
-                6th International Conference on Information Management & Machine
+                7th International Conference on Information Management & Machine
                 Intelligence (ICIMMI- 2024) will be held at Poornima Institute
                 of Engineering & Technology, Jaipur, Rajasthan, India on
-                December 23-24, 2024.
+                December 14-15, 2025.
                 {<br />}
                 {<br />}
                 The ICIMMI-2024 conference aims to showcase the latest trends in
