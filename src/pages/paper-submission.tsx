@@ -60,15 +60,6 @@ export default function PaperSubmission() {
           </Link>
         </span>
         {", "}
-        <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
-          <Link
-            href="https://portalparts.acm.org/hippo/enhanced_word_templates/Windows/windows.zip"
-            className="break-all"
-          >
-            https://portalparts.acm.org/hippo/enhanced_word_templates/Windows/windows.zip
-          </Link>
-        </span>
-        {", "}
         for Word users and{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
