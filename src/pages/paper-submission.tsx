@@ -53,10 +53,10 @@ export default function PaperSubmission() {
         available at{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
           <Link
-            href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
+            href="/ICIMMI_Authors_Template.docx"
             className="break-all"
           >
-            https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx
+            ICIMMI Submission Template
           </Link>
         </span>
         {", "}
@@ -116,7 +116,7 @@ export default function PaperSubmission() {
       </h2>
       <div className="flex flex-col gap-y-3">
         <Link
-          href="#"
+          href="/ICIMMI_Authors_Template.docx"
           // download="/_submission_template.docx"
           className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
         >
