@@ -154,6 +154,25 @@ const Post = ({
             </Link>
           </span>
         </h1>
+
+        {year === "2024" ? <div className="flex items-center gap-x-3 my-4">
+        <h1 className="heading text-sm font-bold lg:text-2xl">Author Submission Template</h1>
+        <Link
+          href="/ICIMMI_Authors_Template.docx"
+          // download="/_submission_template.docx"
+          className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
+        >
+          <svg
+            className="mr-2 h-4 w-4 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+          </svg>
+          <span>Paper Template Doc</span>
+        </Link>
+        
+      </div> : ""}
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
         <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
           Gallery {year}
