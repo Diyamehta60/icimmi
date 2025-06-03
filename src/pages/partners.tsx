@@ -14,7 +14,7 @@ function Partners() {
         <Schedule />
       <div className="my-12 mx-4">
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-        <h1 className={"heading my-12"}>Introducing with great excitement: ICIMMI 2024, in partnership with IIIT Nagpur, Asia University Taiwan, and Namibia University.</h1>
+        <h1 className={"heading my-12"}>Introducing with great excitement: ICIMMI 2025, in partnership with IIIT Nagpur, Asia University Taiwan, and Namibia University.</h1>
         <p className="my-12">
           “This groundbreaking event marks a new era of innovation, collaboration, and knowledge exchange. Join us as we unveil a remarkable conference experience that will shape the future of technology and academia.”
         </p>

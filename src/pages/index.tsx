@@ -129,7 +129,7 @@ const Home = () => {
                 className={"hidden text-xl text-[#034EA2] lg:block"}
               />
               <p className={"font-semibold text-[#034EA2]"}>
-                23rd & 24th December, 2024
+                15 & 16th December, 2025
               </p>
             </div>
 
@@ -285,12 +285,12 @@ const Home = () => {
               </h2>
               <p className={"text-justify"}>
                 7th International Conference on Information Management & Machine
-                Intelligence (ICIMMI- 2024) will be held at Poornima Institute
+                Intelligence (ICIMMI- 2025) will be held at Poornima Institute
                 of Engineering & Technology, Jaipur, Rajasthan, India on
                 December 15-16, 2025.
                 {<br />}
                 {<br />}
-                The ICIMMI-2024 conference aims to showcase the latest trends in
+                The ICIMMI-2025 conference aims to showcase the latest trends in
                 the development of intelligence across all areas of Information
                 Management. The current state of the technology industry has
                 permeated all branches of engineering, from Infrastructure

@@ -27,7 +27,7 @@ export default function PaperSubmission() {
             <Link
               target="_blank"
               href={
-                "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICIMMI2024%2FSubmission%2FIndex"
+                "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICIMMI2025%2FSubmission%2FIndex"
               }
             >
               here
@@ -48,7 +48,7 @@ export default function PaperSubmission() {
         </h2>
       </div>
       <p className="w-full px-4 py-4 md:px-0">
-        To submit a paper for ICIMMI-2024, authors must follow the conference
+        To submit a paper for ICIMMI-2025, authors must follow the conference
         proceedings format.The submission template for the conference is
         available at{" "}
         <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">

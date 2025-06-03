@@ -4,7 +4,7 @@ function ImportantDetails() {
   return (
     <div className="mt-10 bg-white ">
       <h2 className="mb-4 text-xl font-bold">
-        Starting January 2024, ACM has implemented a new Open Access (OA)
+        Starting January 2025, ACM has implemented a new Open Access (OA)
         publishing model for ICPS conferences. Here is a simple summary of the
         new model:
       </h2>

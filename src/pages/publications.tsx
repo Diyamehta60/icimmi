@@ -21,7 +21,7 @@ function Publications() {
 
       <p>
         Selected, Registered and post conference papers will be published in the
-        proceedings of ICIMMI 2024 in Scopus Indexed ACM International
+        proceedings of ICIMMI 2025 in Scopus Indexed ACM International
         Conference Proceedings.
       </p>
       <p>
