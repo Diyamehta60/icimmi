@@ -38,11 +38,6 @@ function Committe() {
       designation: "Namibia University of Science & Tech., Namibia",
       profile: "https://fci.nust.na/prof-dharm-singh-jat",
     },
-    {
-      name: "Jagdish Chand Bansal",
-      designation: "South Asian University NewDelhi",
-      profile: "",
-    },
   ];
   const conferenceChair = [
     {
