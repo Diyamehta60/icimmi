@@ -4,10 +4,13 @@ function ImportantDetails() {
   return (
     <div className="mt-10 bg-white ">
       <h2 className="mb-4 text-xl font-bold">
-        Starting January 2025, ACM has implemented a new Open Access (OA)
-        publishing model for ICPS conferences. Here is a simple summary of the
-        new model:
+        Starting January 2024, ACM
+        <span className="inline-block text-sm text-gray-500 px-2 py-1 rounded-md font-semibold">
+          *Approval Pending
+        </span>
+        has implemented a new Open Access (OA) publishing model for ICPS conferences. Here is a simple summary of the new model:
       </h2>
+
 
       <p className="mb-2 font-semibold">
         Authors can opt for either of the below options for publication, after
@@ -92,7 +95,7 @@ function ImportantDetails() {
           <li>ACM and (Open Access Fess is to be paid by authors).</li>
           <li>JDMSC (Addition APC is applicable, that  is Rs 45000 including conference registration fee, with a limit of 10 pages in journal template)</li>
           <li>
-          CRC Press, Taylor & Francis Books Series (Addition APC is applicable, that is Rs 10000 per paper including Conference Registration fee)
+            CRC Press, Taylor & Francis Books Series (Addition APC is applicable, that is Rs 10000 per paper including Conference Registration fee)
           </li>
           <li>The Indian Journal of Technical Education (UGC Care)</li>
         </ul>
