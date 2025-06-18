@@ -26,11 +26,6 @@ function Committe() {
       designation:
         "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
     },
-    {
-      name: "Dr. Sugandha Singh",
-      designation:
-        "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugra",
-    },
   ];
   const GeneralChair = [
     {
