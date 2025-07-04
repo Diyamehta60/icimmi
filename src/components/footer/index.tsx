@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <footer className="bg-[#1a1212] dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6">
-        <div className="items-center md:flex  md:justify-between">
-          <div className={"hidden h-full lg:block"}>
+        <div className="items-center md:flex md:justify-between">
+          <div className="hidden h-full lg:block">
             <Image
               width={300}
               height={200}
@@ -24,12 +24,12 @@ const Footer = () => {
           </div>
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
-              <div className={"h-8"}>
+              <div className="h-8">
                 <Image
                   width={27}
                   height={27}
                   src="/pietlogo.png"
-                  className="mb- 4 mr-3 object-cover"
+                  className="mb-4 mr-3 object-cover"
                   alt="Logo"
                 />
               </div>
@@ -37,9 +37,15 @@ const Footer = () => {
                 ICIMMI
               </span>
             </Link>
-            <p className={"my-4 max-w-xs text-white"}>
+            <p className="my-4 max-w-xs text-white">
               International Conference On Information Management & Machine
               Intelligence (ICIMMI)
+            </p>
+            <p className="my-2 max-w-md text-xs text-white/70">
+              The Microsoft CMT service was used for managing the peer-reviewing
+              process for this conference. This service was provided for free by
+              Microsoft and they bore all expenses, including costs for Azure
+              cloud services as well as for software development and support.
             </p>
           </div>
         </div>
@@ -68,37 +74,29 @@ const Footer = () => {
               </a>{" "}
             </p>
           </span>
-          <div
-            className={
-              "mt-4 flex space-x-6 text-2xl text-white sm:mt-0 sm:justify-center"
-            }
-          >
+          <div className="mt-4 flex space-x-6 text-2xl text-white sm:mt-0 sm:justify-center">
             <Link href={"https://www.piet.poornima.org/"}>
               <RiTwitterFill
-                className={"grow-on-hover cursor-pointer hover:text-sky-400"}
-                aria-label={"icac3n twitter"}
+                className="grow-on-hover cursor-pointer hover:text-sky-400"
+                aria-label="icac3n twitter"
               />
             </Link>
             <Link href={"tel:+91-9896017351"}>
               <RiPhoneFill
-                className={
-                  "grow-on-hover  cursor-pointer hover:text-emerald-500"
-                }
-                aria-label={"icac3n phone"}
+                className="grow-on-hover cursor-pointer hover:text-emerald-500"
+                aria-label="icac3n phone"
               />
             </Link>
             <Link href={"https://www.piet.poornima.org/"}>
               <RiFacebookBoxFill
-                className={
-                  "grow-on-hover  cursor-pointer hover:text-indigo-500"
-                }
-                aria-label={"icac3n facebook"}
+                className="grow-on-hover cursor-pointer hover:text-indigo-500"
+                aria-label="icac3n facebook"
               />
             </Link>
             <Link href={"https://www.piet.poornima.org/"}>
               <RiMailFill
-                className={"grow-on-hover  cursor-pointer hover:text-amber-400"}
-                aria-label={"icac3n mail"}
+                className="grow-on-hover cursor-pointer hover:text-amber-400"
+                aria-label="icac3n mail"
               />
             </Link>
           </div>
