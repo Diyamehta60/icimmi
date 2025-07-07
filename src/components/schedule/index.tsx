@@ -5,26 +5,26 @@ import Marquee from "../marquee";
 
 const dates = [
   {
-    label: "Full Paper Submission Date",
+    label: "Paper Submission Deadline",
     date: "July 31, 2025",
     color: "green",
     gone: false,
   },
   {
-    label: "Notification of Acceptance",
-    date: "Aug 31, 2025",
-    color: "red",
+    label: "Review & Morressier Revisions",
+    date: "Aug 30, 2025",
+    color: "blue",
     gone: false,
   },
   {
-    label: "Revised Paper Submission",
-    date: "Sep 15, 2025",
+    label: "CSV Information Submission",
+    date: "Sept 10, 2025",
     color: "cyan",
     gone: false,
   },
   {
-    label: "Early Bird Registration",
-    date: "Sep 30, 2025",
+    label: "Paper Validation & Registration",
+    date: "Sept 30, 2025",
     color: "orange",
     gone: false,
   },
@@ -35,8 +35,14 @@ const dates = [
     gone: false,
   },
   {
-    label: "Conference Dates",
-    date: "Dec 15-16, 2025 ",
+    label: "E-Rights Form Submission",
+    date: "Oct 20, 2025",
+    color: "pink",
+    gone: false,
+  },
+  {
+    label: "Final Paper Submission on TAPS",
+    date: "Oct 30, 2025",
     color: "black",
     gone: false,
   },
@@ -55,29 +61,24 @@ function Schedule() {
         </h1>
       </div> */}
 
-      <div className="flex flex-wrap justify-center gap-6 p-6">
+      <div className="flex flex-wrap justify-center md:flex md:flex-nowrap md:justify-center md:gap-6 p-6">
         {dates.map((dateInfo, index) => (
           <div
             key={index}
             className="flex w-full flex-col items-center text-center sm:w-auto"
           >
             <div
-              className={`mb-2 h-16 w-16 bg-${dateInfo.color}-500 flex transform items-center justify-center rounded text-white transition duration-300 hover:scale-110`}
+              className={`mb-2 h-10 w-10 flex transform items-center justify-center rounded text-white transition duration-300 hover:scale-110`}
             >
-              <FaCalendarAlt size={32} color={`${dateInfo.color}`} />
+              <FaCalendarAlt size={28} color={`${dateInfo.color}`} />
             </div>
-            <div className="font-semibold">{dateInfo.label}</div>
+            <div className=" font-semibold">{dateInfo.label}</div>
             <div
-              className={`text-sm ${dateInfo.gone ? "text-gray-400 line-through" : ""
+              className={`text-xs ${dateInfo.gone ? "text-gray-400 line-through" : ""
                 }`}
             >
               {dateInfo.date}
             </div>
-            {index === 0 && dateInfo.gone ? (
-              <span className="text-sm text-gray-400 line-through">
-                (Extended 31 Oct, 2024)
-              </span>
-            ) : null}
           </div>
         ))}
       </div>

@@ -83,21 +83,8 @@ function Committe() {
       name: "Dr. Uday Pratap Singh",
       designation: "Associate Prof. & Dy HoD, AI & DS, PIET, Jaipur",
     },
-    {
-      name: "Dr. Shalini Choudhary",
-      designation: "Associate Prof., CS, PIET, Jaipur",
-    },
   ];
-  // const organizingCoChair = [
-  //   {
-  //     name: "Mr. Udit Mamodiya",
-  //     designation: "Assistant Professor, PIET, Jaipur",
-  //   },
-  //   {
-  //     name: "Dr. Bhanu Pratap Singh",
-  //     designation: "Associate Professor, PIET, Jaipur",
-  //   },
-  // ];
+
   const technicalProgramChair = [
     {
       name: "Dr. Atul Gonsai",
