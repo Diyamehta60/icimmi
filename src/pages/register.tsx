@@ -15,7 +15,7 @@ const Register = () => {
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-        <Schedule />
+      <Schedule />
       <div className={"mx-4 my-8 w-full"}>
         <ImportantDetails />
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
@@ -48,10 +48,10 @@ const Register = () => {
                   >
                     Faculty Member (International Professional Membership)
                   </th>
-                  <td className="px-6 py-4">INR 4,000</td>
                   <td className="px-6 py-4">INR 5,000</td>
+                  <td className="px-6 py-4">INR 6,000</td>
                 </tr>
-                <tr className="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
+                {/* <tr className="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
                   <th
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
@@ -61,7 +61,7 @@ const Register = () => {
                   </th>
                   <td className="px-6 py-4">INR 3000</td>
                   <td className="px-6 py-4">INR 4000</td>
-                </tr>
+                </tr> */}
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
                     scope="row"
@@ -70,10 +70,10 @@ const Register = () => {
                     Faculty International Author and Member (International
                     Professional Membership)
                   </th>
-                  <td className="px-6 py-4">$100</td>
-                  <td className="px-6 py-4">$130</td>
+                  <td className="px-6 py-4">$120</td>
+                  <td className="px-6 py-4">$150</td>
                 </tr>
-                <tr className="border-b bg-white dark:bg-gray-800">
+                {/* <tr className="border-b bg-white dark:bg-gray-800">
                   <th
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
@@ -82,8 +82,8 @@ const Register = () => {
                   </th>
                   <td className="px-6 py-4">INR 5,000</td>
                   <td className="px-6 py-4">INR 6,000</td>
-                </tr>
-                <tr className="border-b bg-white dark:bg-gray-800">
+                </tr> */}
+                {/* <tr className="border-b bg-white dark:bg-gray-800">
                   <th
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
@@ -93,8 +93,8 @@ const Register = () => {
                   </th>
                   <td className="px-6 py-4">INR 4,000</td>
                   <td className="px-6 py-4">INR 5,000</td>
-                </tr>
-                <tr className="border-b bg-white dark:bg-gray-800">
+                </tr> */}
+                {/* <tr className="border-b bg-white dark:bg-gray-800">
                   <th
                     scope="row"
                     className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
@@ -104,7 +104,7 @@ const Register = () => {
                   </th>
                   <td className="px-6 py-4">$150</td>
                   <td className="px-6 py-4">$200</td>
-                </tr>
+                </tr> */}
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
                     scope="row"
@@ -122,8 +122,8 @@ const Register = () => {
                   >
                     Ph.D Student
                   </th>
-                  <td className="px-6 py-4">INR 3,500</td>
-                  <td className="px-6 py-4">INR 4,500</td>
+                  <td className="px-6 py-4">INR 4,000</td>
+                  <td className="px-6 py-4">INR 5,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -133,7 +133,7 @@ const Register = () => {
                     PG/UG Student
                   </th>
                   <td className="px-6 py-4">INR 3,000</td>
-                  <td className="px-6 py-4">INR 3,500</td>
+                  <td className="px-6 py-4">INR 4,000</td>
                 </tr>
                 <tr className="border-b bg-white dark:bg-gray-800">
                   <th
@@ -142,8 +142,8 @@ const Register = () => {
                   >
                     Attendee
                   </th>
-                  <td className="px-6 py-4">INR 1000 </td>
                   <td className="px-6 py-4">INR 2000 </td>
+                  <td className="px-6 py-4">INR 3000 </td>
                 </tr>
               </tbody>
             </table>
