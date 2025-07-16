@@ -63,19 +63,15 @@ function Committe() {
       name: "Dr. Nischal Verma",
       designation: "Professor ,IIT Kanpur",
     },
+    {
+      name: "Dr. Veerpratap Meena",
+      designation: "Assistant Professo ,National Institute of Technology (NIT), Jamshedpur",
+    },
   ];
   const conferenceCoChair = [
     {
       name: "Dr. Anil Kumar",
       designation: "Professor & HoD CSE, PIET, Jaipur",
-    },
-    {
-      name: "Prof. (Dr.) Budesh Kanwar",
-      designation: "Professor & HoD AI & DS, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Payal Bansal",
-      designation: "Professor, IOT, PIET Jaipur",
     },
   ];
   const organizingChair = [
@@ -277,6 +273,10 @@ function Committe() {
       name: "Dr. Ajay Maurya",
       designation: "Professor, PIET, Jaipur",
     },
+    {
+      name: "Dr. O.P Sikhwal",
+      designation: "Professor, PIET, Jaipur",
+    }
   ];
   const publicityChair = [
     {

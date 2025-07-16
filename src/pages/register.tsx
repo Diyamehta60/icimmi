@@ -25,6 +25,7 @@ const Register = () => {
         </h1>
 
         <div>
+          
           <div className="container relative my-12 w-[100%] overflow-x-auto">
             <table className="w-full text-left text-sm text-gray-500 rtl:text-right dark:text-gray-400">
               <thead className="bg-[#1a1212] text-xs uppercase text-white dark:bg-red-700 dark:text-white">
