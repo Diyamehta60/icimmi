@@ -1,3 +1,4 @@
+import APCRates from "@/components/apcDetails";
 import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
@@ -17,6 +18,7 @@ function Publications() {
       </Head>
       <Schedule />
       <ImportantDetails />
+      <APCRates/>
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
 
       <p>

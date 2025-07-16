@@ -56,7 +56,6 @@ function ImportantDetails() {
           of the above mentioned categories.
         </p>
       </div>
-      <APCRates/>
       <div className="mb-6">
         <h3 className="mb-2 text-lg font-semibold">Important Details</h3>
 

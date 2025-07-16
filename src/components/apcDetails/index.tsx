@@ -5,7 +5,7 @@ function APCRates() {
   return (
      <div className="mb-6">
         <h3 className="mb-2 text-lg font-semibold">
-          APC Paid Publication Rates For New Open Access for publishing model. 
+          APC Paid Publication Rates For ACM New Open Access for publishing model Starting January 2024 
         </h3>
 
         <div className="container relative my-12 w-[100%] overflow-x-auto">
