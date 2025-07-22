@@ -65,7 +65,7 @@ function Committe() {
     },
     {
       name: "Dr. Veerpratap Meena",
-      designation: "Assistant Professo ,National Institute of Technology (NIT), Jamshedpur",
+      designation: "Professor ,National Institute of Technology (NIT), Jamshedpur",
     },
   ];
   const conferenceCoChair = [
