@@ -159,7 +159,7 @@ function ImportantDetails() {
       </div>
 
       {/* This is the original section that was kept, now on a white card */}
-      <div className="mt-6 bg-white p-6 rounded-lg shadow-md">
+      {/* <div className="mt-6 bg-white p-6 rounded-lg shadow-md">
         <h3 className="mb-2 text-xl font-bold text-gray-800">Important Details</h3>
         <ul className="list-disc pl-6 space-y-2 text-gray-700">
           <li>ACM and (Open Access Fees is to be paid by authors).</li>
@@ -175,7 +175,7 @@ function ImportantDetails() {
           </li>
           <li>The Indian Journal of Technical Education (UGC Care)</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
