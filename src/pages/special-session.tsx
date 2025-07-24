@@ -6,9 +6,9 @@ import React from "react";
 function SpecialSession() {
   const track1 = [
     {
-      name: "Dr. Ashima Rani",
+      name: "Dr. Keshav Kaushik",
       designation: "(Session Chair)",
-      image: "/gallery/special_sessions_old/track1/i1.png",
+      image: "/gallery/special_sessions_old/track1/i3.jpg",
     },
     {
       name: "Dr. Yojna Arora",
