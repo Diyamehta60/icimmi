@@ -1,3 +1,4 @@
+import APCRates from "@/components/apcDetails";
 import Button from "@/components/button";
 import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
@@ -17,7 +18,7 @@ const Register = () => {
       </Head>
       <Schedule />
       <div className={"mx-4 my-8 w-full"}>
-        <ImportantDetails />
+        {/* <ImportantDetails /> */}
         <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
         <h1 className={"heading mb-12 text-xl font-semibold"}>
           Registration Fees Details For Conference Registration the Author can
@@ -186,6 +187,24 @@ const Register = () => {
               </p>
             </div>
           </div>
+         <APCRates/>
+         <div className="mt-2 bg-white p-6 rounded-lg shadow-md">
+        <h3 className="mb-2 text-xl font-bold text-gray-800">Important Details</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <li>ACM and (Open Access Fees is to be paid by authors).</li>
+          <li>
+            JDMSC (Additional APC is applicable, that is Rs 45000 including
+            conference registration fee, with a limit of 10 pages in journal
+            template)
+          </li>
+          <li>
+            CRC Press, Taylor & Francis Books Series (Additional APC is
+            applicable, that is Rs 10000 per paper including Conference
+            Registration fee)
+          </li>
+          <li>The Indian Journal of Technical Education (UGC Care)</li>
+        </ul>
+      </div>
           <Sponsored />
         </div>
       </div>
