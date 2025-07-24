@@ -16,7 +16,7 @@ export default function PaperSubmission() {
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
-      <ImportantDetails />
+      {/* <ImportantDetails /> */}
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
       <div className={"prose my-8"}>
         <h1 className={"heading"}>Paper Submission</h1>
