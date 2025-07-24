@@ -11,75 +11,75 @@ const tracks = [
         designation: "(Session Chair)",
         image: "/gallery/special_sessions_old/track1/i3.jpg",
       },
+    ],
+  },
+  {
+    title: "Track 2: AI and Machine Learning in Predictive Analytics",
+    members: [
       {
-        name: "Dr. Yojna Arora",
+        name: "Dr. Nidhi Malik",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track2/i3.jpg",
+      },
+      {
+        name: "Dr.Akanksha Kaushik",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track1/i2.jpg",
+        image: "/gallery/special_sessions_old/track2/i4.jpg",
       },
     ],
   },
   {
-    title: "Track 2: Cryptographic Techniques and Security Challenges in Artifical Intelligence of Things",
+    title: "Track 3:  Recent Trends and Challenges in Artificial Intelligence, Biomedical Science, and Healthcare Informatics for Society 5.0 Using New Age Technologies",
     members: [
       {
-        name: "Dr. T. Poongodi",
+        name: "Dr. Dilip Saini",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track2/i1.jpg",
+        image: "/gallery/special_sessions_old/track3/i5.jpg",
       },
       {
-        name: "Dr. M. Kiruthika",
+        name: "Dr. VS Devi Priya",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track2/i2.jpg",
+        image: "/gallery/special_sessions_old/track3/i4.jpeg",
       },
     ],
   },
   {
-    title: "Track 3: Intelligent Computing in Multidisciplinary Engineering Aplications",
+    title: "Track 4:  Trustworthy and Explainable AI in Information-Centric Systems",
     members: [
       {
-        name: "Dr. Nisha Charaya",
+        name: "Dr. Avinash Kumar Sharma",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track3/i1.png",
+        image: "/gallery/special_sessions_old/track4/i3.png",
       },
       {
-        name: "Dr. Aarti Chugh",
+        name: "Dr. Ashwani Kumar ",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track3/i2.png",
-      },
-      {
-        name: "Dr. Charu Jain",
-        designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track3/i3.png",
+        image: "/gallery/special_sessions_old/track4/i4.png",
       },
     ],
   },
   {
-    title: "Track 4: Next-Gen Tech Synergy: MEtaverse, IoT, Blockchain, Deep Learning, and Intelligent Systems",
+    title: "Track 5: Recent Trends and Application of Industrial Internet of Things and Computing",
     members: [
       {
-        name: "Dr. Gajanand Sharma",
+        name: "Dr. Ashish Tiwari",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track4/i1.jpg",
+        image: "/gallery/special_sessions_old/track5/i3.jpg",
       },
       {
-        name: "Ms. Shruti Mathur",
+        name: "Dr.Neeraj Kumar Verma",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track4/i2.jpg",
-      },
-    ],
-  },
-  {
-    title: "Track 5: Innovative Approaches to Big Data Analytics and Machine Learning Integration for Enhanced System Performance and Scoietal Impact",
-    members: [
-      {
-        name: "Prof.(Dr.) Namrata Dhanda",
-        designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track5/i1.jpg",
+        image: "/gallery/special_sessions_old/track5/i4.jpeg",
       },
       {
-        name: "Ms. Garima Srivastava",
+        name: "Dr.Surendra Kumar",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track5/i2.jpg",
+        image: "/gallery/special_sessions_old/track5/i5.jpeg",
+      },
+      {
+        name: "Mr.Sarvesh Kumar",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track5/i6.png",
       },
     ],
   },
@@ -140,6 +140,21 @@ const tracks = [
   },
   {
     title: "Track 9: Emerging Trends in ML and IoT for Smart Agriculture, Healthcare and Automation",
+    members: [
+      {
+        name: "Dr. Dilip Kumar J Saini",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track9/i1.png",
+      },
+      {
+        name: "Dr Sagar Pandey",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track9/i2.jpg",
+      },
+    ],
+  },
+  {
+    title: "Track 10: Trends in ML and IoT for Smart Agriculture, Healthcare and Automation",
     members: [
       {
         name: "Dr. Dilip Kumar J Saini",
