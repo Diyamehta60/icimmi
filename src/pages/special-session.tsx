@@ -146,6 +146,102 @@ const tracks = [
         designation: "(Session Co-Chair)",
         image: "/gallery/special_sessions_old/track10/i1.jpg",
       },
+      
+    ],
+  },
+   {
+    title: "Track 11: Advances in Computational Intelligence and Embedded Systems: From AI and Machine Learning to Communication and Sensing Technologies",
+    members: [
+      {
+        name: " Dr. NISHA CHARAYA",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track11/i1.png",
+      },
+      // {
+      //   name: "DR. VED PRAKASH",
+      //   designation: "(Session Co-Chair)",
+      //   image: "/gallery/special_sessions_old/track11/i2.jpg",
+      // },
+    ],
+  },
+  {
+    title: "Track 12: AI & XAI for Business Intelligence, Management Systems, and Ethical Automation",
+    members: [
+      {
+        name: "Dr. MOHIT TIWARI",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track12/i1.jpg",
+      },
+      {
+        name: "Dr.Aparna Marwah",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track12/i4.jpg",
+      },
+      {
+        name: "Dr. Pallavi Chopade",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track12/i2.jpeg",
+      },
+      {
+        name: "Ms.Tripti Tiwari",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track12/i3.jpg",
+      },
+    ],
+  },
+  {
+    title: "Track 13: Intelligent Computing in Multidisciplinary Engineering Applications",
+    members: [
+      {
+        name: "Dr. Aarti Chugh",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track13/i1.jpg",
+      },
+      {
+        name: "Dr.Nisha Charaya",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track13/i3.png",
+      },
+      {
+        name: "Dr. Pooja Batra",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track13/i2.jpeg",
+      },
+    ],
+  },
+  {
+    title: "Track 14: Generative AI for Societal Transformation: Bridging Intelligence, Infrastructure, and Innovation",
+    members: [
+      {
+        name: "Dr. Aarti Chugh",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track14/i1.jpg",
+      },
+      {
+        name: "Dr. Pooja Batra",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track14/i2.jpeg",
+      },
+    ],
+  },
+  {
+    title: "Track 15: Distributed Machine Learning in Edge-IoT Systems Architectures and Applications",
+    members: [
+      {
+        name: "Dr POONGODI T",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track15/i1.jpg",
+      },
+      {
+        name: "Dr. M Kiruthika",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track15/i2.png",
+      },
+      {
+        name: "Dr. D. Sumathi",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track15/i3.png",
+      },
     ],
   },
 ];
