@@ -203,9 +203,9 @@ const tracks = [
         image: "/gallery/special_sessions_old/track13/i3.png",
       },
       {
-        name: "Dr. Pooja Batra",
+        name: "Dr.Charu Jain",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track13/i2.jpeg",
+        image: "/gallery/special_sessions_old/track13/i4.jpg",
       },
     ],
   },
