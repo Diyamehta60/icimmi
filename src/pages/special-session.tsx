@@ -84,57 +84,37 @@ const tracks = [
     ],
   },
   {
-    title: "Track 6: Artifical Intelligence-Based Internet of Things for Industry 5.0",
+    title: "Track 6: Recent Trends in Blockchain, Machine Learning, and Big Data for Real-Life Problem-Solving",
     members: [
       {
-        name: "Dr. Khyati Chopra,",
+        name: "Dr. BIPIN KUMAR RAI,",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/Khyati.png",
-      },
-      {
-        name: "Dr. Sherin Zafar",
-        designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/Sherin.png",
+        image: "/gallery/special_sessions_old/track6/i1.jpg",
       },
     ],
   },
   {
-    title: "Track 7: Machine Learning Applications in Buisness Decision Making",
+    title: "Track 7: AI in Cybersecurity ",
     members: [
       {
-        name: "Dr. A. Mansurali",
+        name: "Dr. Himanshi Babbar",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/Mansurali.jpg",
-      },
-      {
-        name: "Dr. Manikandan Rajagopal",
-        designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/Manikandan.jpg",
+        image: "/gallery/special_sessions_old/track7/i1.jpeg",
       },
     ],
   },
   {
-    title: "Track 8: Cloud-Based AI for Autonomous Systems: Challenges and Opportunities",
+    title: "Track 8: Optimizing Sustainable Analytics and Autonomous Intelligence in Healthcare ",
     members: [
       {
-        name: "Prof. Sarvesh Kumar",
+        name: "Dr. YOJNA ARORA",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track8/i1.png",
+        image: "/gallery/special_sessions_old/track8/i1.jpeg",
       },
       {
-        name: "Dr. Ashish Tiwari",
+        name: "Dr. Ashima Narang)",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track8/i2.jpg",
-      },
-      {
-        name: "Dr. Surendra Kumar",
-        designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track8/i3.jpg",
-      },
-      {
-        name: "Dr. Neeraj kumar Verma",
-        designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track8/i4.png",
+        image: "/gallery/special_sessions_old/track8/i2.jpeg",
       },
     ],
   },
@@ -142,29 +122,29 @@ const tracks = [
     title: "Track 9: Emerging Trends in ML and IoT for Smart Agriculture, Healthcare and Automation",
     members: [
       {
-        name: "Dr. Dilip Kumar J Saini",
+        name: "(Dr. SHWETA SINHA",
         designation: "(Session Chair)",
         image: "/gallery/special_sessions_old/track9/i1.png",
       },
       {
-        name: "Dr Sagar Pandey",
+        name: "Dr Priyanka Makkar",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track9/i2.jpg",
+        image: "/gallery/special_sessions_old/track9/i2.png",
       },
     ],
   },
   {
-    title: "Track 10: Trends in ML and IoT for Smart Agriculture, Healthcare and Automation",
+    title: "Track 10: AI for Quality Education and Sustainable Learning Systems",
     members: [
       {
-        name: "Dr. Dilip Kumar J Saini",
+        name: "Dr. MITALI CHUGH",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track9/i1.png",
+        image: "/gallery/special_sessions_old/track10/i2.jpg",
       },
       {
-        name: "Dr Sagar Pandey",
+        name: "Dr. Sonali Vyas",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track9/i2.jpg",
+        image: "/gallery/special_sessions_old/track10/i1.jpg",
       },
     ],
   },
