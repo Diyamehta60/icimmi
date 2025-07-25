@@ -195,7 +195,7 @@ const tracks = [
       {
         name: "Dr. Aarti Chugh",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track13/Madam.jpg",
+        image: "/gallery/special_sessions_old/track13/Madam.JPG",
       },
       {
         name: "Dr.Nisha Charaya",
@@ -215,7 +215,7 @@ const tracks = [
       {
         name: "Dr. Aarti Chugh",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track14/chugh.jpg",
+        image: "/gallery/special_sessions_old/track14/chugh.JPG",
       },
       {
         name: "Dr. Pooja Batra",
@@ -280,7 +280,7 @@ const tracks = [
       {
         name: "Dr. Nagesh Salimath",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track17/i2.jpg",
+        image: "/gallery/special_sessions_old/track17/i2.JPG",
       },
       {
         name: "Dr. ASHISH GUPTA",
