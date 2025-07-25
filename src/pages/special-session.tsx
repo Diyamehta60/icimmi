@@ -195,7 +195,7 @@ const tracks = [
       {
         name: "Dr. Aarti Chugh",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track13/i1.jpg",
+        image: "/gallery/special_sessions_old/track13/Madam.jpg",
       },
       {
         name: "Dr.Nisha Charaya",
@@ -215,7 +215,7 @@ const tracks = [
       {
         name: "Dr. Aarti Chugh",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track14/i1.jpg",
+        image: "/gallery/special_sessions_old/track14/chugh.jpg",
       },
       {
         name: "Dr. Pooja Batra",
@@ -268,6 +268,41 @@ const tracks = [
         image: "/gallery/special_sessions_old/track16/i4.png",
       },
     ],
+  },
+  {
+    title: "Track 17: Futuristic Trends in Information Technology",
+    members: [
+      {
+        name: "Dr. RAHUL DEO SAH",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track17/i1.jpeg",
+      },
+      {
+        name: "Dr. Nagesh Salimath",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track17/i2.jpg",
+      },
+      {
+        name: "Dr. ASHISH GUPTA",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track17/i3.jpeg",
+      },
+    ],
+  },
+  {
+    title: "Track 18: Blockchain and AI for Secure Image Processing and Information Management",
+    members: [
+      {
+        name: "Dr. SHARMILA",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track18/i1.jpg",
+      },
+      {
+        name: "Dr. Shashi Bhushan",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track18/i2.jpg",
+      },
+     ],
   },
 ];
 
