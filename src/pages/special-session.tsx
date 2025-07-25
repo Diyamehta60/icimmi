@@ -244,6 +244,31 @@ const tracks = [
       },
     ],
   },
+  {
+    title: "Track 16: AI-Based Applications in Machine Learning & Big Data Analytics",
+    members: [
+      {
+        name: "Dr. MANOJ AGRAWAL",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track16/i1.jpg",
+      },
+      {
+        name: "Dr. Jitendra Sheetlani",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track16/i2.jpeg",
+      },
+      {
+        name: "Dr. Shweta Agrawal",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track16/i3.jpeg",
+      },
+      {
+        name: "Dr. Shilpa Bhalerao",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track16/i4.png",
+      },
+    ],
+  },
 ];
 
 function SpecialSession() {
