@@ -41,6 +41,11 @@ const tracks = [
         designation: "(Session Co-Chair)",
         image: "/gallery/special_sessions_old/track3/i4.jpeg",
       },
+       {
+        name: "Dr. Joshuva Arockia Dhanraj",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track3/i6.jpeg",
+      },
     ],
   },
   {
