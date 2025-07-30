@@ -285,12 +285,12 @@ const tracks = [
       {
         name: "Dr. Nagesh Salimath",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track17/i2.JPG",
+        image: "/gallery/special_sessions_old/track17/i3.jpeg",
       },
       {
         name: "Dr. ASHISH GUPTA",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track17/i3.jpeg",
+        image: "/gallery/special_sessions_old/track17/i2.JPG",
       },
     ],
   },
