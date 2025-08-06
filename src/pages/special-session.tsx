@@ -309,26 +309,26 @@ const tracks = [
       },
      ],
   },
-  {
-    title: "Track 19: Next-Gen AI Across Domains: Linking Generative and Adaptive Intelligence for a Sustainable World",
-    members: [
-      {
-        name: "Dr. Neha Bhatia",
-        designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track19/A.jpeg",
-      },
-      {
-        name: "Dr. Manjula Shanbhog",
-        designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track19/B.jpeg",
-      },
-      {
-        name: "Dr Anuradha Konidena",
-        designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track19/C.jpeg",
-      },
-     ],
-  },
+  // {
+  //   title: "Track 19: Next-Gen AI Across Domains: Linking Generative and Adaptive Intelligence for a Sustainable World",
+  //   members: [
+  //     {
+  //       name: "Dr. Neha Bhatia",
+  //       designation: "(Session Chair)",
+  //       image: "/gallery/special_sessions_old/track19/A.jpeg",
+  //     },
+  //     {
+  //       name: "Dr. Manjula Shanbhog",
+  //       designation: "(Session Co-Chair)",
+  //       image: "/gallery/special_sessions_old/track19/B.jpeg",
+  //     },
+  //     {
+  //       name: "Dr Anuradha Konidena",
+  //       designation: "(Session Co-Chair)",
+  //       image: "/gallery/special_sessions_old/track19/C.jpeg",
+  //     },
+  //    ],
+  // },
 ];
 
 function SpecialSession() {
