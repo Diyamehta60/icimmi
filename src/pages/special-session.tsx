@@ -315,17 +315,17 @@ const tracks = [
       {
         name: "Dr. Neha Bhatia",
         designation: "(Session Chair)",
-        image: "/gallery/special_sessions_old/track19/i1.jpeg",
+        image: "/gallery/special_sessions_old/track19/A.jpeg",
       },
       {
         name: "Dr. Manjula Shanbhog",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track19/i2.jpeg",
+        image: "/gallery/special_sessions_old/track19/B.jpeg",
       },
       {
         name: "Dr Anuradha Konidena",
         designation: "(Session Co-Chair)",
-        image: "/gallery/special_sessions_old/track19/i3.jpeg",
+        image: "/gallery/special_sessions_old/track19/C.jpeg",
       },
      ],
   },
