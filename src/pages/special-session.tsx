@@ -309,6 +309,26 @@ const tracks = [
       },
      ],
   },
+  {
+    title: "Track 19: Next-Gen AI Across Domains: Linking Generative and Adaptive Intelligence for a Sustainable World",
+    members: [
+      {
+        name: "Dr.Pooja Batra Bhatiya",
+        designation: "(Session Chair)",
+        image: "/gallery/special_sessions_old/track19/Pooja batra bhatiya.jpeg",
+      },
+      {
+        name: "Dr. Manjula Shanbhog",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track19/Dr. Manjula Shanbhog.jpeg",
+      },
+      {
+        name: "Dr Anuradha Konidena",
+        designation: "(Session Co-Chair)",
+        image: "/gallery/special_sessions_old/track19/Dr Anuradha Konidena.jpeg",
+      },
+     ],
+  },
 ];
 
 function SpecialSession() {
