@@ -313,7 +313,7 @@ const tracks = [
     title: "Track 19: Next-Gen AI Across Domains: Linking Generative and Adaptive Intelligence for a Sustainable World",
     members: [
       {
-        name: "Dr.Pooja Batra Bhatiya",
+        name: "Dr. Neha Bhatia",
         designation: "(Session Chair)",
         image: "/gallery/special_sessions_old/track19/Pooja batra bhatiya.jpeg",
       },
