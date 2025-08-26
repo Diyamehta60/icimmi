@@ -6,47 +6,42 @@ import Marquee from "../marquee";
 const dates = [
   {
     label: "Paper Submission Deadline",
-    date: "Aug 18, 2025",
+    date: "Sept 15, 2025",
     color: "green",
     gone: false,
   },
   {
-    label: "Review & Morressier Revisions",
-    date: "Aug 30, 2025",
+    label: "Review & Revisions",
+    date: "Oct 15, 2025",
     color: "blue",
     gone: false,
   },
   {
-    label: "CSV Information Submission",
-    date: "Sept 10, 2025",
-    color: "cyan",
-    gone: false,
-  },
-  {
-    label: "Paper Validation & Registration",
-    date: "Sept 30, 2025",
+    label: "Registration",
+    date: "Oct 31, 2025",
     color: "orange",
     gone: false,
   },
   {
-    label: "Late Registration",
-    date: "Oct 15, 2025",
-    color: "purple",
+    label: "Paper Validation & CSV Information Submission",
+    date: "Nov 20, 2025",
+    color: "cyan",
     gone: false,
   },
   {
     label: "E-Rights Form Submission",
-    date: "Oct 20, 2025",
+    date: "Dec 05, 2025",
     color: "pink",
     gone: false,
   },
   {
     label: "Final Paper Submission on TAPS",
-    date: "Oct 30, 2025",
+    date: "Dec 10, 2025",
     color: "black",
     gone: false,
   },
 ];
+
 
 function Schedule() {
   const handleClick = () => {
