@@ -6,7 +6,7 @@ import Marquee from "../marquee";
 const dates = [
   {
     label: "Paper Submission Deadline",
-    date: "Sept 15, 2025",
+    date: "Oct 15, 2025",
     color: "green",
     gone: false,
   },
