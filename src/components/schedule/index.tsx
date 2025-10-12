@@ -48,7 +48,8 @@ function Schedule() {
   };
   return (
     <>
-      {/* <Marquee />
+      <Marquee />
+      {/* 
       <div onClick={handleClick} className="mx-auto my-3 w-1/3 rounded-md px-4 py-2 text-center shadow-md cursor-pointer overflow-hidden whitespace-nowrap border border-red-500 bg-red-100 py-2">
         <h1 className="text-lg font-medium ">
           Download Schedule
@@ -76,13 +77,6 @@ function Schedule() {
             </div>
           </div>
         ))}
-      </div>
-
-      <div className="mx-auto mt-6 max-w-2xl rounded-md border-l-4 border-yellow-500 bg-yellow-100 px-4 py-3 text-center text-yellow-800 shadow-sm">
-        <p className="text-sm md:text-base">
-          Note: Any Paper whose e-rights are not submitted shall not be
-          permitted to present during the conference
-        </p>
       </div>
     </>
   );
