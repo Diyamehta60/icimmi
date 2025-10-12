@@ -11,42 +11,41 @@ const dates = [
     gone: false,
   },
   {
-    label: "Review & Revisions",
-    date: "Oct 15, 2025",
+    label: "Review & Decisions",
+    date: "Nov 08, 2025",
     color: "blue",
     gone: false,
   },
   {
     label: "Registration",
-    date: "Oct 31, 2025",
+    date: "Nov 22, 2025",
     color: "orange",
     gone: false,
   },
   {
     label: "Paper Validation & CSV Information Submission",
-    date: "Nov 20, 2025",
+    date: "Nov 30, 2025",
     color: "cyan",
     gone: false,
   },
   {
     label: "E-Rights Form Submission",
-    date: "Dec 05, 2025",
+    date: "Dec 06, 2025",
     color: "pink",
     gone: false,
   },
   {
     label: "Final Paper Submission on TAPS",
-    date: "Dec 10, 2025",
+    date: "Dec 13, 2025",
     color: "black",
     gone: false,
   },
 ];
 
-
 function Schedule() {
   const handleClick = () => {
     window.open("/schedule.pdf");
-  }
+  };
   return (
     <>
       {/* <Marquee />
@@ -56,26 +55,34 @@ function Schedule() {
         </h1>
       </div> */}
 
-      <div className="flex flex-wrap justify-center md:flex md:flex-nowrap md:justify-center md:gap-6 p-6">
+      <div className="flex flex-wrap justify-center p-6 md:flex md:flex-nowrap md:justify-center md:gap-6">
         {dates.map((dateInfo, index) => (
           <div
             key={index}
             className="flex w-full flex-col items-center text-center sm:w-auto"
           >
             <div
-              className={`mb-2 h-10 w-10 flex transform items-center justify-center rounded text-white transition duration-300 hover:scale-110`}
+              className={`mb-2 flex h-10 w-10 transform items-center justify-center rounded text-white transition duration-300 hover:scale-110`}
             >
               <FaCalendarAlt size={28} color={`${dateInfo.color}`} />
             </div>
             <div className=" font-semibold">{dateInfo.label}</div>
             <div
-              className={`text-xs ${dateInfo.gone ? "text-gray-400 line-through" : ""
-                }`}
+              className={`text-xs ${
+                dateInfo.gone ? "text-gray-400 line-through" : ""
+              }`}
             >
               {dateInfo.date}
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="mx-auto mt-6 max-w-2xl rounded-md border-l-4 border-yellow-500 bg-yellow-100 px-4 py-3 text-center text-yellow-800 shadow-sm">
+        <p className="text-sm md:text-base">
+          Note: Any Paper whose e-rights are not submitted shall not be
+          permitted to present during the conference
+        </p>
       </div>
     </>
   );
