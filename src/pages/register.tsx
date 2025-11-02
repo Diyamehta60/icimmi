@@ -38,7 +38,7 @@ const Register = () => {
                     On or Before Nov 22, 2025
                   </th>
                   <th scope="col" className="px-6 py-3">
-                    After Noc 22, 2025
+                    After Nov 22, 2025
                   </th>
                 </tr>
               </thead>
