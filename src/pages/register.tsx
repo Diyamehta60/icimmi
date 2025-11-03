@@ -193,16 +193,15 @@ const Register = () => {
         <ul className="list-disc pl-6 space-y-2 text-gray-700">
           <li>ACM and (Open Access Fees is to be paid by authors).</li>
           <li>
-            JDMSC (Additional APC is applicable, that is Rs 45000 including
+            JDMSC (Additional applicable, that is Rs 45000 including
             conference registration fee, with a limit of 10 pages in journal
             template)
           </li>
           <li>
-            CRC Press, Taylor & Francis Books Series (Additional APC is
+            CRC Press, Taylor & Francis Books Series (Additional
             applicable, that is Rs 10000 per paper including Conference
             Registration fee)
           </li>
-          <li>The Indian Journal of Technical Education (UGC Care)</li>
         </ul>
       </div>
           <Sponsored />
