@@ -193,15 +193,13 @@ const Register = () => {
         <ul className="list-disc pl-6 space-y-2 text-gray-700">
           <li>ACM and (Open Access Fees is to be paid by authors).</li>
           <li>
-            JDMSC (Additional applicable, that is Rs 45000 including
-            conference registration fee, with a limit of 10 pages in journal
-            template)
+            JDMSC (Journal of Discrete Mathematical Sciences and Cryptography)
           </li>
-          <li>
+          {/* <li>
             CRC Press, Taylor & Francis Books Series (Additional
             applicable, that is Rs 10000 per paper including Conference
             Registration fee)
-          </li>
+          </li> */}
         </ul>
       </div>
           <Sponsored />
