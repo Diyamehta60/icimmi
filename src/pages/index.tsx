@@ -30,8 +30,6 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 const Home = () => {
   const [visitorCounter, setVisitorCounter] = useState(20000);
 
-  
-
   const sliderImages = [
     {
       image: "/clg.jpg",
@@ -233,9 +231,8 @@ const Home = () => {
                       return (
                         <div
                           key={index}
-                          className={`${
-                            index == activeIndex ? "bg-amber-400" : "bg-white"
-                          } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
+                          className={`${index == activeIndex ? "bg-amber-400" : "bg-white"
+                            } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
                           onClick={() => setActiveIndex(index)}
                         ></div>
                       );
@@ -342,11 +339,10 @@ const Home = () => {
                           return (
                             <div
                               key={index}
-                              className={`${
-                                index == activeIndex
-                                  ? "bg-amber-400"
-                                  : "bg-white"
-                              } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
+                              className={`${index == activeIndex
+                                ? "bg-amber-400"
+                                : "bg-white"
+                                } h-3 w-3 cursor-pointer rounded-full rounded-lg transition duration-300 ease-in-out hover:bg-red-600`}
                               onClick={() => setActiveIndex(index)}
                             ></div>
                           );
