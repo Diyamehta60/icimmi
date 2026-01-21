@@ -42,8 +42,8 @@ function Publications() {
 
         <li>
           Springer STEM-H Conference Proceedings – Scopus Proceedings
-          (Additional APC, subject to approval of TPC Members) - <strong className="text-black"> Approx.
-          Additional APC: ₹10,000</strong>
+          (Additional APC, subject to approval of TPC Members) - Approx.
+          Additional APC: ₹10,000
         </li>
 
         <li>
@@ -53,7 +53,7 @@ function Publications() {
 
         <li>
           AIP Conference Proceedings – Scopus Proceedings (Additional APC,
-          subject to approval of TPC Members) - <strong className="text-black">Approx Additional APC: ₹11,000</strong>
+          subject to approval of TPC Members) - Approx Additional APC: ₹11,000
         </li>
       </ul>
 
