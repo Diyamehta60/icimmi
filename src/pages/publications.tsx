@@ -1,4 +1,3 @@
-
 import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
@@ -32,30 +31,30 @@ function Publications() {
         contents in the extended manuscripts for consideration for the following
         Journal.
       </p>
-      <ul className="mx-4 my-12 list-disc text-neutral-600 flex flex-col gap-y-2">
+      <ul className="mx-4 my-12 flex list-disc flex-col gap-y-2 text-neutral-600">
         <li>ACM International Conference Proceeding Series</li>
 
         <li>
-          Journal of Discrete Mathematical Sciences & Cryptography
-          ISSN: 0972-0529 (Q1 – Scopus & WoS Indexed)
-          (Additional APC will be applicable)
+          Journal of Discrete Mathematical Sciences & Cryptography ISSN:
+          0972-0529 (Q1 – Scopus & WoS Indexed) (Additional APC will be
+          applicable)
         </li>
 
         <li>
           Springer STEM-H Conference Proceedings – Scopus Proceedings
-          (Additional APC, subject to approval of TPC Members)
+          (Additional APC, subject to approval of TPC Members) - <strong className="text-black"> Approx.
+          Additional APC: ₹10,000</strong>
         </li>
 
         <li>
-          PES (Proceedings on Engineering Sciences) – Scopus Q3 Journal Publication
-          (Additional APC, subject to approval of TPC Members)
+          PES (Proceedings on Engineering Sciences) – Scopus Q3 Journal
+          Publication (Additional APC, subject to approval of TPC Members)
         </li>
 
         <li>
-          AIP Conference Proceedings – Scopus Proceedings
-          (Additional APC, subject to approval of TPC Members)
+          AIP Conference Proceedings – Scopus Proceedings (Additional APC,
+          subject to approval of TPC Members) - <strong className="text-black">Approx Additional APC: ₹11,000</strong>
         </li>
-
       </ul>
 
       <Sponsored />
