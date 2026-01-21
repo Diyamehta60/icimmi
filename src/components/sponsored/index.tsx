@@ -14,6 +14,16 @@ function Sponsored() {
         <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
           <div className="flex justify-center">
             <img
+              className="h-48 w-48 rounded-full object-contain"
+              src="/aip_logo.png"
+              alt="First image"
+            />
+          </div>
+          <p className="my-4">The American Institute of Physics</p>
+        </div>
+        <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
+          <div className="flex justify-center">
+            <img
               className="h-48 w-48 rounded-full object-cover"
               src="/iste.jpg"
               alt="First image"

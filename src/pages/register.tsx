@@ -26,7 +26,6 @@ const Register = () => {
         </h1>
 
         <div>
-          
           <div className="container relative my-12 w-[100%] overflow-x-auto">
             <table className="w-full text-left text-sm text-gray-500 rtl:text-right dark:text-gray-400">
               <thead className="bg-[#1a1212] text-xs uppercase text-white dark:bg-red-700 dark:text-white">
@@ -187,21 +186,31 @@ const Register = () => {
               </p>
             </div>
           </div>
-         <APCRates/>
-         <div className="mt-[-30px] mb-4 bg-white p-6 rounded-lg shadow-md">
-        <h3 className="mb-2 text-xl font-bold text-gray-800">Important Details</h3>
-        <ul className="list-disc pl-6 space-y-2 text-gray-700">
-          <li>ACM and (Open Access Fees is to be paid by authors).</li>
-          <li>
-            JDMSC (Journal of Discrete Mathematical Sciences and Cryptography)
-          </li>
-          {/* <li>
+          <APCRates />
+          <div className="mb-4 mt-[-30px] rounded-lg bg-white p-6 shadow-md">
+            <h3 className="mb-2 text-xl font-bold text-gray-800">
+              Important Details
+            </h3>
+            <ul className="list-disc space-y-2 pl-6 text-gray-700">
+              <li>ACM (Open Access Fees to be paid by authors)</li>
+              <li>
+                JDMSC (Journal of Discrete Mathematical Sciences and
+                Cryptography)
+              </li>
+              <li>
+                Springer STEM-H Conference Proceedings - Approx. Additional APC:
+                ₹10,000
+              </li>
+              <li>
+                AIP Conference Proceedings - Approx. Additional APC: ₹11,000
+              </li>
+              {/* <li>
             CRC Press, Taylor & Francis Books Series (Additional
             applicable, that is Rs 10000 per paper including Conference
             Registration fee)
           </li> */}
-        </ul>
-      </div>
+            </ul>
+          </div>
           <Sponsored />
         </div>
       </div>
