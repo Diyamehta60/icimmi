@@ -91,7 +91,7 @@ function ImportantDetails() {
       <div className="bg-white p-6 rounded-lg shadow-md">
         {/* Content section with a white background */}
         <h2 className="mb-4 text-2xl font-bold text-center text-gray-800">
-          ICIMMI 2025 – ACM ICPS Publication Pipeline
+          ICIMMI 2026 – ACM ICPS Publication Pipeline
         </h2>
 
         <p className="mb-6 text-center text-gray-600">

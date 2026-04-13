@@ -27,131 +27,141 @@ const Register = () => {
 
         <div>
           <div className="container relative my-12 w-[100%] overflow-x-auto">
-            <table className="w-full text-left text-sm text-gray-500 rtl:text-right dark:text-gray-400">
-              <thead className="bg-[#1a1212] text-xs uppercase text-white dark:bg-red-700 dark:text-white">
-                <tr>
-                  <th scope="col" className="px-6 py-3">
-                    Category
-                  </th>
-                  <th scope="col" className="px-6 py-3">
-                    On or Before Nov 22, 2025
-                  </th>
-                  <th scope="col" className="px-6 py-3">
-                    After Nov 22, 2025
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Faculty Member (International Professional Membership)
-                  </th>
-                  <td className="px-6 py-4">INR 5,000</td>
-                  <td className="px-6 py-4">INR 6,000</td>
-                </tr>
-                {/* <tr className="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Faculty (International Professional Membership) With
-                    International co- Author
-                  </th>
-                  <td className="px-6 py-4">INR 3000</td>
-                  <td className="px-6 py-4">INR 4000</td>
-                </tr> */}
-                <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Faculty International Author and Member (International
-                    Professional Membership)
-                  </th>
-                  <td className="px-6 py-4">$120</td>
-                  <td className="px-6 py-4">$150</td>
-                </tr>
-                {/* <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Faculty Non-Member (International Professional Membership)
-                  </th>
-                  <td className="px-6 py-4">INR 5,000</td>
-                  <td className="px-6 py-4">INR 6,000</td>
-                </tr> */}
-                {/* <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Faculty Non-Member (International Professional Membership)
-                    with international co-Author
-                  </th>
-                  <td className="px-6 py-4">INR 4,000</td>
-                  <td className="px-6 py-4">INR 5,000</td>
-                </tr> */}
-                {/* <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    International Author Non-Member (International Professional
-                    Membership)
-                  </th>
-                  <td className="px-6 py-4">$150</td>
-                  <td className="px-6 py-4">$200</td>
-                </tr> */}
-                <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Corporate/Industry Professional
-                  </th>
-                  <td className="px-6 py-4">INR 6,000</td>
-                  <td className="px-6 py-4">INR 7,000</td>
-                </tr>
-                <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Ph.D Student
-                  </th>
-                  <td className="px-6 py-4">INR 4,000</td>
-                  <td className="px-6 py-4">INR 5,000</td>
-                </tr>
-                <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    PG/UG Student
-                  </th>
-                  <td className="px-6 py-4">INR 3,000</td>
-                  <td className="px-6 py-4">INR 4,000</td>
-                </tr>
-                <tr className="border-b bg-white dark:bg-gray-800">
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                  >
-                    Attendee
-                  </th>
-                  <td className="px-6 py-4">INR 2000 </td>
-                  <td className="px-6 py-4">INR 3000 </td>
-                </tr>
-              </tbody>
-            </table>
+            {/* Indian Participants */}
+            <h2 className="mb-4 text-xl font-semibold text-gray-800">
+              Indian Participants
+            </h2>
+
+            <div className="overflow-hidden rounded-xl border shadow-sm">
+              <table className="w-full text-sm text-gray-700">
+                {/* Top Header */}
+                <thead>
+                  <tr className="bg-[#1a1212] text-xs uppercase tracking-wider text-white">
+                    <th className="px-6 py-4 text-left">
+                      Participant Category
+                    </th>
+                    <th
+                      colSpan={2}
+                      className="border-l border-gray-700 px-6 py-4 text-center"
+                    >
+                      IEEE Member
+                    </th>
+                    <th
+                      colSpan={2}
+                      className="border-l border-gray-700 px-6 py-4 text-center"
+                    >
+                      Non-IEEE Member
+                    </th>
+                  </tr>
+
+                  {/* Sub Header */}
+                  <tr className="bg-gray-100 text-xs uppercase text-gray-600">
+                    <th></th>
+                    <th className="px-6 py-3 text-center">Online</th>
+                    <th className="px-6 py-3 text-center">Offline</th>
+                    <th className="px-6 py-3 text-center">Online</th>
+                    <th className="px-6 py-3 text-center">Offline</th>
+                  </tr>
+                </thead>
+
+                {/* Body */}
+                <tbody>
+                  {[
+                    [
+                      "Student (UG, PG)",
+                      "₹8,000",
+                      "₹10,000",
+                      "₹10,000",
+                      "₹12,000",
+                    ],
+                    [
+                      "Faculty / PhD Scholar",
+                      "₹9,000",
+                      "₹11,000",
+                      "₹11,000",
+                      "₹13,000",
+                    ],
+                    ["Industry", "₹10,000", "₹12,000", "₹12,000", "₹14,000"],
+                    ["Attendee", "₹2,000", "₹3,000", "₹3,000", "₹4,000"],
+                  ].map((row, i) => (
+                    <tr
+                      key={i}
+                      className="border-t transition duration-150 hover:bg-gray-50"
+                    >
+                      <td className="px-6 py-4 font-medium text-gray-900">
+                        {row[0]}
+                      </td>
+                      <td className="px-6 py-4 text-center">{row[1]}</td>
+                      <td className="px-6 py-4 text-center">{row[2]}</td>
+                      <td className="px-6 py-4 text-center">{row[3]}</td>
+                      <td className="px-6 py-4 text-center">{row[4]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* Foreign Participants */}
+            <h2 className="mb-4 mt-10 text-xl font-semibold text-gray-800">
+              Foreign Participants
+            </h2>
+
+            <div className="overflow-hidden rounded-xl border shadow-sm">
+              <table className="w-full text-sm text-gray-700">
+                <thead>
+                  <tr className="bg-[#1a1212] text-xs uppercase tracking-wider text-white">
+                    <th className="px-6 py-4 text-left">
+                      Participant Category
+                    </th>
+                    <th
+                      colSpan={2}
+                      className="border-l border-gray-700 px-6 py-4 text-center"
+                    >
+                      IEEE Member
+                    </th>
+                    <th
+                      colSpan={2}
+                      className="border-l border-gray-700 px-6 py-4 text-center"
+                    >
+                      Non-IEEE Member
+                    </th>
+                  </tr>
+
+                  <tr className="bg-gray-100 text-xs uppercase text-gray-600">
+                    <th></th>
+                    <th className="px-6 py-3 text-center">Online</th>
+                    <th className="px-6 py-3 text-center">Offline</th>
+                    <th className="px-6 py-3 text-center">Online</th>
+                    <th className="px-6 py-3 text-center">Offline</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  {[
+                    ["Student (UG, PG)", "$100", "$120", "$120", "$150"],
+                    ["Faculty / PhD Scholar", "$150", "$200", "$200", "$250"],
+                    ["Attendee", "$30", "$50", "$50", "$100"],
+                  ].map((row, i) => (
+                    <tr
+                      key={i}
+                      className="border-t transition duration-150 hover:bg-gray-50"
+                    >
+                      <td className="px-6 py-4 font-medium text-gray-900">
+                        {row[0]}
+                      </td>
+                      <td className="px-6 py-4 text-center">{row[1]}</td>
+                      <td className="px-6 py-4 text-center">{row[2]}</td>
+                      <td className="px-6 py-4 text-center">{row[3]}</td>
+                      <td className="px-6 py-4 text-center">{row[4]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
-          <p className="mb-4 text-sm font-bold lg:text-xl">
+          {/* <p className="mb-4 text-sm font-bold lg:text-xl">
             No Paper To Have More Than 5 Authors
-          </p>
+          </p> */}
           <h1 className={"heading mb-2 text-xl font-semibold"}>
             Account Details
           </h1>
@@ -186,31 +196,8 @@ const Register = () => {
               </p>
             </div>
           </div>
-          <APCRates />
-          <div className="mb-4 mt-[-30px] rounded-lg bg-white p-6 shadow-md">
-            <h3 className="mb-2 text-xl font-bold text-gray-800">
-              Important Details
-            </h3>
-            <ul className="list-disc space-y-2 pl-6 text-gray-700">
-              <li>ACM (Open Access Fees to be paid by authors)</li>
-              <li>
-                JDMSC (Journal of Discrete Mathematical Sciences and
-                Cryptography)
-              </li>
-              <li>
-                Springer STEM-H Conference Proceedings - Approx. Additional APC:
-                ₹10,000
-              </li>
-              <li>
-                AIP Conference Proceedings - Approx. Additional APC: ₹11,000
-              </li>
-              {/* <li>
-            CRC Press, Taylor & Francis Books Series (Additional
-            applicable, that is Rs 10000 per paper including Conference
-            Registration fee)
-          </li> */}
-            </ul>
-          </div>
+          
+          
           <Sponsored />
         </div>
       </div>

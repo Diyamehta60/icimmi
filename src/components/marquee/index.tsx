@@ -18,7 +18,7 @@ const Marquee = () => {
       className="relative cursor-pointer overflow-hidden whitespace-nowrap border border-red-500 bg-red-100 py-2"
     >
       <div className="inline-block animate-marquee px-4 text-xl text-black">
-        Authors are informed that Paper withdrawal date is 10th December, 2025 |
+        Authors are informed that Paper withdrawal date is 10th December, 2026 |
         Schedule can be downloaded by clicking on this. | ACM does not control which papers will be indexed by which indexing service. Nor does ACM know if the indexing service does decide to index the conference papers published by ACM, when they will index them.
       </div>
     </div>

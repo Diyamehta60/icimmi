@@ -6,38 +6,26 @@ import Marquee from "../marquee";
 const dates = [
   {
     label: "Paper Submission Deadline",
-    date: "Oct 15, 2025",
+    date: "Sep 05, 2026",
     color: "green",
     gone: false,
   },
   {
     label: "Review & Decisions",
-    date: "Nov 08, 2025",
+    date: "Oct 03, 2026",
     color: "blue",
     gone: false,
   },
   {
-    label: "Registration",
-    date: "Nov 22, 2025",
+    label: "Camera Ready Submission Deadline",
+    date: "Oct 18, 2026",
+    color: "blue",
+    gone: false,
+  },
+  {
+    label: "Registration Deadline",
+    date: "Oct 24, 2026",
     color: "orange",
-    gone: false,
-  },
-  {
-    label: "Paper Validation & CSV Information Submission",
-    date: "Nov 30, 2025",
-    color: "cyan",
-    gone: false,
-  },
-  {
-    label: "E-Rights Form Submission",
-    date: "Dec 06, 2025",
-    color: "pink",
-    gone: false,
-  },
-  {
-    label: "Final Paper Submission on TAPS",
-    date: "Dec 13, 2025",
-    color: "black",
     gone: false,
   },
 ];

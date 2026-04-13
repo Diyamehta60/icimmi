@@ -5,687 +5,732 @@ import Link from "next/link";
 import React from "react";
 
 function Committe() {
-  const honaryPateron = [
+  const chiefPatrons = [
     {
-      name: "Mr. Hari Singh",
-      designation: "Director (Infrastructure), Poornima Group, Jaipur",
-    },
-    {
-      name: "Mr. MKM Shah",
-      designation: "Director (Admin & Finance), Poornima Group, Jaipur",
+      name: "Mr. Shashikant Singhi",
+      designation: "Chairman,Poornima Foundation, Jaipur, India",
+      profile: "#",
     },
   ];
-  const honarayChair = [
-    {
-      name: "Prof. Marcin Paprzycki",
-      designation:
-        "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
-    },
+  const patrons = [
     {
       name: "Prof. B.B. Gupta",
       designation:
         "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
+      profile: "#",
     },
-  ];
-  const GeneralChair = [
     {
-      name: "Prof Dharam Singh",
-      designation: "Namibia University of Science & Tech., Namibia",
-      profile: "https://fci.nust.na/prof-dharm-singh-jat",
+      name: "Dr. Valentina E Balas",
+      designation: "Professor, Department of Automatics",
+      profile: "#",
     },
-  ];
-  const conferenceChair = [
-    {
-      name: "Dr. Dinesh Goyal",
-      designation: "Professor & Director, PIET, Jaipur",
-      profile: "https://www.piet.poornima.org/Principal.html",
-    },
-  ];
-  const SteeringCommittee = [
     {
       name: "Dr. Pooja Jain",
       designation: "Professor, IIIT, Nagpur",
-    },
-    {
-      name: "Dr. JC Bansal",
-      designation: "Professor, South Asian University",
-    },
-    {
-      name: "Dr. Carlos M. Travieso-Gonzalez",
-      designation:
-        "Professor Signals and Communication Department. University of Las Palmas de Gran Canaria, Spain",
-    },
-    {
-      name: "Dr. Saurabh Sinha",
-      designation: "Professor University Of Canterbury",
-    },
-    {
-      name: "Dr. Nischal Verma",
-      designation: "Professor ,IIT Kanpur",
-    },
-    {
-      name: "Dr. Veerpratap Meena",
-      designation: "Professor ,National Institute of Technology (NIT), Jamshedpur",
-    },
-  ];
-  const conferenceCoChair = [
-    {
-      name: "Dr. Anil Kumar",
-      designation: "Professor & HoD CSE, PIET, Jaipur",
-    },
-  ];
-  const organizingChair = [
-    {
-      name: "Dr. Uday Pratap Singh",
-      designation: "Associate Prof. & Dy HoD, AI & DS, PIET, Jaipur",
+      profile: "#",
     },
   ];
 
-  const technicalProgramChair = [
+  const generalChair = [
     {
-      name: "Dr. Atul Gonsai",
-      designation: "Professor, Saurasthra University, Rajkot",
-    },
-    {
-      name: "Dr. Manoj Kumar",
-      designation: "Professor, Delhi Technical University, Delhi",
-    },
-    {
-      name: "Dr. Harish Sharma",
-      designation: "Associate Professor, RTU",
-    },
-    {
-      name: "Dr. OP Verma",
-      designation: "Professor, DTU",
-    },
-    {
-      name: "Dr. Akash Saxena",
-      designation: "Professor,University Of Haryana",
-    },
-    {
-      name: "Dr. Shruti Thapar",
-      designation: "Associate Professor, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Jasdeep Kaur Dhanoa",
-      designation: "Professor, IGDTUW",
-    },
-    {
-      name: "Mr. Vivek Saxena",
-      designation: "Assistant Professor, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Monika Agrawal",
-      designation: "Associate Professor, IIT, Delhi",
-    },
-    {
-      name: "Prof. (Dr.) Rambilas",
-      designation: "Professor ,IIT Indore",
-    },
-    {
-      name: "Dr. Sandeep Gupta",
-      designation: "Associate Professor, AI & DS, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Dilip Singh Sisodia",
-      designation:
-        "Associate Professor, Computer Science & Engineering National Institute of Technology, Raipur, India",
-    },
-  ];
-  const editorial = [
-    {
-      name: "Dr. Dinesh Goyal",
-      designation: "Professor & Director, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Anil Kumar",
-      designation: "Professor & HOD, CSE, PIET, Jaipur",
-    },
-    {
-      name: "Dr. Uday Pratap Singh",
-      designation: "Associate Prof. & Dy HoD, AI & DS, PIET, Jaipur",
-    },
-    {
-      name: "Prof. Dharm Singh",
+      name: "Prof Dharam Singh Jat",
       designation: "Namibia University of Science & Tech., Namibia",
+      profile: "https://fci.nust.na/prof-dharm-singh-jat",
     },
     {
       name: "Prof. Marcin Paprzycki",
       designation:
         "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
-    },
-  ];
-  // const keynoteSpeakers = [
-  //   {
-  //     name: "Prof Dharm Singh",
-  //     designation:
-  //       "Professor & UNESCO Chair Holder Secure on High-performance Computing for Higher Education and Research, Namibia University of Science and Technology",
-  //   },
-  //   {
-  //     name: "Dr. J. C. Bansal",
-  //     designation: "Associate Professor, South Asian University, New Delhi",
-  //   },
-  //   {
-  //     name: "Dr.Ashish Khanna",
-  //     designation:
-  //       "Associate professor CSE DEPT MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY ",
-  //   },
-  //   {
-  //     name: "Dr. Saurabh Sinha",
-  //     designation: "University Of Canterbury",
-  //   },
-  //   {
-  //     name: "Dr. Maria Ganzha",
-  //     designation:
-  //       "Associate Professor, Warsaw University of Technology (Warsaw, Poland)",
-  //   },
-  //   {
-  //     name: "Dr. Pooja Jain",
-  //     designation: "Professor, IIIT, Nagpur",
-  //   },
-  //   {
-  //     name: "Dr. Enrico Cambiaso",
-  //     designation:
-  //       "Consiglio Nazionale delle Ricerche (CNR) A Via De Marini, 16 - 16149 Genoa (Italy)",
-  //   },
-  //   {
-  //     name: "Dr. Anshuman Kalla",
-  //     designation:
-  //       "Centre for Wireless Communications (CWC) University of Oulu, Finland.",
-  //   },
-  //   {
-  //     name: "Dr. Majusri Misra",
-  //     designation:
-  //       "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
-  //   },
-  // ];
-
-  const keynoteSpeakers = [
-    {
-      name: "Prof. Mike Hinchey Chair",
-      designation: "UK and Ireland Section IEEE UK",
-    },
-    {
-      name: "Prof. Joao Manuel RS Tavares",
-      designation: "University of Porto, Portugal",
-    },
-    {
-      name: "Prof. Milan Tuba",
-      designation:
-        "Head, AI, Singidunum University & Vice-Rector, Research at Sinergia University, Belgrade",
-    },
-    {
-      name: "Prof. Rosalina Babo",
-      designation: "Professor, Polytechnic Institute of Porto, Portugal",
-    },
-    {
-      name: "Dr. Eva Tuba",
-      designation:
-        "Assistant Professor, Computer Science, Trinity University, San Antonio, TX, USA",
-    },
-    {
-      name: "Prof. Vincenzo Piuri",
-      designation: "University of Milano, Italy",
-    },
-    {
-      name: "Prof. Zdzislaw Polkowski",
-      designation:
-        "Professor and Rector's Representative for International Cooperation, WSG University Bydgoszcz, Poland",
-    },
-    {
-      name: "Prof. Gabriel Kabanda",
-      designation:
-        "Adjunct Professor, Machine Learning, Woxsen University, Hyderabad",
-    },
-    {
-      name: "Dr. Vladan Devedzic",
-      designation:
-        "Professor, Department of Software Engineering, University of Belgrade, Serbia",
-    },
-    {
-      name: "Prof. Marcel Worring",
-      designation:
-        "Professor & Director, Informatics Institute, University of Amsterdam, Netherlands",
-    },
-    {
-      name: "Prof. Francesca Di Virgilio",
-      designation: "Professor, University of Molise, Italy",
-    },
-    {
-      name: "Prof. Patrizia Pucci",
-      designation:
-        "Professor, Department of Mathematics and Informatics, University of Perugia, Perugia, Italy",
-    },
-    {
-      name: "Prof. Valentina Emilia Balas",
-      designation:
-        "Professor, Engineering, Aurel Vlaicu University Of Arad, Romania",
-    },
-    {
-      name: "Dr. Daniel D. Dasig Jr. PCpE",
-      designation:
-        "Head, Research Ethics Unit, De La Salle-College of Saint Benilde, Manila, Philippines",
+      profile: "#",
     },
   ];
 
-  const financeCommittee = [
+  const generalCoChair = [
     {
-      name: "Dr. Ajay Maurya",
-      designation: "Professor, PIET, Jaipur",
+      name: "Dr. Dinesh Goyal",
+      designation: "Principal & IEEE Senior Member, PIET, Jaipur",
+      profile: "https://www.piet.poornima.org/Principal.html",
     },
-    {
-      name: "Dr. O.P Sikhwal",
-      designation: "Professor, PIET, Jaipur",
-    }
   ];
-  const publicityChair = [
+
+  const SteeringCommittee = [
     {
-      name: "Dr. Basant Agarwal",
-      designation: "Associate Professor, Central University Rajasthan",
+      name: "Dr. JC Bansal",
+      designation: "Professor, South Asian University",
+      profile: "",
     },
     {
-      name: "Dr. Priya Mathur",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Dr. Shruti Jain",
+      name: "Dr. Carlos M. Travieso-Gonzalez",
       designation:
-        "Professor at Jaypee University of Information Technology, Waknaghat",
+        "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain",
+      profile: "",
+    },
+    {
+      name: "Dr. Saurabh Sinha",
+      designation: "Professor, University Of Canterbury",
+      profile: "",
+    },
+    {
+      name: "Dr. Nischal Verma",
+      designation: "Professor, IIT Kanpur",
+      profile: "",
+    },
+    {
+      name: "Dr. Veerpratap Meena",
+      designation:
+        "Professor, National Institute of Technology (NIT), Jamshedpur",
+      profile: "",
+    },
+    {
+      name: "Dr. Wan-Young Chung",
+      designation: "Pukyong National University, Busan, South Korea",
+      profile: "",
+    },
+    {
+      name: "Prof. Kokou Yetongnon",
+      designation: "Professor, University of Bourgogne, France",
+      profile: "",
+    },
+    {
+      name: "Dr. Puneet Goyal",
+      designation: "Assistant Professor, IIT Mandi",
+      profile: "",
+    },
+    {
+      name: "Dr. Abhishek Mukherjee",
+      designation: "USA",
+      profile: "",
     },
   ];
-  // const internationalAdvisoryCommittee = [
-  //   {
-  //     name: "Aleksandra Mileva",
-  //     designation: "Goce Delcev University STIP, Macedonia",
-  //   },
-  //   {
-  //     name: "Carlos M. Travieso",
-  //     designation: "University of Las Palmas de Gran Canaria, Spain",
-  //   },
-  //   {
-  //     name: "Armin Aberle",
-  //     designation: "SERIS National University of Singapore, Singapore",
-  //   },
-  //   {
-  //     name: "Sedat Akleylek",
-  //     designation: "Ondokuz Mayis University Samsun, Turkey",
-  //   },
-  //   {
-  //     name: "Sureswaran Ramadass",
-  //     designation: "USM University Penang, Malaysia",
-  //   },
-  //   {
-  //     name: "Youcef Soufi",
-  //     designation: "University of Tabessa, Algeria",
-  //   },
-  //   {
-  //     name: "Lalit Kumar Goel",
-  //     designation: "NTU Nanyang, Singapore",
-  //   },
-  //   {
-  //     name: "Pinnamaneni Bhanu",
-  //     designation: "Kelenn Technology Antony, France",
-  //   },
-  //   {
-  //     name: "Daniele Riboni",
-  //     designation: "University of Cagliari, Italy",
-  //   },
-  //   {
-  //     name: "Wan Young Chung",
-  //     designation: "Pukyong National University Busan, South Korea",
-  //   },
-  //   {
-  //     name: "Dr. Sheng-Lung Peng",
-  //     designation: "Prof., National Dong Hua University, Taiwan",
-  //   },
-  //   {
-  //     name: "Dr. Ahmed Elngar",
-  //     designation: "Assistant Professor, Egypt",
-  //   },
-  // ];
-  // const nationalAdvisoryCommittee = [
-  //   {
-  //     name: "Dr. Rajat Rastogi",
-  //     designation: "Professor, IIT Roorkee",
-  //   },
-  //   {
-  //     name: "Dr. C. Periswamy",
-  //     designation: "MNIT, Jaipur",
-  //   },
-  //   {
-  //     name: "Dr. Paresh Vallabhbhai Virparia",
-  //     designation: "Professor, SPU",
-  //   },
-  //   {
-  //     name: "Dr. Rajesh Kumar",
-  //     designation: "MNIT, Jaipur",
-  //   },
-  //   {
-  //     name: "Dr. Arun Kumar Verma",
-  //     designation: "MNIT, Jaipur",
-  //   },
-  //   {
-  //     name: "Dr. Rajendra K Asthana",
-  //     designation: "Ex - Director, SDS Softpro (P) Ltd, NOIDA",
-  //   },
-  //   {
-  //     name: "Dr. Amit Srivastava",
-  //     designation: "Jaypee University, Greater Noida",
-  //   },
-  //   {
-  //     name: "Prof. Anu Gupta",
-  //     designation: "BITS, Pilani",
-  //   },
-  //   {
-  //     name: "Dr. Vinod Kumar Chaubey",
-  //     designation: "BITS, Pilani",
-  //   },
-  //   {
-  //     name: "Dr. Ravinder Agarwal",
-  //     designation: "Thapar University, Patiala",
-  //   },
-  //   {
-  //     name: "Dr. Namita Mittal",
-  //     designation: "MNIT, Jaipur",
-  //   },
-  //   {
-  //     name: "Dr. Trilok Mathur",
-  //     designation: "BITS, Pilani",
-  //   },
-  //   {
-  //     name: "Dr. A.K. Dwivedi",
-  //     designation: "RTU, Kota",
-  //   },
-  //   {
-  //     name: "Dr. Anil K Mathur",
-  //     designation: "RTU, Kota",
-  //   },
-  //   {
-  //     name: "Dr. C.P. Gupta",
-  //     designation: "RTU, Kota",
-  //   },
-  //   {
-  //     name: "Dr. Balamurugan Shanmugam",
-  //     designation: "Director R & D, QUANTS IS & CS, Tamil Nadu",
-  //   },
-  // ];
+
   const advisoryCommittee = [
     {
-      name: "Saurabh Mukherjee",
-      designation: "Banasthali Vidyapith",
-    },
-    {
-      name: "Dr. Shailendra Kumar Mishra",
-      designation: "REVA UNIVERSITY, Bengaluru",
-    },
-    {
-      name: "Dr. Shweta Gupta",
-      designation: "Woxsen University, India",
-    },
-    {
-      name: "Dr. BK Swathi Prasad",
-      designation: "MS Ramaiah University of Applied Sciences",
-    },
-    {
-      name: "A K Verma",
+      name: "Prof (Dr) Uma Jha",
       designation:
-        "Western Norway University of Applied Sciences, Haugesund, Norway",
+        "Senior IEEE Fellow and Professor of Practice, ECE, University of Florida, Gainesville, Florida, USA",
+      profile: "",
     },
     {
-      name: "Prashant Jamwal",
-      designation: "Nazarbayev University, Kazakhstan",
-    },
-    {
-      name: "Abdel Salam Gomaa",
+      name: "Prof (Dr) Parag Kulkarni",
       designation:
-        "Department of Mathematics, Statistics and Physics, College of Art and Sciences, Qatar University, Doha",
+        "Professor, Tokyo International University, Japan; Founder, Chief Scientist and Advisor, iKnowlation Research Labs Pvt Ltd",
+      profile: "",
     },
     {
-      name: "Aboul Ella Hassanien",
-      designation: "Cairo University, Egypt",
-    },
-    {
-      name: "Ali Gharsallah",
+      name: "Dr Marta Zurek-Mortka",
       designation:
-        "Unit of Research in High Frequency Electronic Circuits and Systems, Tunis, Tunisia",
+        "Head of Mechatronics and Prototyping Centre, Lukasiewicz Research Network - Institute for Sustainable Technologies, Warsaw, Poland",
+      profile: "",
     },
     {
-      name: "Ali Mirjalili",
-      designation: "Torrens University, Australia",
+      name: "Prof (Dr) Tanzila Saba",
+      designation: "Professor, Prince Sultan University, Riyadh, Saudi Arabia",
+      profile: "",
     },
     {
-      name: "Alok Kanti Deb",
-      designation: "Indian Institute of Technology, Kharagpur",
-    },
-    {
-      name: "Anand Nayyar",
+      name: "Prof (Dr) Wen-Cheng Lai",
       designation:
-        "Scientist, Graduate School, Duy Tan University, Da Nang, Viet Nam",
+        "Professor, Dept. of Electrical Engineering, Ming Chi University of Technology, Taiwan",
+      profile: "",
     },
     {
-      name: "Anand Paul",
-      designation: "Kyungpook National University, South Korea",
-    },
-    {
-      name: "Anima Johari",
-      designation: "Scientist, SERB",
-    },
-    {
-      name: "Aniruddha Chandra",
-      designation: "NIT Durgapur",
-    },
-    {
-      name: "Anupam Yadav",
-      designation: "National Institute of Technology, Jalandhar",
-    },
-    {
-      name: "Anuradha Ranasinghe",
-      designation: "Liverpool Hope University, UK",
-    },
-    {
-      name: "Aruna Tiwari",
-      designation: "Indian Institute of Technology, Indore",
-    },
-    {
-      name: "Ashvini Chaturvedi",
-      designation: "NIT Suratkal",
-    },
-    {
-      name: "Atulya K. Nagar",
-      designation: "Liverpool Hope University, UK",
-    },
-    {
-      name: "Ayan Kumar Bandyopadhyay",
-      designation: "CEERI, Pilani",
-    },
-    {
-      name: "Carlos E. Palau",
-      designation: "ETSI Telecommunication, UPV, Camino de Vera, Spain",
-    },
-    {
-      name: "Costin Badica",
-      designation: "University of Craiova, Dolj, Romania",
-    },
-    {
-      name: "Dan Simon",
-      designation: "Cleveland State University, USA",
-    },
-    {
-      name: "Debasish Ghose",
-      designation: "IISc Bangalore",
-    },
-    {
-      name: "Deepak Garg",
-      designation: "Bennett University, India",
-    },
-    {
-      name: "Dinesh Goyal",
-      designation: "Poornima Institute of Engineering & Technology, Jaipur",
-    },
-    {
-      name: "Dr. Amit Singhal",
-      designation: "Bennett University, Greater Noida",
-    },
-    {
-      name: "Dr. Mahfuzul H Huda",
-      designation: "Saudi Electronic University",
-    },
-    {
-      name: "Dumitru Baleanu",
-      designation: "Cankaya University",
-    },
-    {
-      name: "Jaisingh Thangaraj",
-      designation: "Assistant Professor, IIT Dhanbad, Jharkhand",
-    },
-    {
-      name: "K. S. Nisar",
-      designation: "Riyadh, Saudi Arabia",
-    },
-    {
-      name: "Kamran Iqbal",
+      name: "Prof (Dr) Prashant Jha",
       designation:
-        "University of Arkansas at Little Rock, Little Rock, Arkansas, United States",
+        "Professor, MedTech Innovation and Entrepreneurship, King’s College, London, UK",
+      profile: "",
     },
     {
-      name: "Kuldeep Singh",
-      designation: "MNIT, Jaipur",
+      name: "Prof (Dr.) Shipra Suman",
+      designation: "Professor, University of London, United Kingdom",
+      profile: "",
     },
     {
-      name: "Kusum Deep",
-      designation: "Indian Institute of Technology, Roorkee, India",
+      name: "Prof (Dr) Vinod Kumar",
+      designation:
+        "Professor, Department of Physics, The University of the West Indies, St. Augustine, Trinidad & Tobago",
+      profile: "",
     },
     {
-      name: "Lalit Lumar Goyal",
-      designation: "NTU Nanyang, Singapore",
+      name: "Prof (Dr) Sudipto Ghosh",
+      designation:
+        "Professor, Computer Science, Colorado State University, USA",
+      profile: "",
     },
     {
-      name: "Manoj K. Shukla",
-      designation: "Harcourt Butler Technical University, Kanpur",
+      name: "Prof (Dr) John Martin",
+      designation:
+        "Professor, School of Engineering and Computer Science, Jazan University, Saudi Arabia",
+      profile: "",
     },
     {
-      name: "Manoj Thakur",
-      designation: "IIT Mandi",
+      name: "Prof (Dr) Madan Singh",
+      designation:
+        "Professor, National University of Lesotho, Lesotho, Southern Africa",
+      profile: "",
+    },
+    {
+      name: "Dr Muluneh Lemma Woldesemayat",
+      designation:
+        "Associate Professor and Scientific Director, Arba Minch Institute of Technology (AMiT), Ethiopia",
+      profile: "",
+    },
+    {
+      name: "Dr Milkias Berhanu Tuka",
+      designation:
+        "Associate Professor, Addis Ababa Science and Technology University, College of Engineering, Ethiopia",
+      profile: "",
+    },
+    {
+      name: "Dr Arindam Pal",
+      designation:
+        "Director, Data Science and Optimization, Optym Bengaluru; Conjoint Senior Lecturer, University of New South Wales, Sydney, Australia",
+      profile: "",
+    },
+    {
+      name: "Dr Parnika Gupta",
+      designation: "Senior Engineer, Global Foundaries, Belgium",
+      profile: "",
+    },
+    {
+      name: "Dr Promod Thakur",
+      designation:
+        "Assistant Professor, Hubert Curien Laboratory, Jean Monnet University in Saint-Etienne, France",
+      profile: "",
+    },
+    {
+      name: "Dr Mohit Mittal",
+      designation: "Data Scientist, Shiratech-Knowtion GmbH, Germany",
+      profile: "",
+    },
+    {
+      name: "Dr Jae Yeon Park",
+      designation:
+        "Senior Researcher, Korea Atomic Energy Research Institute, Daejeon, South Korea",
+      profile: "",
+    },
+    {
+      name: "Dr Mohammad Ali Jallal",
+      designation:
+        "Research Fellow, French Alternative Energies and Atomic Energy Commission (CEA), Paris-Saclay, France",
+      profile: "",
+    },
+    {
+      name: "Dr Ilyos Rabbimov",
+      designation:
+        "Researcher, Center for Economic Research and Reform, Tashkent, Uzbekistan",
+      profile: "",
+    },
+    {
+      name: "Mr Prashant Gupta",
+      designation: "Software Development Manager, Amazon, USA",
+      profile: "",
+    },
+    {
+      name: "Dr. Vijay K. Bhargav",
+      designation: "University of British Columbia",
+      profile: "",
+    },
+    {
+      name: "Dr. Ramjee Prasad",
+      designation: "Aalborg University, Denmark",
+      profile: "",
+    },
+    { name: "Dr. Vinod Kumar", designation: "ALCATEL, France", profile: "" },
+    {
+      name: "Dr. Sastri",
+      designation: "University of Oulu, Finland",
+      profile: "",
+    },
+    {
+      name: "Dr. Ali Al-Sherbaz",
+      designation: "University of Northampton, UK",
+      profile: "",
+    },
+    {
+      name: "Dr. Atheer Matroud",
+      designation: "University of Otago, New Zealand",
+      profile: "",
+    },
+    {
+      name: "Dr. George Tsaramirsis",
+      designation: "King Abdulaziz University, Jeddah, Saudi Arabia",
+      profile: "",
+    },
+    {
+      name: "Dr. Ramesh C. Bansal",
+      designation: "Queensland University, Australia",
+      profile: "",
+    },
+    {
+      name: "Dr. Raed Abd-Alhameed",
+      designation: "University of Bradford, UK",
+      profile: "",
+    },
+    {
+      name: "Dr. Sureswaran Ramadass",
+      designation: "USM University, Malaysia",
+      profile: "",
+    },
+    {
+      name: "Dr. William Puech",
+      designation: "University Montpellier, France",
+      profile: "",
+    },
+    {
+      name: "Dr. Youcef Soufi Mail",
+      designation: "University of Tebessa, Algeria",
+      profile: "",
+    },
+    {
+      name: "Dr. Wan Young Chung",
+      designation: "Pukyong National University, Busan, South Korea",
+      profile: "",
+    },
+    {
+      name: "Dr. Li Zhiwu",
+      designation: "Macau University of Science and Technology, China",
+      profile: "",
+    },
+    {
+      name: "Dr. Youcef Soufi",
+      designation: "University of Tebessa, Algeria",
+      profile: "",
+    },
+    {
+      name: "Dr. Abhishek Ukil",
+      designation: "Nanyang Technological University, Singapore",
+      profile: "",
+    },
+    {
+      name: "Dr. Akshay Rathore",
+      designation: "Concordia University, Montreal, Canada",
+      profile: "",
+    },
+    {
+      name: "Dr. Pinnamaneni Bhanu",
+      designation: "Kelenn Technology, France",
+      profile: "",
+    },
+    {
+      name: "Dr. Armin Aberle",
+      designation: "SERIS, National University of Singapore",
+      profile: "",
+    },
+    {
+      name: "Dr. Thomas Zimmer",
+      designation: "University of Bordeaux, France",
+      profile: "",
+    },
+    {
+      name: "Dr. Sebastien Fregonese",
+      designation: "University of Bordeaux, France",
+      profile: "",
+    },
+    {
+      name: "Dr. Shuliang Wang",
+      designation: "Beijing Institute of Technology, China",
+      profile: "",
+    },
+    {
+      name: "Ashutosh Dutta",
+      designation: "Senior Scientist & 5G Chief Strategist, Johns Hopkins",
+      profile: "",
+    },
+    {
+      name: "Nambirajan Seshadri",
+      designation: "APL; Adjunct Faculty, Johns Hopkins University",
+      profile: "",
+    },
+    {
+      name: "Vijay Raghunathan",
+      designation: "Professor of Practice, UC San Diego; Former CTO, Broadcom",
+      profile: "",
+    },
+    {
+      name: "Ravi Kumar Arya",
+      designation: "Director, Xiangshan Laboratory Wireless Group",
+      profile: "",
+    },
+    {
+      name: "Dr. Deepak Garg",
+      designation: "Professor and Vice Chancellor, SR University",
+      profile: "",
+    },
+  ];
+
+  const technicalProgramCommittee = [
+    {
+      name: "Dr Abdur Rahman",
+      designation: "Professor, AITU Almaty, Kazakhstan",
+      profile: "",
+    },
+    {
+      name: "Dr Ameer Rashed Khan",
+      designation: "Faculty Member, Sharda University, Uzbekistan",
+      profile: "",
+    },
+    {
+      name: "Dr Ammar Ali Awad Abdeen",
+      designation: "Associate Professor, Sudan University, Sudan",
+      profile: "",
+    },
+    {
+      name: "Dr Daniel Jr Dasig",
+      designation:
+        "Assistant Professor, Philippine Women's University, Philippines",
+      profile: "",
+    },
+    {
+      name: "Dr Dharm Singh",
+      designation:
+        "Professor, Namibia University of Science and Technology, Namibia",
+      profile: "",
+    },
+    {
+      name: "Dr Divya Chaudhary",
+      designation: "Assistant Professor, Northeastern University, Seattle, USA",
+      profile: "",
+    },
+    {
+      name: "Dr G R Sinha",
+      designation:
+        "Professor, Myanmar Institute of Information Technology, Myanmar",
+      profile: "",
+    },
+    {
+      name: "Dr Marcin Paprzycki",
+      designation: "Professor, IBSPAN Warsaw, Poland",
+      profile: "",
+    },
+    {
+      name: "Dr Rabia Mushkbar",
+      designation:
+        "Associate Professor, COMSATS University Islamabad, Pakistan",
+      profile: "",
+    },
+    {
+      name: "Dr Rajkumar Buyya",
+      designation: "Professor, University of Melbourne, Australia",
+      profile: "",
+    },
+    {
+      name: "Dr Sapna Gambhir",
+      designation: "Associate Professor, George Mason University, USA",
+      profile: "",
+    },
+    {
+      name: "Dr Vibhor Kumar",
+      designation: "Researcher, Texas A&M University, USA",
+      profile: "",
+    },
+    {
+      name: "Dr Wanlei Zhou",
+      designation: "Professor, University of Technology Sydney, Australia",
+      profile: "",
+    },
+    {
+      name: "Dr Weiwei Jiang",
+      designation:
+        "Professor, Beijing University of Posts and Telecommunications, China",
+      profile: "",
+    },
+    {
+      name: "Dr Abhinav Dhall",
+      designation:
+        "Associate Professor, IIT Ropar; Flinders University, Australia",
+      profile: "",
+    },
+    {
+      name: "Dr Akshar Patel",
+      designation:
+        "Department of Computer Science, City College of New York, USA",
+      profile: "",
+    },
+    {
+      name: "Dr Anita Venugopal",
+      designation: "Faculty Member, Dhofar University, Oman",
+      profile: "",
     },
     {
       name: "Marcin Paprzycki",
-      designation: "Polish Academy of Sciences, Warsaw, Poland",
+      designation: "Faculty Member, IBSPAN, Warsaw, Poland",
+      profile: "",
     },
     {
-      name: "Miodrag Potkonjak",
-      designation: "UCLA, Los Angeles, USA",
+      name: "Nana Yaw Duodu",
+      designation: "Faculty Member, Accra Technical University, Ghana",
+      profile: "",
     },
     {
-      name: "Mohd Muntjir",
-      designation: "Taif University, Kingdom of Saudi Arabia",
+      name: "Prof (Dr) Mohammed Zakariah",
+      designation: "Professor, King Saud University, Riyadh, Saudi Arabia",
+      profile: "",
     },
     {
-      name: "Neetesh Purohit",
-      designation: "IIIT Allahabad",
+      name: "Sakthivel V",
+      designation:
+        "Faculty Member, Konkuk Aerospace Design-Airworthiness Institute, Konkuk University, South Korea",
+      profile: "",
+    },
+
+    // India
+    {
+      name: "Dr Giri Yogeshwari L.",
+      designation: "Professor, Amrita Vishwa Vidyapeetham, Coimbatore, India",
+      profile: "",
     },
     {
-      name: "Nilanjan Dey",
-      designation: "Techno India College of Technology, India",
+      name: "Dr Hukam Saini",
+      designation:
+        "Associate Professor, Computer Science & Engineering, Jagannath University, India",
+      profile: "",
     },
     {
-      name: "Nishchal K. Verma",
-      designation: "Indian Institute of Technology, Kanpur, India",
+      name: "Dr A K Daniel",
+      designation: "Professor, MJP Rohilkhand University, Bareilly, India",
+      profile: "",
     },
     {
-      name: "Nooritawati Md Tahir",
-      designation: "University Technology MARA (UiTM), Malaysia",
+      name: "Dr A Mansurali",
+      designation:
+        "Assistant Professor, Central University of Tamil Nadu, India",
+      profile: "",
     },
     {
-      name: "Preetam Kumar",
-      designation: "IIT, Patna",
+      name: "Dr A Sampath Dakshina Murthy",
+      designation: "Faculty Member, Vignan's VITU, Visakhapatnam, India",
+      profile: "",
     },
     {
-      name: "Prena Gaur",
-      designation: "NSUT, Dwarka, New Delhi",
+      name: "Dr Aastha Joshi",
+      designation: "Assistant Professor, Manipal University Jaipur, India",
+      profile: "",
     },
     {
-      name: "Priti Srinivas Sajja",
-      designation: "Sardar Patel University, Vallabh Vidyanagar, Gujarat",
+      name: "Dr Abhay Bansal",
+      designation: "Professor, Amity University, Noida, India",
+      profile: "",
     },
     {
-      name: "Pushpendra Singh",
-      designation: "NIT Hamirpur",
+      name: "Dr Abhay Kumar Singh",
+      designation: "Professor, National Institute of Technology, Patna, India",
+      profile: "",
     },
     {
-      name: "R. P. Yadav",
-      designation: "MNIT Jaipur",
+      name: "Dr Abhinava Tripathi",
+      designation: "Associate Professor, IIM Lucknow, India",
+      profile: "",
     },
     {
-      name: "R. Gangopadhyay",
-      designation: "LNMIIT, Jaipur",
+      name: "Dr Abhishek Bansal",
+      designation: "Associate Professor, IPU Engineering College, Delhi, India",
+      profile: "",
     },
     {
-      name: "Rajveen Chandel",
-      designation: "NIT Hamirpur",
+      name: "Dr Aditi Sharan",
+      designation: "Professor, Jawaharlal Nehru University, Delhi, India",
+      profile: "",
     },
     {
-      name: "S. Sundaram",
-      designation: "IISc Bangalore",
+      name: "Dr Aditya Khamparia",
+      designation:
+        "Associate Professor, Babasaheb Bhimrao Ambedkar University, Lucknow, India",
+      profile: "",
     },
     {
-      name: "Sandeep Sancheti",
-      designation: "SRM University, India",
+      name: "Dr Alok Aggarwal",
+      designation: "Associate Professor, NIT Kurukshetra, India",
+      profile: "",
     },
     {
-      name: "Sanjay Singh",
-      designation: "CEERI, Pilani",
+      name: "Dr Amit Chandak",
+      designation: "Faculty Member, IPS Academy, Indore, India",
+      profile: "",
     },
     {
-      name: "Sanjeev Yadav",
-      designation: "GWEC, Ajmer",
+      name: "Dr Amit Dhar",
+      designation: "Assistant Professor, SVPM College, India",
+      profile: "",
     },
     {
-      name: "Sanyog Rawat",
-      designation: "Manipal University, Jaipur",
+      name: "Dr Anand Gupta",
+      designation: "Associate Professor, NSUT, New Delhi, India",
+      profile: "",
     },
     {
-      name: "Seemanti Saha",
-      designation: "NIT Patna",
+      name: "Dr Ananthasai Somasi",
+      designation: "Assistant Professor, SVPM College of Engineering, India",
+      profile: "",
     },
     {
-      name: "Shashi Shekhar Jha",
-      designation: "IIT Ropar",
+      name: "Dr Anshul Verma",
+      designation: "Assistant Professor, Banaras Hindu University, India",
+      profile: "",
     },
     {
-      name: "Sudhir Kumar",
-      designation: "IIT Patna",
+      name: "Dr Anu G Thomas",
+      designation:
+        "Associate Professor, College of Engineering Trivandrum, Kerala, India",
+      profile: "",
     },
     {
-      name: "Suneeta Agrawal",
-      designation: "Motilal Nehru National Institute of Technology, Allahabad",
+      name: "Dr Anuj Grover",
+      designation: "Associate Professor, IIT Delhi, India",
+      profile: "",
     },
     {
-      name: "Surajit Kundu",
-      designation: "NIT, Sikkim",
+      name: "Dr Arun Kumar",
+      designation: "Associate Professor, NIT Hamirpur, India",
+      profile: "",
     },
     {
-      name: "Sureswaran Ramadass",
-      designation: "USM University, Penang, Malaysia",
+      name: "Dr Arun Kumar Singh",
+      designation: "Assistant Professor, Galgotias University, India",
+      profile: "",
     },
     {
-      name: "Sushmita Das",
-      designation: "NIT, Rourkela",
+      name: "Dr Ashima Rani",
+      designation: "Associate Professor, SGT University, India",
+      profile: "",
     },
     {
-      name: "Swagatam Das",
-      designation: "Indian Statistical Institute, Kolkata, India",
+      name: "Dr Ashima Singh",
+      designation: "Assistant Professor, Thapar University, Patiala, India",
+      profile: "",
     },
     {
-      name: "T. Rama Rao",
-      designation: "SRM Institute of Science & Technology, Chennai",
+      name: "Dr Ashish Sharma",
+      designation: "Professor, RTU Kota, India",
+      profile: "",
     },
     {
-      name: "Vimal Bhatia",
-      designation: "IIT Indore",
+      name: "Dr Ashok Yadav",
+      designation:
+        "Associate Professor, Dayalbagh Educational Institute, Agra, India",
+      profile: "",
     },
     {
-      name: "Wan Young Chung",
-      designation: "Pukyong National University, Busan, South Korea",
+      name: "Dr Ashutosh Kumar Singh",
+      designation: "Professor, GGSIPU Delhi, India",
+      profile: "",
+    },
+    {
+      name: "Dr Ashwin Dobariya",
+      designation: "Professor, Marwadi University, Rajkot, India",
+      profile: "",
+    },
+    {
+      name: "Dr Atul Gonsai",
+      designation: "Associate Professor, Saurashtra University, Rajkot, India",
+      profile: "",
+    },
+    {
+      name: "Dr Awadhesh Kumar",
+      designation: "Professor, NIT Kurukshetra, India",
+      profile: "",
+    },
+    {
+      name: "Dr B Subbulakshmi",
+      designation: "Faculty Member, Patrician College, Chennai, India",
+      profile: "",
+    },
+    {
+      name: "Dr Bharat Bhushan Sagar",
+      designation: "Professor, BIT Mesra, Ranchi, India",
+      profile: "",
+    },
+    {
+      name: "Dr Bhupesh Rawat",
+      designation: "Associate Professor, DIT University, Dehradun, India",
+      profile: "",
+    },
+    {
+      name: "Dr Brij Gupta",
+      designation: "Professor, NIT Kurukshetra, India",
+      profile: "",
+    },
+    {
+      name: "Dr Chandra Prakash",
+      designation: "Associate Professor, NIT Hamirpur, India",
+      profile: "",
+    },
+    {
+      name: "Dr Charanjeet Singh",
+      designation:
+        "Assistant Professor, GGNI Management & Technology, Ludhiana, India",
+      profile: "",
+    },
+    {
+      name: "Dr Debasish Jena",
+      designation: "Professor, NIT Rourkela, India",
+      profile: "",
+    },
+  ];
+
+  const workshopChairs = [
+    {
+      name: "Marcin Paprzycki",
+      designation: "Professor, Warsaw Management University, Poland",
+      profile: "",
+    },
+  ];
+
+  const workshopCoChairs = [
+    {
+      name: "Dr. Anil Kumar",
+      designation:
+        "Head of Department, Poornima Institute of Engineering & Technology, Jaipur",
+      profile: "",
+    },
+  ];
+
+  const tutorialChairs = [
+    {
+      name: "Maria Ganzha",
+      designation:
+        "System Research Institute, Polish Academy of Sciences, Poland",
+      profile: "",
+    },
+  ];
+
+  const tutorialCoChairs = [
+    {
+      name: "Uday Pratap Singh",
+      designation: "Poornima Institute of Engineering and Technology, Jaipur",
+      profile: "",
+    },
+  ];
+
+  const programConductionChair = [
+    {
+      name: "Vivek Saxena",
+      designation: "Poornima Institute of Engineering and Technology, Jaipur",
+      profile: "",
+    },
+  ];
+
+  const registrationChair = [
+    {
+      name: "Bersha Kumari",
+      designation: "Poornima Institute of Engineering and Technology, Jaipur",
+      profile: "",
+    },
+  ];
+
+  const publicationsMediaCommittee = [
+    {
+      name: "Shalini Chaudhary",
+      designation: "Poornima Institute of Engineering and Technology, Jaipur",
+      profile: "",
+    },
+  ];
+
+  const financialChair = [
+    {
+      name: "Mr. M.K.M. Shah",
+      designation:
+        "Director Admin & Finance, Poornima Group of Colleges, Jaipur",
+      profile: "",
     },
   ];
 
@@ -693,63 +738,82 @@ function Committe() {
     {
       name: "Ms. Jayshree Surolia",
       designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Ms. Ashima Tiwari",
       designation: "PIET, Jaipur",
-    },
-    {
-      name: "Dr. Saurabh Raj",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Ms. Bersha Kumari",
-      designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Ms. Shikha Gautam",
       designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Mr. Abhishek Dadhich",
       designation: "PIET, Jaipur",
+      profile: "",
+    },
+    {
+      name: "Mr. Vikas Kumar",
+      designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Ms. Alka Rani",
       designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Ms. Bhawna Kumari",
       designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Ms. Smita Bisht",
       designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Mr. Punit Kumawat",
       designation: "PIET, Jaipur",
-    },
-    {
-      name: "Ms. Chanchal Tiwari",
-      designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Mr. Anurag Anand Dubey",
       designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Mr. Mohnish Sachdeva",
       designation: "PIET, Jaipur",
-    },
-    {
-      name: "Ms. Shefali Khandelwal",
-      designation: "PIET, Jaipur",
+      profile: "",
     },
     {
       name: "Mr. Indra Kishor",
       designation: "PIET, Jaipur",
+      profile: "",
     },
+  ];
+
+  const committees = [
+    { title: "Chief Patrons", members: chiefPatrons },
+    { title: "Patrons", members: patrons },
+    { title: "General Chair", members: generalChair },
+    { title: "General Co-Chairs", members: generalCoChair },
+    { title: "Steering Committee", members: SteeringCommittee },
+    { title: "Advisory Committee", members: advisoryCommittee },
+    { title: "Technical Program Committee", members: technicalProgramCommittee },
+    { title: "Workshop Chairs", members: workshopChairs },
+    { title: "Workshop Co-Chairs", members: workshopCoChairs },
+    { title: "Tutorial Chairs", members: tutorialChairs },
+    { title: "Tutorial Co-Chairs", members: tutorialCoChairs },
+    { title: "Program Conduction Chair", members: programConductionChair },
+    { title: "Registration Chair", members: registrationChair },
+    {title: "Publications & Media Committee", members: publicationsMediaCommittee },
+    { title: "Financial Chair", members: financialChair },
+    { title: "Organizing Committee", members: organizingCommittee },
   ];
 
   return (
@@ -761,510 +825,54 @@ function Committe() {
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <div>
-        <Schedule />
-        <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Honorary Patron
+
+      <Schedule />
+
+      <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+
+      {committees.map((section, sIndex) => (
+        <div className="my-12" key={sIndex}>
+          <h1 className="heading my-2 text-sm font-bold lg:text-2xl">
+            {section.title}
           </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {honaryPateron.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
+
+          <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {section.members.map((item, index) => (
+              <li
+                key={index}
+                className="divide-y divide-gray-200 rounded-lg bg-white shadow"
+              >
+                <div className="flex items-center space-x-4 p-6">
+                  {/* Avatar */}
+                  <div className="flex h-12 w-12 min-w-[48px] items-center justify-center rounded-full bg-[#1a1212] font-semibold text-white">
+                    {item.name.charAt(0)}
+                  </div>
+
+                  {/* Text */}
+                  <div className="flex-1">
+                    {item?.profile ? (
+                      <Link href={item.profile} target="_blank">
+                        <h3 className="text-sm font-medium text-gray-900 underline lg:text-lg">
                           {item.name}
                         </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
+                      </Link>
+                    ) : (
+                      <h3 className="text-sm font-medium text-gray-900 lg:text-lg">
+                        {item.name}
+                      </h3>
+                    )}
+
+                    <p className="mt-1 text-sm text-gray-500">
+                      {item.designation}
+                    </p>
                   </div>
-                </li>
-              );
-            })}
+                </div>
+              </li>
+            ))}
           </ul>
         </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Honorary Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {honarayChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            General Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {GeneralChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <Link href={item.profile} target="_blank">
-                          <h3 className="truncate text-sm font-medium text-gray-900 underline lg:text-xl">
-                            {item.name}
-                          </h3>
-                        </Link>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Conference Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {conferenceChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <Link target="_blank" href={item.profile}>
-                          <h3 className="truncate text-sm font-medium text-gray-900 underline lg:text-xl">
-                            {item.name}
-                          </h3>
-                        </Link>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Steering Committee
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {SteeringCommittee.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Conference Co Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {conferenceCoChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Organizing Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {organizingChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        {/* <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Organizing Co Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {organizingCoChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div> */}
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Technical Program Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {technicalProgramChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Editorial
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {editorial.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Keynote Speaker
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {keynoteSpeakers.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Finance Committee
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {financeCommittee.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Publicity Chair
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {publicityChair.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Advisory Committee
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {advisoryCommittee.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        {/* <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            National Advisory Committee
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {nationalAdvisoryCommittee.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div> */}
-        <div className="my-12">
-          <h1 className={"heading my-2 text-sm font-bold lg:text-2xl"}>
-            Organizing Committee
-          </h1>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {organizingCommittee.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
-                >
-                  <div className="flex w-full items-center justify-between space-x-6 p-6">
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="truncate text-sm font-medium text-gray-900 lg:text-xl">
-                          {item.name}
-                        </h3>
-                      </div>
-                      <p className="mt-1 text-sm text-gray-500">
-                        {item.designation}
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </div>
+      ))}
+
       <Sponsored />
     </div>
   );

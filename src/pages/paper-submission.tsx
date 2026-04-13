@@ -15,100 +15,126 @@ export default function PaperSubmission() {
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
+
       <Schedule />
-      {/* <ImportantDetails /> */}
+
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+
       <div className={"prose my-8"}>
         <h1 className={"heading"}>Paper Submission</h1>
+
         <p className="text-2xl">
           Click{" "}
           <span>
-            {" "}
             <Link
               target="_blank"
-              href={
-                "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICIMMI2025%2FSubmission%2FIndex"
-              }
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICIMMI2026%2FSubmission%2FIndex"
             >
               here
             </Link>
           </span>{" "}
           to submit the paper
         </p>
-        <h3>Yet to be Announced</h3>
       </div>
+
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-      <div className={"prose my-8"}>
-        <h2
-          className={
-            "my-3 text-center text-lg font-bold lg:text-start lg:text-2xl"
-          }
-        >
-          Submission Guidelines:
-        </h2>
+
+      <div className="my-8 space-y-4 leading-relaxed text-gray-800">
+        <h2 className="text-xl font-bold">Submission Guidelines:</h2>
+
+        <p>
+          Authors are invited to submit original research papers to ICIMMI 2026
+          following the standard IEEE Conference Template. Manuscripts must be
+          prepared using the official IEEE templates available at:{" "}
+          <Link
+            href="https://www.ieee.org/conferences/publishing/templates"
+            target="_blank"
+            className="break-all font-medium text-blue-600 underline"
+          >
+            https://www.ieee.org/conferences/publishing/templates
+          </Link>
+          .
+        </p>
+
+        <p>
+          Submissions should strictly comply with IEEE formatting requirements,
+          including font styles, margins, reference format, and layout.
+        </p>
+
+        <p>
+          The manuscript must not exceed six (6) pages, including figures,
+          tables, and references. Authors are required to include an abstract of
+          no more than 200 words, clearly summarizing the objectives,
+          methodology, results, and contributions of the work.
+        </p>
+
+        <p>
+          All submissions must be original and unpublished, and must not be
+          under consideration for publication elsewhere.
+        </p>
+
+        <p>
+          To maintain academic integrity, the similarity index must not exceed
+          10%. Papers exceeding this threshold will be rejected without review.
+        </p>
+
+        <hr />
+
+        <h2 className="text-xl font-bold">Review Process and Presentation</h2>
+
+        <p>
+          All eligible submissions will undergo a double-blind peer review
+          process conducted by the conference technical committee in accordance
+          with IEEE standards.
+        </p>
+
+        <p>Based on the review outcome, papers will be categorized as:</p>
+
+        <ul className="ml-6 list-disc space-y-1 pl-6">
+          <li>Accepted for Oral Presentation</li>
+          <li>Accepted with Minor Revisions (Oral Presentation)</li>
+          <li>Rejected</li>
+        </ul>
+
+        <p>
+          Only accepted and presented papers will be considered for inclusion in
+          the conference proceedings.
+        </p>
+
+        <hr />
+
+        <h2 className="text-xl font-bold">Additional Notes</h2>
+
+        <ul className="ml-6 list-disc space-y-1 pl-6">
+          <li>
+            Authors must ensure that the final manuscript complies with IEEE
+            Xplore compatibility requirements (e.g., PDF format validation).
+          </li>
+          <li>
+            At least one author of each accepted paper must register and present
+            the paper at the conference.
+          </li>
+          <li>
+            Detailed instructions regarding submission, registration, and
+            presentation will be communicated after acceptance.
+          </li>
+        </ul>
+
+        <p>
+          <span className="font-semibold">Note:</span> Further updates regarding
+          schedule and presentation mode will be announced in due course.
+        </p>
       </div>
-      <p className="w-full px-4 py-4 md:px-0">
-        To submit a paper for ICIMMI-2025, authors must follow the conference
-        proceedings format.The submission template for the conference is
-        available at{" "}
-        <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
-          <Link
-            href="/ICIMMI_Authors_Template.docx"
-            className="break-all"
-          >
-            ICIMMI Submission Template
-          </Link>
-        </span>
-        {", "}
-        for Word users and{" "}
-        <span className="break-all py-4 text-center text-sm font-bold text-blue-500 underline lg:break-normal lg:text-start">
-          <Link
-            href={
-              "https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip"
-            }
-            className="break-all"
-          >
-            https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip
-          </Link>
-        </span>{" "}
-        for LaTeX users. The maximum length of the paper is six (6) pages.
-        Authors must ensure that their research paper is original and has not
-        been previously submitted to any other journal or conference. The
-        similarity score of the manuscript should not exceed 10%. Manuscripts
-        with a similarity score of more than 10% will not be processed.
-      </p>
-      <br />
-      <p className="px-4 font-bold md:px-0">
-        Review Process & Oral Presentation:
-      </p>
-      <ul className="prose mx-4 my-4 list-disc">
-        <li>
-          All papers with a similarity score of less than 10% will undergo a
-          double-blind review. The technical committee of the conference will
-          review the papers, and the authors will be notified of the paper s
-          status, which can be one of the following:
-          <ul>
-            <li>Accepted for oral presentation</li>
-            <li>Accepted with minor corrections for Oral Presentation</li>
-            <li>Rejected</li>
-          </ul>
-        </li>
-      </ul>
-      <p>
-        <span className="font-bold">Note:* </span>yet to be announced
-      </p>
+
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-      <h2
-        className={
-          "my-3 text-center text-lg font-bold lg:text-start lg:text-2xl"
-        }
-      >
+
+      <h2 className="my-3 text-center text-lg font-bold lg:text-start lg:text-2xl">
         Downloads:
       </h2>
+
       <div className="flex flex-col gap-y-3">
         <Link
           href="/ICIMMI_Authors_Template.docx"
-          // download="/_submission_template.docx"
           className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
         >
           <svg
@@ -120,9 +146,9 @@ export default function PaperSubmission() {
           </svg>
           <span>Paper Template Doc</span>
         </Link>
+
         <Link
           href="#"
-          // download="/art-primary.zip"
           className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
         >
           <svg
@@ -135,6 +161,7 @@ export default function PaperSubmission() {
           <span>Paper Template Latex</span>
         </Link>
       </div>
+
       <Sponsored />
     </div>
   );

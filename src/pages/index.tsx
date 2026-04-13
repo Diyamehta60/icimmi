@@ -127,7 +127,7 @@ const Home = () => {
                 className={"hidden text-xl text-[#034EA2] lg:block"}
               />
               <p className={"font-semibold text-[#034EA2]"}>
-                15 & 16th December, 2025
+                24 & 24th December, 2026
               </p>
             </div>
 
@@ -136,7 +136,7 @@ const Home = () => {
                 "mx-2 my-3 break-words text-3xl font-bold lg:mx-0 lg:my-2 lg:text-4xl"
               }
             >
-              7th
+              8th
               {<br />}
               INTERNATIONAL CONFERENCE ON INFORMATION MANAGEMENT & MACHINE
               INTELLIGENCE
@@ -281,13 +281,13 @@ const Home = () => {
                 Preamble
               </h2>
               <p className={"text-justify"}>
-                7th International Conference on Information Management & Machine
-                Intelligence (ICIMMI- 2025) will be held at Poornima Institute
+                8th International Conference on Information Management & Machine
+                Intelligence (ICIMMI- 2026) will be held at Poornima Institute
                 of Engineering & Technology, Jaipur, Rajasthan, India on
-                December 15-16, 2025.
+                December 23-24, 2026.
                 {<br />}
                 {<br />}
-                The ICIMMI-2025 conference aims to showcase the latest trends in
+                The ICIMMI-2026 conference aims to showcase the latest trends in
                 the development of intelligence across all areas of Information
                 Management. The current state of the technology industry has
                 permeated all branches of engineering, from Infrastructure
