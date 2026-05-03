@@ -2,818 +2,1199 @@ import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Head from "next/head";
 import Link from "next/link";
+import { title } from "process";
 import React from "react";
 
 function Committe() {
-  const chiefPatrons = [
+  const cheifPatrons = [
     {
       name: "Mr. Shashikant Singhi",
-      designation: "Chairman,Poornima Foundation, Jaipur, India",
+      designation: "Chairman, Poornima Foundation, Jaipur, India",
       profile: "#",
     },
   ];
-  const patrons = [
+  const steeringCommittee = [
     {
-      name: "Prof. B.B. Gupta",
-      designation:
-        "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
-      profile: "#",
-    },
-    {
-      name: "Dr. Valentina E Balas",
-      designation: "Professor, Department of Automatics",
+      name: "Dr. Valentina E. Balas",
+      designation: "Professor, Department of Automatics, Romania",
       profile: "#",
     },
     {
       name: "Dr. Pooja Jain",
-      designation: "Professor, IIIT, Nagpur",
+      designation: "Professor, IIIT, Nagpur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr. Veerpratap Meena",
+      designation:
+        "Professor, National Institute of Technology (NIT), Jamshedpur",
       profile: "#",
     },
   ];
 
   const generalChair = [
     {
-      name: "Prof Dharam Singh Jat",
+      name: "Dr. Dinesh Goyal",
+      designation:
+        "Professor, Computer Science, Principal, Poornima Institute of Engineering and Technology, Sitapura, Jaipur, Rajasthan, India",
+      profile: "#",
+    },
+    {
+      name: "Prof. Dharam Singh Jat",
       designation: "Namibia University of Science & Tech., Namibia",
-      profile: "https://fci.nust.na/prof-dharm-singh-jat",
+      profile: "#",
+    },
+  ];
+  const conferenceChairs = [
+    {
+      name: "Dr. Anil Kumar",
+      designation:
+        "Professor & Head, Department of Computer Engineering, Poornima Institute of Engineering and Technology, Sitapura, Jaipur, Rajasthan, India",
+      profile: "#",
+    },
+    {
+      name: "Prof. B.B. Gupta",
+      designation:
+        "Director, Centre for AI & Cyber Security, Asia University, Taiwan",
+      profile: "#",
+    },
+  ];
+  const executiveChairs = [
+    {
+      name: "Dr. Uday Pratap Singh",
+      designation:
+        "Associate Professor, Dept. of AI & DS, Poornima Institute of Engineering and Technology, Sitapura, Jaipur, Rajasthan, India",
+      profile: "#",
     },
     {
       name: "Prof. Marcin Paprzycki",
       designation:
-        "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
+        "System Research Institute, Polish Academy of Sciences, Poland",
       profile: "#",
     },
   ];
 
-  const generalCoChair = [
+  const technialProgramChairs = [
     {
-      name: "Dr. Dinesh Goyal",
-      designation: "Principal & IEEE Senior Member, PIET, Jaipur",
-      profile: "https://www.piet.poornima.org/Principal.html",
-    },
-  ];
-
-  const SteeringCommittee = [
-    {
-      name: "Dr. JC Bansal",
-      designation: "Professor, South Asian University",
-      profile: "",
-    },
-    {
-      name: "Dr. Carlos M. Travieso-Gonzalez",
+      name: "Prof (Dr) Bhim Singh",
       designation:
-        "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain",
-      profile: "",
+        "SERB National Science Chair and Professor Emeritus, IIT Delhi, Delhi",
+      profile: "#",
     },
     {
-      name: "Dr. Saurabh Sinha",
-      designation: "Professor, University Of Canterbury",
-      profile: "",
+      name: "Mr. Deepak Mathur",
+      designation: "Vice President, IEEE MGA",
+      profile: "#",
     },
     {
-      name: "Dr. Nischal Verma",
-      designation: "Professor, IIT Kanpur",
-      profile: "",
-    },
-    {
-      name: "Dr. Veerpratap Meena",
+      name: "Prof (Dr) M N Hoda",
       designation:
-        "Professor, National Institute of Technology (NIT), Jamshedpur",
-      profile: "",
+        "Chairperson, IEEE Delhi Section and Director, Bharati Vidyapeeth's Institute of Computer Applications and Management, Delhi",
+      profile: "#",
     },
     {
-      name: "Dr. Wan-Young Chung",
-      designation: "Pukyong National University, Busan, South Korea",
-      profile: "",
+      name: "Prof (Dr) Prerna Gaur",
+      designation: "Chair, IEEE India Council and Director, NSUT, New Delhi",
+      profile: "#",
     },
     {
-      name: "Prof. Kokou Yetongnon",
-      designation: "Professor, University of Bourgogne, France",
-      profile: "",
+      name: "Prof (Dr.) Rajnish Sharma",
+      designation: "Vice Chancellor, Chitkara University",
+      profile: "#",
     },
     {
-      name: "Dr. Puneet Goyal",
-      designation: "Assistant Professor, IIT Mandi",
-      profile: "",
+      name: "Prof (Dr.) Preeti Bajaj",
+      designation: "Chair Elect, IEEE India Council",
+      profile: "#",
     },
     {
-      name: "Dr. Abhishek Mukherjee",
-      designation: "USA",
-      profile: "",
-    },
-  ];
-
-  const advisoryCommittee = [
-    {
-      name: "Prof (Dr) Uma Jha",
+      name: "Prof (Dr.) Jasdeep Kaur Dhanoa",
       designation:
-        "Senior IEEE Fellow and Professor of Practice, ECE, University of Florida, Gainesville, Florida, USA",
-      profile: "",
+        "Dean - Training & Placement and Alumni Affairs, Professor, Dept of ECE, Indira Gandhi Delhi Technical University for Women",
+      profile: "#",
     },
     {
-      name: "Prof (Dr) Parag Kulkarni",
+      name: "Prof (Dr) Deepti Gupta",
+      designation: "Professor, IIT Bombay, Mumbai",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) Arpan K Kar",
+      designation: "Professor, IIT Delhi, New Delhi",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) B Balamurugan",
+      designation: "Professor and Dean Academics, Shiv Nadar University, Noida",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) Mangey Ram",
       designation:
-        "Professor, Tokyo International University, Japan; Founder, Chief Scientist and Advisor, iKnowlation Research Labs Pvt Ltd",
-      profile: "",
+        "Professor and Dean (Research and Collaborations), Graphic Era University, Dehradun",
+      profile: "#",
     },
     {
-      name: "Dr Marta Zurek-Mortka",
+      name: "Mr. Sanjay Jain",
+      designation: "Head of Google for Education, Google India",
+      profile: "#",
+    },
+    {
+      name: "Mr. Anil Kumar Saini",
+      designation: "Scientist, CEERI, Pilani",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) Amrita Rai",
       designation:
-        "Head of Mechatronics and Prototyping Centre, Lukasiewicz Research Network - Institute for Sustainable Technologies, Warsaw, Poland",
-      profile: "",
+        "Professor, Galgotias College of Engineering & Technology, Greater Noida",
+      profile: "#",
     },
     {
-      name: "Prof (Dr) Tanzila Saba",
-      designation: "Professor, Prince Sultan University, Riyadh, Saudi Arabia",
-      profile: "",
-    },
-    {
-      name: "Prof (Dr) Wen-Cheng Lai",
+      name: "Dr. Abhilasha Rakesh Vyas",
       designation:
-        "Professor, Dept. of Electrical Engineering, Ming Chi University of Technology, Taiwan",
-      profile: "",
-    },
-    {
-      name: "Prof (Dr) Prashant Jha",
-      designation:
-        "Professor, MedTech Innovation and Entrepreneurship, King’s College, London, UK",
-      profile: "",
-    },
-    {
-      name: "Prof (Dr.) Shipra Suman",
-      designation: "Professor, University of London, United Kingdom",
-      profile: "",
-    },
-    {
-      name: "Prof (Dr) Vinod Kumar",
-      designation:
-        "Professor, Department of Physics, The University of the West Indies, St. Augustine, Trinidad & Tobago",
-      profile: "",
-    },
-    {
-      name: "Prof (Dr) Sudipto Ghosh",
-      designation:
-        "Professor, Computer Science, Colorado State University, USA",
-      profile: "",
-    },
-    {
-      name: "Prof (Dr) John Martin",
-      designation:
-        "Professor, School of Engineering and Computer Science, Jazan University, Saudi Arabia",
-      profile: "",
-    },
-    {
-      name: "Prof (Dr) Madan Singh",
-      designation:
-        "Professor, National University of Lesotho, Lesotho, Southern Africa",
-      profile: "",
-    },
-    {
-      name: "Dr Muluneh Lemma Woldesemayat",
-      designation:
-        "Associate Professor and Scientific Director, Arba Minch Institute of Technology (AMiT), Ethiopia",
-      profile: "",
-    },
-    {
-      name: "Dr Milkias Berhanu Tuka",
-      designation:
-        "Associate Professor, Addis Ababa Science and Technology University, College of Engineering, Ethiopia",
-      profile: "",
-    },
-    {
-      name: "Dr Arindam Pal",
-      designation:
-        "Director, Data Science and Optimization, Optym Bengaluru; Conjoint Senior Lecturer, University of New South Wales, Sydney, Australia",
-      profile: "",
-    },
-    {
-      name: "Dr Parnika Gupta",
-      designation: "Senior Engineer, Global Foundaries, Belgium",
-      profile: "",
-    },
-    {
-      name: "Dr Promod Thakur",
-      designation:
-        "Assistant Professor, Hubert Curien Laboratory, Jean Monnet University in Saint-Etienne, France",
-      profile: "",
-    },
-    {
-      name: "Dr Mohit Mittal",
-      designation: "Data Scientist, Shiratech-Knowtion GmbH, Germany",
-      profile: "",
-    },
-    {
-      name: "Dr Jae Yeon Park",
-      designation:
-        "Senior Researcher, Korea Atomic Energy Research Institute, Daejeon, South Korea",
-      profile: "",
-    },
-    {
-      name: "Dr Mohammad Ali Jallal",
-      designation:
-        "Research Fellow, French Alternative Energies and Atomic Energy Commission (CEA), Paris-Saclay, France",
-      profile: "",
-    },
-    {
-      name: "Dr Ilyos Rabbimov",
-      designation:
-        "Researcher, Center for Economic Research and Reform, Tashkent, Uzbekistan",
-      profile: "",
-    },
-    {
-      name: "Mr Prashant Gupta",
-      designation: "Software Development Manager, Amazon, USA",
-      profile: "",
-    },
-    {
-      name: "Dr. Vijay K. Bhargav",
-      designation: "University of British Columbia",
-      profile: "",
-    },
-    {
-      name: "Dr. Ramjee Prasad",
-      designation: "Aalborg University, Denmark",
-      profile: "",
-    },
-    { name: "Dr. Vinod Kumar", designation: "ALCATEL, France", profile: "" },
-    {
-      name: "Dr. Sastri",
-      designation: "University of Oulu, Finland",
-      profile: "",
-    },
-    {
-      name: "Dr. Ali Al-Sherbaz",
-      designation: "University of Northampton, UK",
-      profile: "",
-    },
-    {
-      name: "Dr. Atheer Matroud",
-      designation: "University of Otago, New Zealand",
-      profile: "",
-    },
-    {
-      name: "Dr. George Tsaramirsis",
-      designation: "King Abdulaziz University, Jeddah, Saudi Arabia",
-      profile: "",
-    },
-    {
-      name: "Dr. Ramesh C. Bansal",
-      designation: "Queensland University, Australia",
-      profile: "",
-    },
-    {
-      name: "Dr. Raed Abd-Alhameed",
-      designation: "University of Bradford, UK",
-      profile: "",
-    },
-    {
-      name: "Dr. Sureswaran Ramadass",
-      designation: "USM University, Malaysia",
-      profile: "",
-    },
-    {
-      name: "Dr. William Puech",
-      designation: "University Montpellier, France",
-      profile: "",
-    },
-    {
-      name: "Dr. Youcef Soufi Mail",
-      designation: "University of Tebessa, Algeria",
-      profile: "",
-    },
-    {
-      name: "Dr. Wan Young Chung",
-      designation: "Pukyong National University, Busan, South Korea",
-      profile: "",
-    },
-    {
-      name: "Dr. Li Zhiwu",
-      designation: "Macau University of Science and Technology, China",
-      profile: "",
-    },
-    {
-      name: "Dr. Youcef Soufi",
-      designation: "University of Tebessa, Algeria",
-      profile: "",
-    },
-    {
-      name: "Dr. Abhishek Ukil",
-      designation: "Nanyang Technological University, Singapore",
-      profile: "",
-    },
-    {
-      name: "Dr. Akshay Rathore",
-      designation: "Concordia University, Montreal, Canada",
-      profile: "",
-    },
-    {
-      name: "Dr. Pinnamaneni Bhanu",
-      designation: "Kelenn Technology, France",
-      profile: "",
-    },
-    {
-      name: "Dr. Armin Aberle",
-      designation: "SERIS, National University of Singapore",
-      profile: "",
-    },
-    {
-      name: "Dr. Thomas Zimmer",
-      designation: "University of Bordeaux, France",
-      profile: "",
-    },
-    {
-      name: "Dr. Sebastien Fregonese",
-      designation: "University of Bordeaux, France",
-      profile: "",
-    },
-    {
-      name: "Dr. Shuliang Wang",
-      designation: "Beijing Institute of Technology, China",
-      profile: "",
-    },
-    {
-      name: "Ashutosh Dutta",
-      designation: "Senior Scientist & 5G Chief Strategist, Johns Hopkins",
-      profile: "",
-    },
-    {
-      name: "Nambirajan Seshadri",
-      designation: "APL; Adjunct Faculty, Johns Hopkins University",
-      profile: "",
-    },
-    {
-      name: "Vijay Raghunathan",
-      designation: "Professor of Practice, UC San Diego; Former CTO, Broadcom",
-      profile: "",
-    },
-    {
-      name: "Ravi Kumar Arya",
-      designation: "Director, Xiangshan Laboratory Wireless Group",
-      profile: "",
+        "Business and Technology Associate Delivery Manager, Accenture, India and Co-Convener, Women in Tech Wing, GESIA IT Association, Ahmedabad, Gujarat",
+      profile: "#",
     },
     {
       name: "Dr. Deepak Garg",
       designation: "Professor and Vice Chancellor, SR University",
-      profile: "",
+      profile: "#",
+    },
+    {
+      name: "Dr. Nishcal Verma",
+      designation:
+        "Professor, Department of Electrical Engineering, IIT Kanpur",
+      profile: "#",
     },
   ];
 
-  const technicalProgramCommittee = [
-    {
-      name: "Dr Abdur Rahman",
-      designation: "Professor, AITU Almaty, Kazakhstan",
-      profile: "",
-    },
-    {
-      name: "Dr Ameer Rashed Khan",
-      designation: "Faculty Member, Sharda University, Uzbekistan",
-      profile: "",
-    },
-    {
-      name: "Dr Ammar Ali Awad Abdeen",
-      designation: "Associate Professor, Sudan University, Sudan",
-      profile: "",
-    },
-    {
-      name: "Dr Daniel Jr Dasig",
-      designation:
-        "Assistant Professor, Philippine Women's University, Philippines",
-      profile: "",
-    },
-    {
-      name: "Dr Dharm Singh",
-      designation:
-        "Professor, Namibia University of Science and Technology, Namibia",
-      profile: "",
-    },
-    {
-      name: "Dr Divya Chaudhary",
-      designation: "Assistant Professor, Northeastern University, Seattle, USA",
-      profile: "",
-    },
-    {
-      name: "Dr G R Sinha",
-      designation:
-        "Professor, Myanmar Institute of Information Technology, Myanmar",
-      profile: "",
-    },
-    {
-      name: "Dr Marcin Paprzycki",
-      designation: "Professor, IBSPAN Warsaw, Poland",
-      profile: "",
-    },
-    {
-      name: "Dr Rabia Mushkbar",
-      designation:
-        "Associate Professor, COMSATS University Islamabad, Pakistan",
-      profile: "",
-    },
-    {
-      name: "Dr Rajkumar Buyya",
-      designation: "Professor, University of Melbourne, Australia",
-      profile: "",
-    },
+  const technialProgramCommittee = [
     {
       name: "Dr Sapna Gambhir",
       designation: "Associate Professor, George Mason University, USA",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Dr Vibhor Kumar",
-      designation: "Researcher, Texas A&M University, USA",
-      profile: "",
+      designation:
+        "Researcher, Texas A&M University, College Station, Texas, USA",
+      profile: "#",
     },
     {
       name: "Dr Wanlei Zhou",
       designation: "Professor, University of Technology Sydney, Australia",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Dr Weiwei Jiang",
       designation:
         "Professor, Beijing University of Posts and Telecommunications, China",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Dr Abhinav Dhall",
       designation:
-        "Associate Professor, IIT Ropar; Flinders University, Australia",
-      profile: "",
+        "Associate Professor, IIT Ropar; Flinders University, Adelaide, Australia",
+      profile: "#",
     },
     {
       name: "Dr Akshar Patel",
       designation:
         "Department of Computer Science, City College of New York, USA",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Dr Anita Venugopal",
       designation: "Faculty Member, Dhofar University, Oman",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Marcin Paprzycki",
       designation: "Faculty Member, IBSPAN, Warsaw, Poland",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Nana Yaw Duodu",
       designation: "Faculty Member, Accra Technical University, Ghana",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Prof (Dr) Mohammed Zakariah",
       designation: "Professor, King Saud University, Riyadh, Saudi Arabia",
-      profile: "",
+      profile: "#",
     },
     {
       name: "Sakthivel V",
       designation:
         "Faculty Member, Konkuk Aerospace Design-Airworthiness Institute, Konkuk University, South Korea",
-      profile: "",
+      profile: "#",
     },
 
     // India
     {
-      name: "Dr Giri Yogeshwari L.",
-      designation: "Professor, Amrita Vishwa Vidyapeetham, Coimbatore, India",
-      profile: "",
+      name: "Dr K K Pattanaik",
+      designation: "Professor, IIITM Gwalior, India",
+      profile: "#",
     },
     {
-      name: "Dr Hukam Saini",
+      name: "Dr K Saravanan",
+      designation: "Professor, VIT Chennai, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Kalaiyarasan A",
+      designation: "Faculty Member, Muthayammal Engineering College, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Kalpna Srivastava",
+      designation: "Professor, Poornima University Jaipur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Kamlesh Dutta",
+      designation: "Professor, NIT Hamirpur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Kamlesh Kumar Verma",
+      designation: "Assistant Professor, Bundelkhand University Jhansi, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Kandula Damodhar Rao",
       designation:
-        "Associate Professor, Computer Science & Engineering, Jagannath University, India",
-      profile: "",
+        "Faculty Member, Sreenidhi Institute of Science and Technology, India",
+      profile: "#",
     },
     {
-      name: "Dr A K Daniel",
-      designation: "Professor, MJP Rohilkhand University, Bareilly, India",
-      profile: "",
+      name: "Dr Karm Veer Arya",
+      designation: "Professor, IIITM Gwalior, India",
+      profile: "#",
     },
     {
-      name: "Dr A Mansurali",
+      name: "Dr Karthikeyan R",
       designation:
-        "Assistant Professor, Central University of Tamil Nadu, India",
-      profile: "",
+        "Faculty Member, SRM Arts and Science College Kattankulathur, India",
+      profile: "#",
     },
     {
-      name: "Dr A Sampath Dakshina Murthy",
-      designation: "Faculty Member, Vignan's VITU, Visakhapatnam, India",
-      profile: "",
+      name: "Dr Kiran Jyoti",
+      designation: "Professor, GNDU Amritsar, India",
+      profile: "#",
     },
     {
-      name: "Dr Aastha Joshi",
-      designation: "Assistant Professor, Manipal University Jaipur, India",
-      profile: "",
+      name: "Dr Kumod Kumar Gupta",
+      designation: "Assistant Professor, NIET Noida, India",
+      profile: "#",
     },
     {
-      name: "Dr Abhay Bansal",
-      designation: "Professor, Amity University, Noida, India",
-      profile: "",
-    },
-    {
-      name: "Dr Abhay Kumar Singh",
-      designation: "Professor, National Institute of Technology, Patna, India",
-      profile: "",
-    },
-    {
-      name: "Dr Abhinava Tripathi",
-      designation: "Associate Professor, IIM Lucknow, India",
-      profile: "",
-    },
-    {
-      name: "Dr Abhishek Bansal",
-      designation: "Associate Professor, IPU Engineering College, Delhi, India",
-      profile: "",
-    },
-    {
-      name: "Dr Aditi Sharan",
-      designation: "Professor, Jawaharlal Nehru University, Delhi, India",
-      profile: "",
-    },
-    {
-      name: "Dr Aditya Khamparia",
+      name: "Dr Lalit Mohan Goyal",
       designation:
-        "Associate Professor, Babasaheb Bhimrao Ambedkar University, Lucknow, India",
-      profile: "",
+        "Professor, Maharaja Surajmal Institute of Technology Delhi, India",
+      profile: "#",
     },
     {
-      name: "Dr Alok Aggarwal",
-      designation: "Associate Professor, NIT Kurukshetra, India",
-      profile: "",
+      name: "Dr Lalita Kumari",
+      designation: "Faculty Member, Amity University Patna, India",
+      profile: "#",
     },
     {
-      name: "Dr Amit Chandak",
-      designation: "Faculty Member, IPS Academy, Indore, India",
-      profile: "",
-    },
-    {
-      name: "Dr Amit Dhar",
-      designation: "Assistant Professor, SVPM College, India",
-      profile: "",
-    },
-    {
-      name: "Dr Anand Gupta",
-      designation: "Associate Professor, NSUT, New Delhi, India",
-      profile: "",
-    },
-    {
-      name: "Dr Ananthasai Somasi",
-      designation: "Assistant Professor, SVPM College of Engineering, India",
-      profile: "",
-    },
-    {
-      name: "Dr Anshul Verma",
-      designation: "Assistant Professor, Banaras Hindu University, India",
-      profile: "",
-    },
-    {
-      name: "Dr Anu G Thomas",
+      name: "Dr M Anandaraj",
       designation:
-        "Associate Professor, College of Engineering Trivandrum, Kerala, India",
-      profile: "",
+        "Faculty Member, PSNA College of Engineering and Technology, India",
+      profile: "#",
     },
     {
-      name: "Dr Anuj Grover",
-      designation: "Associate Professor, IIT Delhi, India",
-      profile: "",
-    },
-    {
-      name: "Dr Arun Kumar",
-      designation: "Associate Professor, NIT Hamirpur, India",
-      profile: "",
-    },
-    {
-      name: "Dr Arun Kumar Singh",
-      designation: "Assistant Professor, Galgotias University, India",
-      profile: "",
-    },
-    {
-      name: "Dr Ashima Rani",
-      designation: "Associate Professor, SGT University, India",
-      profile: "",
-    },
-    {
-      name: "Dr Ashima Singh",
-      designation: "Assistant Professor, Thapar University, Patiala, India",
-      profile: "",
-    },
-    {
-      name: "Dr Ashish Sharma",
-      designation: "Professor, RTU Kota, India",
-      profile: "",
-    },
-    {
-      name: "Dr Ashok Yadav",
+      name: "Dr M Kamatchi Hariharan",
       designation:
-        "Associate Professor, Dayalbagh Educational Institute, Agra, India",
-      profile: "",
+        "Assistant Professor (SG), Sri Ramakrishna Engineering College, India",
+      profile: "#",
     },
     {
-      name: "Dr Ashutosh Kumar Singh",
-      designation: "Professor, GGSIPU Delhi, India",
-      profile: "",
+      name: "Dr Mahesh Kumar Porwal",
+      designation: "Professor, Poornima University Jaipur, India",
+      profile: "#",
     },
     {
-      name: "Dr Ashwin Dobariya",
-      designation: "Professor, Marwadi University, Rajkot, India",
-      profile: "",
+      name: "Dr Manoj K Singh",
+      designation: "Associate Professor, Bennett University, India",
+      profile: "#",
     },
     {
-      name: "Dr Atul Gonsai",
-      designation: "Associate Professor, Saurashtra University, Rajkot, India",
-      profile: "",
+      name: "Dr Manoj Kumar Gupta",
+      designation: "Professor, Amity University Noida, India",
+      profile: "#",
     },
     {
-      name: "Dr Awadhesh Kumar",
-      designation: "Professor, NIT Kurukshetra, India",
-      profile: "",
-    },
-    {
-      name: "Dr B Subbulakshmi",
-      designation: "Faculty Member, Patrician College, Chennai, India",
-      profile: "",
-    },
-    {
-      name: "Dr Bharat Bhushan Sagar",
-      designation: "Professor, BIT Mesra, Ranchi, India",
-      profile: "",
-    },
-    {
-      name: "Dr Bhupesh Rawat",
-      designation: "Associate Professor, DIT University, Dehradun, India",
-      profile: "",
-    },
-    {
-      name: "Dr Brij Gupta",
-      designation: "Professor, NIT Kurukshetra, India",
-      profile: "",
-    },
-    {
-      name: "Dr Chandra Prakash",
-      designation: "Associate Professor, NIT Hamirpur, India",
-      profile: "",
-    },
-    {
-      name: "Dr Charanjeet Singh",
+      name: "Dr Manoj Tyagi",
       designation:
-        "Assistant Professor, GGNI Management & Technology, Ludhiana, India",
-      profile: "",
+        "Associate Professor, JSS Academy of Technical Education Noida, India",
+      profile: "#",
     },
     {
-      name: "Dr Debasish Jena",
-      designation: "Professor, NIT Rourkela, India",
-      profile: "",
+      name: "Dr Mausumi Goswami",
+      designation: "Associate Professor, Jadavpur University Kolkata, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Meenu Gupta",
+      designation: "Professor, Chandigarh University Mohali, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Mohamed Najmus Saqhib",
+      designation:
+        "Faculty Member, Don Bosco Institute of Technology Bengaluru, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Mohd Rizwan Beg",
+      designation: "Associate Professor, Al-Falah University Faridabad, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Mohit Rathee",
+      designation: "Assistant Professor, NIT Delhi, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Mridula Dwivedi",
+      designation: "Professor, AIIMS Delhi, India",
+      profile: "#",
+    },
+    {
+      name: "Dr N Md Jubair Basha",
+      designation:
+        "Faculty Member, Kallam Haranadhareddy Institute of Technology, India",
+      profile: "#",
+    },
+    {
+      name: "Dr N Rajesh",
+      designation:
+        "Professor, KPR Institute of Engineering and Technology, Coimbatore, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Namita Mittal",
+      designation: "Professor, MNIT Jaipur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Namrata Dhanda",
+      designation: "Professor, Amity University UP, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Navdeep Dhaliwal",
+      designation: "Associate Professor, MCM College Chandigarh, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Naveen Sharma",
+      designation:
+        "Assistant Professor, Mechanical Engineering, NSUT New Delhi, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Navneet Kaur",
+      designation: "Associate Professor, Thapar University Patiala, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Neelu Singh",
+      designation: "Faculty Member, LNCT MCA Bhopal, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Neeraj Tiwari",
+      designation: "Associate Professor, Poornima University Jaipur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Neetesh Kumar",
+      designation: "Associate Professor, IIT Roorkee, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Nidhi Arora",
+      designation: "Professor, MRIIRS Faridabad, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Nihar Ranjan Roy",
+      designation:
+        "Associate Professor and Head, CSE, Vivekanand Institute of Professional Studies, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Nishchol Mishra",
+      designation: "Professor, MANIT Bhopal, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Nithyanandh Selvam",
+      designation:
+        "Faculty Member, PSG College of Arts & Science Coimbatore, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Niyaz Hussain A M J",
+      designation: "Associate Dean, Mohan Babu University Tirupati, India",
+      profile: "#",
+    },
+    {
+      name: "Dr P Ashok",
+      designation:
+        "Faculty Member, Symbiosis Institute of Digital and Telecom Management Pune, India",
+      profile: "#",
+    },
+    {
+      name: "Dr P Senthilraj",
+      designation: "Faculty Member, University of Madras Chennai, India",
+      profile: "#",
+    },
+    {
+      name: "Dr P Sivaprakash",
+      designation:
+        "Faculty Member, Rathinam Technical Campus Coimbatore, India",
+      profile: "#",
+    },
+    {
+      name: "Dr P Vanajakshi",
+      designation: "Faculty Member, Sapthagiri NPS University Bengaluru, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Pavan Kumar Mishra",
+      designation: "Associate Professor, Banaras Hindu University, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Pooja Khanna",
+      designation: "Assistant Professor, IILM University Gurugram, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Prabhat Kumar",
+      designation: "Associate Professor, CDAC Noida, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Pramod Kumar Goyal",
+      designation: "Associate Professor, JECRC University Jaipur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Pramod Singh Rathore",
+      designation: "Associate Professor, JECRC University Jaipur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Prasenjit Chatterjee",
+      designation: "Professor, MCKV Institute of Engineering Kolkata, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Prashant Sharma",
+      designation: "Associate Professor, NIT Raipur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Prateek Kulshrestha",
+      designation: "Assistant Professor, NIT Uttarakhand, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Praveen Gupta",
+      designation:
+        "Faculty Member, Acropolis Institute of Technology and Research, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Preeti Bajaj",
+      designation:
+        "Professor, Yeshwantrao Chavan College of Engineering Nagpur, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Priyanka Makkar",
+      designation: "Assistant Professor, Chitkara University Punjab, India",
+      profile: "#",
+    },
+    {
+      name: "Dr Pushpinder Singh",
+      designation: "Professor, Thapar University Patiala, India",
+      profile: "#",
     },
   ];
 
-  const workshopChairs = [
+  const advisoryCommittee = [
     {
-      name: "Marcin Paprzycki",
-      designation: "Professor, Warsaw Management University, Poland",
-      profile: "",
-    },
-  ];
-
-  const workshopCoChairs = [
-    {
-      name: "Dr. Anil Kumar",
+      name: "Dr. Carlos M. Travieso-Gonzalez",
       designation:
-        "Head of Department, Poornima Institute of Engineering & Technology, Jaipur",
-      profile: "",
+        "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain",
+      profile: "#",
     },
-  ];
-
-  const tutorialChairs = [
     {
-      name: "Maria Ganzha",
+      name: "Dr. Wan Young Chung",
       designation:
-        "System Research Institute, Polish Academy of Sciences, Poland",
-      profile: "",
+        "Department of AI Convergence & Electronic Engineering, Pukyong National University, South Korea",
+      profile: "#",
     },
-  ];
-
-  const tutorialCoChairs = [
     {
-      name: "Uday Pratap Singh",
-      designation: "Poornima Institute of Engineering and Technology, Jaipur",
-      profile: "",
-    },
-  ];
-
-  const programConductionChair = [
-    {
-      name: "Vivek Saxena",
-      designation: "Poornima Institute of Engineering and Technology, Jaipur",
-      profile: "",
-    },
-  ];
-
-  const registrationChair = [
-    {
-      name: "Bersha Kumari",
-      designation: "Poornima Institute of Engineering and Technology, Jaipur",
-      profile: "",
-    },
-  ];
-
-  const publicationsMediaCommittee = [
-    {
-      name: "Shalini Chaudhary",
-      designation: "Poornima Institute of Engineering and Technology, Jaipur",
-      profile: "",
-    },
-  ];
-
-  const financialChair = [
-    {
-      name: "Mr. M.K.M. Shah",
+      name: "Dr Marta Zurek-Mortka",
       designation:
-        "Director Admin & Finance, Poornima Group of Colleges, Jaipur",
-      profile: "",
+        "Head of Mechatronics and Prototyping Centre, Lukasiewicz Research Network, Poland",
+      profile: "#",
+    },
+    {
+      name: "Dr. Abhishek Mukherji",
+      designation:
+        "AI/ML Thought Leader | Data Storyteller | Mentor | Inventor | Senior Member IEEE, Centific",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) Uma Jha",
+      designation:
+        "Senior IEEE Fellow and Professor of Practice, University of Florida, USA",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) Wen-Cheng Lai",
+      designation: "Professor, Ming Chi University of Technology, Taiwan",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr.) Shipra Suman",
+      designation: "Professor, University of London, United Kingdom",
+      profile: "#",
+    },
+    {
+      name: "Dr. Ali Al-Sherbaz",
+      designation:
+        "Academic Director (Digital Skills), University of Cambridge",
+      profile: "#",
+    },
+    {
+      name: "Dr. Ramesh C. Bansal",
+      designation: "Professor, University of Sharjah; University of Pretoria",
+      profile: "#",
+    },
+    {
+      name: "Dr. Ravi Kumar Arya",
+      designation: "Director, Xiangshan Laboratory Wireless Group, China",
+      profile: "#",
+    },
+    {
+      name: "Prof. Ghanshyam Singh",
+      designation:
+        "Professor, Electronics and Communication Engineering & Director, Center for Smart Information and Communication Systems, South Africa",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) Prashant Jha",
+      designation: "Professor, King’s College London, UK",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) John Martin",
+      designation: "Professor, Jazan University, Saudi Arabia",
+      profile: "#",
+    },
+    {
+      name: "Prof (Dr) Madan Singh",
+      designation: "Professor, National University of Lesotho, Southern Africa",
+      profile: "#",
+    },
+    {
+      name: "Prof. Kokou Yetongnon",
+      designation: "Professor, University of Bourgogne, France",
+      profile: "#",
+    },
+    {
+      name: "Dr. Arindam Pal",
+      designation:
+        "Director, Data Science and Optimization, Optym Bengaluru; Conjoint Senior Lecturer, University of New South Wales, Australia",
+      profile: "#",
+    },
+    {
+      name: "Dr. Jae Yeon Park",
+      designation:
+        "Senior Researcher, Korea Atomic Energy Research Institute, South Korea",
+      profile: "#",
+    },
+    {
+      name: "Dr. George Tsaramirsis",
+      designation: "Professor, University of Wollongong in Dubai, Saudi Arabia",
+      profile: "#",
+    },
+    {
+      name: "Dr. Saurabh Sinha",
+      designation: "Professor, University of Canterbury, New Zealand",
+      profile: "#",
+    },
+    {
+      name: "Dr. Rajesh Kumar",
+      designation: "Professor (AI), University of Johannesburg, South Africa",
+      profile: "#",
+    },
+    {
+      name: "Dr. William Puech",
+      designation: "Professor, University Montpellier, France",
+      profile: "#",
+    },
+    {
+      name: "Dr. Youcef Soufi Mail",
+      designation: "Professor, University of Tebessa, Algeria",
+      profile: "#",
+    },
+    {
+      name: "Dr. Li Zhiwu",
+      designation:
+        "Professor, Macau University of Science and Technology, China",
+      profile: "#",
+    },
+    {
+      name: "Dr. Armin Aberle",
+      designation: "SERIS, National University of Singapore",
+      profile: "#",
+    },
+    {
+      name: "Dr. Shuliang Wang",
+      designation: "Beijing Institute of Technology, China",
+      profile: "#",
+    },
+    {
+      name: "Mr. Ashutosh Dutta",
+      designation: "Senior Scientist & 5G Chief Strategist, Johns Hopkins",
+      profile: "#",
+    },
+    {
+      name: "Mr. Vijay Raghunathan",
+      designation: "Professor of Practice, UC San Diego; Former CTO, Broadcom",
+      profile: "#",
+    },
+    {
+      name: "Dr. Badrul Hisham Ahmad",
+      designation: "Professor, UTeM, Malaysia",
+      profile: "#",
+    },
+    {
+      name: "Dr. Xiao Zhi Gao",
+      designation: "Professor, LUT University, Finland",
+      profile: "#",
+    },
+    {
+      name: "Dr. Ghasi Ram Verma",
+      designation: "Professor, University of Rhode Island, USA",
+      profile: "#",
+    },
+    {
+      name: "Dr. Ankit Agarwal",
+      designation: "Professor, Northernwest University, USA",
+      profile: "#",
     },
   ];
 
-  const organizingCommittee = [
+  const conveners = [
     {
-      name: "Ms. Jayshree Surolia",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Budesh Kanwar",
+      designation: "Professor, Department of AI & DS, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Ms. Ashima Tiwari",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Sama Jain",
+      designation: "Professor, Department of Chemistry, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Ms. Shikha Gautam",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Payal Bansal",
+      designation: "Professor, Department of IoT, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const conferenceSecretaries = [
+    {
+      name: "Dr. Mahak Bhatia",
+      designation:
+        "Assistant Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ms. Bersha Kumari",
+      designation: "Assistant Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Mr. Vivek Saxena",
+      designation: "Assistant Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const technicalProgramChairsPIET = [
+    {
+      name: "Dr. Nitin Mukesh Mathur",
+      designation:
+        "Associate Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Shipra Bhatia",
+      designation: "Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Ebstam Siddiqui",
+      designation: "Professor, Department of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const financeCommittee = [
+    {
+      name: "Dr. Balwan Shesham",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Omprakash Sikhwal",
+      designation: "Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
     },
     {
       name: "Mr. Abhishek Dadhich",
-      designation: "PIET, Jaipur",
-      profile: "",
+      designation: "Assistant Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Mr. Vikas Kumar",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Shruti Thapar",
+      designation: "Associate Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const publicationChairs = [
+    {
+      name: "Dr. Rajendra Singh",
+      designation:
+        "Associate Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Ms. Alka Rani",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Shruti Gupta",
+      designation: "Assistant Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Ms. Bhawna Kumari",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Indra Kishor",
+      designation: "Assistant Professor, Department of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const publicityChairs = [
+    {
+      name: "Dr. Krati Sharma",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Ms. Smita Bisht",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Neetu Sharma",
+      designation:
+        "Associate Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Mr. Punit Kumawat",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Nupur Jain",
+      designation:
+        "Associate Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Mr. Anurag Anand Dubey",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Prince Dawar",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const steeringCommitteePIET = [
+    {
+      name: "Dr. Aisha Rafi",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Mr. Mohnish Sachdeva",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Amit Shrivastava",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
     },
     {
-      name: "Mr. Indra Kishor",
-      designation: "PIET, Jaipur",
-      profile: "",
+      name: "Dr. Mukesh Chandra",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Rekha Rani Agarwal",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const workshopCommittee = [
+    {
+      name: "Dr. Mari Ganza",
+      designation:
+        "System Research Institute, Polish Academy of Sciences, Poland",
+      profile: "#",
+    },
+    {
+      name: "Dr. Ashish Laddha",
+      designation:
+        "Associate Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const tutorialCommittee = [
+    {
+      name: "Prof. Sheng-Lung Peng",
+      designation:
+        "Department of Creative Technologies and Product Design, National Taipei University of Business, Taiwan",
+      profile: "#",
+    },
+    {
+      name: "Dr. Priya Mathur",
+      designation: "Professor, Department of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const registrationCommittee = [
+    {
+      name: "Punit Kumar",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Anurag Anand Duvey",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Mohnish Sachdeva",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Kamal Saini",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ms. Rekha Dhivrani",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Smriti Verma",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const financeSubCommittee = [
+    {
+      name: "Vaibhav Shekhawat",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dinesh Bhatia",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Naveen Porwal",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Aniva Sharma",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Sharad Shrivastava",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const publicationCommittee = [
+    {
+      name: "Dr. Priya Mathur",
+      designation: "Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Bharat Thathera",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Neha Srivastava",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Rimjhim Jain",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ms. Charul Bapna",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Vishnu Prakash Sharma",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const publicityCommittee = [
+    {
+      name: "Priya Verma",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Vikas Kumar",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const logisticCommittee = [
+    {
+      name: "Udbhav Ojha",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Nitin Phulwani",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Sanjay Kumar Sinha",
+      designation: "Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ms. Bhawana Kumari",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const websiteSocialMediaCommittee = [
+    {
+      name: "Girdhari Lal",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Lakhan Bhaskar Kadel",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Robin Prakash",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Vishal Rohela",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Shiv Prakash Dadhich",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const hospitalityCommittee = [
+    {
+      name: "Krishna Gupta",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Pragya Bharti",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ashok Kumar",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ms. Anamika Soni",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Shamal Burman",
+      designation:
+        "Assistant Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const industryCommittee = [
+    {
+      name: "Dr. Navin Kumar Goyal",
+      designation: "Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Mukul Nama",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Rohit Kumar",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const eventManagementCommittee = [
+    {
+      name: "Smita Bisht",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ashima Tiwari",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Garima Kachhara",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Arvind Mathur",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Ms. Bhawana Purohit",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+
+  const technicalContentCommittee = [
+    {
+      name: "Dr. Ebtasam Ahmad Siddiqui",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Aisha Rafi",
+      designation: "Assistant Professor, Dept. of AI & DS, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Rekha Rani Agarwal",
+      designation: "Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
+    },
+  ];
+  const graphicsPrintingCommittee = [
+    {
+      name: "Shivani Sharma",
+      designation: "Assistant Professor, Dept. of CSE, PIET, Jaipur",
+      profile: "#",
+    },
+    {
+      name: "Dr. Nupur Jain",
+      designation:
+        "Associate Professor, Dept. of Applied Sciences, PIET, Jaipur",
+      profile: "#",
     },
   ];
 
   const committees = [
-    { title: "Chief Patrons", members: chiefPatrons },
-    { title: "Patrons", members: patrons },
+    { title: "Chief Patron", members: cheifPatrons },
+    { title: "Steering Committee Chair", members: steeringCommittee },
     { title: "General Chair", members: generalChair },
-    { title: "General Co-Chairs", members: generalCoChair },
-    { title: "Steering Committee", members: SteeringCommittee },
+    { title: "Conference Chair", members: conferenceChairs },
+    { title: "Executive Chair", members: executiveChairs },
+    { title: "Technical Program Chair", members: technialProgramChairs },
+    { title: "Technical Program Committee", members: technialProgramCommittee },
     { title: "Advisory Committee", members: advisoryCommittee },
-    { title: "Technical Program Committee", members: technicalProgramCommittee },
-    { title: "Workshop Chairs", members: workshopChairs },
-    { title: "Workshop Co-Chairs", members: workshopCoChairs },
-    { title: "Tutorial Chairs", members: tutorialChairs },
-    { title: "Tutorial Co-Chairs", members: tutorialCoChairs },
-    { title: "Program Conduction Chair", members: programConductionChair },
-    { title: "Registration Chair", members: registrationChair },
-    {title: "Publications & Media Committee", members: publicationsMediaCommittee },
-    { title: "Financial Chair", members: financialChair },
-    { title: "Organizing Committee", members: organizingCommittee },
+    { title: "Conveners", members: conveners },
+    { title: "Conference Secretaries", members: conferenceSecretaries },
+    {
+      title: "Technical Program Chairs (PIET)",
+      members: technicalProgramChairsPIET,
+    },
+    { title: "Finance Chair", members: financeCommittee },
+    { title: "Publication Chairs", members: publicationChairs },
+    { title: "Publicity Chairs", members: publicityChairs },
+    { title: "Steering Committee (PIET)", members: steeringCommitteePIET },
+    { title: "Workshop Committee", members: workshopCommittee },
+    { title: "Tutorial Committee", members: tutorialCommittee },
+    { title: "Registration Committee", members: registrationCommittee },
+    { title: "Finance Committee", members: financeSubCommittee },
+    { title: "Publication Committee", members: publicationCommittee },
+    { title: "Publicity Committee", members: publicityCommittee },
+    { title: "Logistic Committee", members: logisticCommittee },
+    {
+      title: "Website & Social Media Committee",
+      members: websiteSocialMediaCommittee,
+    },
+    {
+      title: "Hospitality & Accommodation Committee",
+      members: hospitalityCommittee,
+    },
+    {
+      title: "Industry Collaboration and Sponsorship Committee",
+      members: industryCommittee,
+    },
+    { title: "Event Management Committee", members: eventManagementCommittee },
+    {
+      title: "Technical Content Committee",
+      members: technicalContentCommittee,
+    },
+    {
+      title: "Graphics and Printing Committee",
+      members: graphicsPrintingCommittee,
+    },
   ];
 
   return (

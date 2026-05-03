@@ -127,7 +127,7 @@ const Home = () => {
                 className={"hidden text-xl text-[#034EA2] lg:block"}
               />
               <p className={"font-semibold text-[#034EA2]"}>
-                24 & 24th December, 2026
+                23 & 24th December, 2026
               </p>
             </div>
 

@@ -36,7 +36,7 @@ function Schedule() {
   };
   return (
     <>
-      <Marquee />
+      {/* <Marquee /> */}
       {/* 
       <div onClick={handleClick} className="mx-auto my-3 w-1/3 rounded-md px-4 py-2 text-center shadow-md cursor-pointer overflow-hidden whitespace-nowrap border border-red-500 bg-red-100 py-2">
         <h1 className="text-lg font-medium ">
