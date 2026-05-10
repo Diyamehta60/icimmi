@@ -125,6 +125,10 @@ function Index() {
       title: "Archive",
       dropdown: [
         {
+          title: "ICIMMI - 2025",
+          link: "/archive/2025",
+        },
+        {
           title: "ICIMMI - 2024",
           link: "/archive/2024",
         },

@@ -9,12 +9,10 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay } from "swiper";
 import React from "react";
-import Button from "@/components/button";
 import { archive } from "@/data/archive";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Link from "next/link";
-import Image from "next/image";
 
 const Post = ({
   content,
@@ -237,18 +235,16 @@ const Post = ({
 };
 
 export const getStaticPaths = async () => {
-  const years = ["2024", "2023", "2022", "2021", "2020", "2019"];
+  const years = ["2025", "2024", "2023", "2022", "2021", "2020", "2019"];
 
   const paths = years.map((post) => ({
     params: { slug: post },
   }));
 
-  console.log(paths[0].params.slug);
   return { paths, fallback: false };
 };
 
 export const getStaticProps = async ({ params }: { params: any }) => {
-  console.log({ params });
   // @ts-ignore
   const data = archive[params.slug].speakers;
   return {
