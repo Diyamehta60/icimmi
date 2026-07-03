@@ -40,99 +40,93 @@ export default function PaperSubmission() {
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
 
       <div className="my-8 space-y-4 leading-relaxed text-gray-800">
-        <h2 className="text-xl font-bold">Submission Guidelines:</h2>
+        <h2 className="text-xl font-bold">Submission Guidelines</h2>
 
-        <p>
-          Authors are invited to submit original research papers to ICIMMI 2026
-          following the standard IEEE Conference Template. Manuscripts must be
-          prepared using the official IEEE templates available at:{" "}
-          <Link
-            href="https://www.ieee.org/conferences/publishing/templates"
-            target="_blank"
-            className="break-all font-medium text-blue-600 underline"
-          >
-            https://www.ieee.org/conferences/publishing/templates
-          </Link>
-          .
-        </p>
+        <ul className="ml-6 list-disc space-y-2 pl-6">
+          <li>
+            Authors are invited to submit original and unpublished research
+            papers relevant to the conference themes.
+          </li>
 
-        <p>
-          Submissions should strictly comply with IEEE formatting requirements,
-          including font styles, margins, reference format, and layout.
-        </p>
+          <li>
+            Manuscripts must be prepared using the official conference template
+            available on the conference website.
+          </li>
 
-        <p>
-          The manuscript must not exceed six (6) pages, including figures,
-          tables, and references. Authors are required to include an abstract of
-          no more than 200 words, clearly summarizing the objectives,
-          methodology, results, and contributions of the work.
-        </p>
+          <li>
+            Papers should be up to six (6) pages, including figures, tables, and
+            references.
+          </li>
 
-        <p>
-          All submissions must be original and unpublished, and must not be
-          under consideration for publication elsewhere.
-        </p>
+          <li>The abstract should not exceed 200 words.</li>
 
-        <p>
-          To maintain academic integrity, the similarity index must not exceed
-          10%. Papers exceeding this threshold will be rejected without review.
-        </p>
+          <li>
+            Submitted papers must not be under consideration for publication
+            elsewhere.
+          </li>
+
+          <li>
+            The similarity index must not exceed 10% (excluding references), and
+            all papers will undergo plagiarism screening.
+          </li>
+        </ul>
 
         <hr />
 
         <h2 className="text-xl font-bold">Review Process and Presentation</h2>
 
-        <p>
-          All eligible submissions will undergo a double-blind peer review
-          process conducted by the conference technical committee in accordance
-          with IEEE standards.
-        </p>
+        <ul className="ml-6 list-disc space-y-2 pl-6">
+          <li>
+            All submissions will undergo a rigorous double-blind peer review by
+            the Technical Program Committee.
+          </li>
 
-        <p>Based on the review outcome, papers will be categorized as:</p>
+          <li>
+            Papers will be evaluated based on originality, technical quality,
+            relevance, significance, and presentation.
+          </li>
 
-        <ul className="ml-6 list-disc space-y-1 pl-6">
-          <li>Accepted for Oral Presentation</li>
-          <li>Accepted with Minor Revisions (Oral Presentation)</li>
-          <li>Rejected</li>
+          <li>
+            Only accepted, registered, and presented papers will be considered
+            for publication in the conference proceedings, subject to the
+            publisher's policies.
+          </li>
         </ul>
-
-        <p>
-          Only accepted and presented papers will be considered for inclusion in
-          the conference proceedings.
-        </p>
 
         <hr />
 
-        <h2 className="text-xl font-bold">Additional Notes</h2>
+        <h2 className="text-xl font-bold">Important Notes</h2>
 
-        <ul className="ml-6 list-disc space-y-1 pl-6">
+        <ul className="ml-6 list-disc space-y-2 pl-6">
           <li>
-            Authors must ensure that the final manuscript complies with IEEE
-            Xplore compatibility requirements (e.g., PDF format validation).
+            At least one author must register and present the accepted paper.
           </li>
+
           <li>
-            At least one author of each accepted paper must register and present
-            the paper at the conference.
+            Authors of accepted papers must submit a camera-ready manuscript
+            incorporating the reviewers' comments.
           </li>
+
           <li>
-            Detailed instructions regarding submission, registration, and
-            presentation will be communicated after acceptance.
+            Detailed instructions for submission, registration, and presentation
+            will be communicated after acceptance.
           </li>
         </ul>
 
         <p>
           <span className="font-semibold">Note:</span> Further updates regarding
-          schedule and presentation mode will be announced in due course.
+          the conference schedule and presentation mode will be announced in due
+          course.
         </p>
       </div>
 
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
 
-      <h2 className="my-3 text-center text-lg font-bold lg:text-start lg:text-2xl">
+      {/* <h2 className="my-3 text-center text-lg font-bold lg:text-start lg:text-2xl">
         Downloads:
-      </h2>
+      </h2> */}
 
-      <div className="flex flex-col gap-y-3">
+      {/* <div className="flex flex-col gap-y-3">
         <Link
           href="/ICIMMI_Authors_Template.docx"
           className="inline-flex w-full items-center rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 sm:w-[40%] md:w-[30%] lg:w-[20%]"
@@ -160,6 +154,15 @@ export default function PaperSubmission() {
           </svg>
           <span>Paper Template Latex</span>
         </Link>
+      </div> */}
+
+      <div className="rounded-lg mb-10">
+        <h2 className="mb-2 text-xl font-bold">Paper Template (Coming Soon)</h2>
+
+        <p className="text-gray-700">
+          The official conference paper template and formatting guidelines will
+          be made available shortly.
+        </p>
       </div>
 
       <Sponsored />

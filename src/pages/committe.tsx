@@ -37,12 +37,12 @@ function Committe() {
       name: "Dr. Dinesh Goyal",
       designation:
         "Professor, Computer Science, Principal, Poornima Institute of Engineering and Technology, Sitapura, Jaipur, Rajasthan, India",
-      profile: "#",
+      profile: "https://www.poornimainstitute.edu.in/director-message",
     },
     {
       name: "Prof. Dharam Singh Jat",
       designation: "Namibia University of Science & Tech., Namibia",
-      profile: "#",
+      profile: "https://fci.nust.na/prof-dharm-singh-jat",
     },
   ];
   const conferenceChairs = [
@@ -50,13 +50,13 @@ function Committe() {
       name: "Dr. Anil Kumar",
       designation:
         "Professor & Head, Department of Computer Engineering, Poornima Institute of Engineering and Technology, Sitapura, Jaipur, Rajasthan, India",
-      profile: "#",
+      profile: "https://www.poornimainstitute.edu.in/computer-science",
     },
     {
       name: "Prof. B.B. Gupta",
       designation:
         "Director, Centre for AI & Cyber Security, Asia University, Taiwan",
-      profile: "#",
+      profile: "https://aicybersecuritycenter.com/index.php/director/",
     },
   ];
   const executiveChairs = [

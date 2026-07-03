@@ -23,15 +23,15 @@ function Publications() {
       <div className="my-8 space-y-4 leading-relaxed text-gray-800">
         <p>
           All accepted, registered, and presented papers will be published in
-          the ICIMMI 2026 Conference Proceedings. The proceedings are intended
-          for submission to IEEE Xplore for possible indexing.
+          the ICIMMI 2026 Conference Proceedings, subject to the conference's
+          publication agreement and the publisher's editorial policies.
         </p>
 
         <p className="font-semibold">
           Publication in IEEE Xplore is subject to:
         </p>
 
-        <ul className="list-disc space-y-1 pl-6 ml-6">
+        <ul className="ml-6 list-disc space-y-1 pl-6">
           <li>Approval of the conference proposal by IEEE</li>
           <li>
             Compliance with IEEE quality standards and formatting guidelines
@@ -39,8 +39,10 @@ function Publications() {
         </ul>
 
         <p>
-          The conference proposal has been submitted to IEEE and is currently
-          under review.
+          The conference publication proposal has been submitted to leading
+          professional publishers and is currently under review. The final
+          publication partner and paper template will be announced on the
+          conference website upon approval.
         </p>
       </div>
 

@@ -44,13 +44,13 @@ const Register = () => {
                       colSpan={2}
                       className="border-l border-gray-700 px-6 py-4 text-center"
                     >
-                      IEEE Member
+                      IEEE/ACM Members
                     </th>
                     <th
                       colSpan={2}
                       className="border-l border-gray-700 px-6 py-4 text-center"
                     >
-                      Non-IEEE Member
+                      Others
                     </th>
                   </tr>
 
@@ -117,13 +117,13 @@ const Register = () => {
                       colSpan={2}
                       className="border-l border-gray-700 px-6 py-4 text-center"
                     >
-                      IEEE Member
+                      IEEE/ACM Members
                     </th>
                     <th
                       colSpan={2}
                       className="border-l border-gray-700 px-6 py-4 text-center"
                     >
-                      Non-IEEE Member
+                      Others
                     </th>
                   </tr>
 
