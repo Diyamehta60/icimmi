@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Sponsored2() {
@@ -13,30 +14,36 @@ function Sponsored2() {
       <div className="flex flex-wrap justify-around">
         <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
           <div className="flex justify-center">
-            <img
+            <Image
               className="h-48 w-48 rounded-full object-cover"
               src="/img1.jpg"
               alt="First image"
+              width={192}
+              height={192}
             />
           </div>
           
         </div>
         <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
           <div className="flex justify-center">
-            <img
+            <Image
               className="h-48 w-48 rounded-full object-cover"
               src="/img2.png"
               alt="First image"
+              width={192}
+              height={192}
             />
           </div>
           
         </div>
         <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
           <div className="flex justify-center">
-            <img
+            <Image
               className="h-48 w-48 rounded-full object-cover"
               src="/img3.png"
               alt="First image"
+              width={192}
+              height={192}
             />
           </div>
           

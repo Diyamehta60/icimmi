@@ -89,7 +89,7 @@ export default function PaperSubmission() {
           <li>
             Only accepted, registered, and presented papers will be considered
             for publication in the conference proceedings, subject to the
-            publisher's policies.
+            publisher&apos;s policies.
           </li>
         </ul>
 
@@ -104,7 +104,7 @@ export default function PaperSubmission() {
 
           <li>
             Authors of accepted papers must submit a camera-ready manuscript
-            incorporating the reviewers' comments.
+            incorporating the reviewers&apos; comments.
           </li>
 
           <li>

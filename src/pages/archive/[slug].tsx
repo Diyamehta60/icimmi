@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay } from "swiper";
 import React from "react";
+import Image from "next/image";
 import { archive } from "@/data/archive";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
@@ -110,10 +111,12 @@ const Post = ({
                   return (
                     <SwiperSlide key={index}>
 
-                      <img
+                      <Image
                         className={" h-80 w-full rounded-md object-cover"}
                         src={image}
                         alt=""
+                        width={800}
+                        height={600}
                       />
                     </SwiperSlide>
                   );
@@ -134,16 +137,20 @@ const Post = ({
 
                 {publisherLogo.map((image: string, index: number) => {
                   if (index == 1) {
-                    return <img key={index}
+                    return <Image key={index}
                       src={image} // Springer logo URL
                       alt="Springer Logo"
                       className="w-22 h-20" // Adjusted size classes
+                      width={88}
+                      height={80}
                     />
                   } else {
-                    return <img key={index}
+                    return <Image key={index}
                       src={image} // Springer logo URL
                       alt="Springer Logo"
                       className="w-16 h-16 ml-2" // Adjusted size classes
+                      width={64}
+                      height={64}
                     />
                   }
                 })}
@@ -178,49 +185,61 @@ const Post = ({
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
           <div className="grid gap-4">
             <div>
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[0]}`}
                 alt="Image 1"
+                width={800}
+                height={600}
               />
             </div>
             <div>
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[1]}`}
                 alt="Image 2"
+                width={800}
+                height={600}
               />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[2]}`}
                 alt="Image 3"
+                width={800}
+                height={600}
               />
             </div>
             <div>
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[3]}`}
                 alt="Image 4"
+                width={800}
+                height={600}
               />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[4]}`}
                 alt="Image 5"
+                width={800}
+                height={600}
               />
             </div>
             <div>
-              <img
+              <Image
                 className="h-auto max-w-full rounded-lg"
                 src={`${sliderImages[5]}`}
                 alt="Image 6"
+                width={800}
+                height={600}
               />
             </div>
           </div>

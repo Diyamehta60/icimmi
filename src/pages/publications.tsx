@@ -23,8 +23,8 @@ function Publications() {
       <div className="my-8 space-y-4 leading-relaxed text-gray-800">
         <p>
           All accepted, registered, and presented papers will be published in
-          the ICIMMI 2026 Conference Proceedings, subject to the conference's
-          publication agreement and the publisher's editorial policies.
+          the ICIMMI 2026 Conference Proceedings, subject to the conference&apos;s
+          publication agreement and the publisher&apos;s editorial policies.
         </p>
 
         <p className="font-semibold">

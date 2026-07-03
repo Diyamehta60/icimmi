@@ -423,15 +423,19 @@ const Home = () => {
               </ul>
             </div>
             <div className="mx-auto flex w-5/6 flex-col gap-y-4 py-12 md:w-1/2 lg:w-full lg:max-w-lg">
-              <img
+              <Image
                 className="rounded object-cover object-center"
                 alt="hero"
                 src="/bg.JPG"
+                width={800}
+                height={600}
               />
-              <img
+              <Image
                 className=" rounded object-cover object-center"
                 alt="hero"
                 src="/gallery/2022/i1.jpg"
+                width={800}
+                height={600}
               />
             </div>
           </div>

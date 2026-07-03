@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -7,10 +8,12 @@ function Profile() {
       <div className="mt-10 w-full rounded-lg bg-white p-5 shadow-lg">
         {/* Profile Image */}
         <div className="flex items-center space-x-4">
-          <img
+          <Image
             className="h-24 w-24 rounded-full"
             src="/profile.png"
             alt="Profile Image"
+            width={96}
+            height={96}
           />
           <div>
             <h1 className="text-2xl font-semibold">Dr. Dinesh Goyal</h1>
