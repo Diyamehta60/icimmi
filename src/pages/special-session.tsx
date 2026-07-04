@@ -41,7 +41,7 @@ const tracks = [
       {
         name: "Dr. Rashmi Gupta",
         designation: "",
-        image: "/special-sessions/track2/rashmiGupta.svg",
+        image: "/special-sessions/track2/rashmi.jpeg",
       },
     ],
   },
