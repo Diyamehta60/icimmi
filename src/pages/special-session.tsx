@@ -1,82 +1,163 @@
 import Schedule from "@/components/schedule";
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 
 const tracks = [
   {
-    title: "Track 1: Intelligent Computing and Information Systems",
+    title: "Track 1: Smart Healthcare Technologies and Biomedical Systems",
     members: [
       {
-        name: "Dr. Somitra",
-        designation: "IIT Kanpur",
+        name: "Mitu Sehgal",
+        designation: "",
+        image: "/special-sessions/track1/mitu.jpeg",
       },
       {
-        name: "Dr. Deepak Arora",
-        designation:
-          "Professor, Poornima Institute of Engineering & Technology, Jaipur",
+        name: "Dr. Sorabh Gupta",
+        designation: "",
+        image: "/special-sessions/track1/sorabh.png",
       },
       {
-        name: "Dr. Madhav Sharma",
-        designation:
-          "Associate Professor, Poornima Institute of Engineering & Technology, Jaipur",
-      },
-    ],
-  },
-  {
-    title: "Track 2: Smart Electronics, Communication and Power Systems",
-    members: [
-      {
-        name: "Dr. Ghanshyam",
-        designation: "MNIT",
-      },
-      {
-        name: "Dr. Ashish Ladda",
-        designation:
-          "Poornima Institute of Engineering & Technology, Jaipur",
-      },
-      {
-        name: "Dr. Shipra Bhatia",
-        designation:
-          "Poornima Institute of Engineering & Technology, Jaipur",
+        name: "Dr. Amit Kumar Dubey",
+        designation: "",
+        image: "/special-sessions/track1/amit.png",
       },
     ],
   },
   {
     title:
-      "Track 3: Innovation Management, Technology Transfer and Entrepreneurship",
+      "Track 2: Smart Electronics, Intelligent Communication, and AI-Driven Information Systems for Sustainable Digital Transformation",
     members: [
       {
-        name: "Dr. John Jose",
-        designation: "Professor, IIT Guwahati",
+        name: "Dr. Neeraj Gupta",
+        designation: "",
+        image: "/special-sessions/track2/NeerajGupta.jpg",
       },
       {
-        name: "Dr. Shruti Thapar",
-        designation:
-          "Poornima Institute of Engineering & Technology, Jaipur",
+        name: "Dr. Prashant Kumar",
+        designation: "",
+        image: "/special-sessions/track2/prashant.jpg",
       },
       {
-        name: "Babita Jain",
-        designation: "Poornima College of Engineering, Jaipur",
+        name: "Dr. Rashmi Gupta",
+        designation: "",
+        image: "/special-sessions/track2/rashmiGupta.svg",
+      },
+    ],
+  },
+  {
+    title: "Track 3: AI and Explainable Machine Learning for Healthcare Applications",
+    members: [
+      {
+        name: "Dr. Vaibhav Gandhi",
+        designation: "",
+        image: "/special-sessions/track3/VaibhavGandhi.jpg",
+      },
+      {
+        name: "Dr. Dipali Kasat",
+        designation: "",
+        image: "/special-sessions/track3/DipaliKasat.jpeg",
+      },
+    ],
+  },
+  {
+    title: "Track 4: AI for Smart Cities, Energy & Sustainable Infrastructure",
+    members: [
+      {
+        name: "Tejinder Kaur",
+        designation: "",
+        image: "/special-sessions/track4/tejinder.png",
+      },
+    ],
+  },
+  {
+    title: "Track 5: Next-Generation AI Engineering and Intelligent Computing Innovations",
+    members: [
+      {
+        name: "Sarvesh Kumar",
+        designation: "",
+        image: "/special-sessions/track5/SarveshKumar.jpg",
+      },
+      {
+        name: "Dr. Ashish Tiwari",
+        designation: "",
+        image: "/special-sessions/track5/AshishTiwari.jpeg",
+      },
+      {
+        name: "Dr. Neeraj Kumar Verma",
+        designation: "",
+        image: "/special-sessions/track5/NeerajVerma.jpeg",
+      },
+      {
+        name: "Dr. Arvind Kumar Mishra",
+        designation: "",
+        image: "/special-sessions/track5/ArvindMishra.jpeg",
+      },
+    ],
+  },
+  {
+    title: "Track 6: The Role of Artificial Intelligence in Information Science and Library Management",
+    members: [
+      {
+        name: "Anand Sharma",
+        designation: "",
+        image: "/special-sessions/track6/anandSharma.jpg",
+      },
+      {
+        name: "Nupur Swami",
+        designation: "",
+        image: "/special-sessions/track6/nupur.jpg",
       },
     ],
   },
   {
     title:
-      "Track 4: Sustainable Energy, Green Technologies and Environmental Systems",
+      "Track 7: The Power Trio: Machine Learning, Blockchain, and IoT in Creating Intelligent, Resilient Networks",
     members: [
       {
-        name: "Dr. Akash Saxena",
-        designation: "Central University, Haryana",
+        name: "Revathy Javabaskar",
+        designation: "",
+        image: "/special-sessions/track7/revathyBaskar.jpg",
       },
       {
-        name: "Dr. Aditya Pundir",
-        designation:
-          "Poornima Institute of Engineering & Technology, Jaipur",
+        name: "Dr. M Martina",
+        designation: "",
+        image: "/special-sessions/track7/martina.jpg",
+      },
+    ],
+  },
+  {
+    title: "Track 8: AI-Driven Intelligent Systems for Sustainable Development",
+    members: [
+      {
+        name: "Dr. Manoj Agarwal",
+        designation: "",
+        image: "/special-sessions/track8/manojAgarwal.jpg",
       },
       {
-        name: "Dr. Ritam Dutta",
-        designation:
-          "Poornima Institute of Engineering & Technology, Jaipur",
+        name: "Dr. Jitendra Sheetlani",
+        designation: "",
+        image: "/special-sessions/track8/jitendraSheetlani.jpeg",
+      },
+      {
+        name: "Dr. Vishnu Kumar Mishra",
+        designation: "",
+        image: "/special-sessions/track8/vishnuKumar.jpeg",
+      },
+    ],
+  },
+  {
+    title: "Track 9: Intelligence 5.0: Towards Building Sustainable Computational Models",
+    members: [
+      {
+        name: "Dr. Charu Gupta",
+        designation: "",
+        image: "/special-sessions/track9/charuGupta.jpg",
+      },
+      {
+        name: "Dr. Kanika Garg",
+        designation: "",
+        image: "/special-sessions/track9/kanikaGarg.png",
       },
     ],
   },
@@ -120,11 +201,21 @@ function SpecialSession() {
               >
                 <div className="grid grid-cols-3 gap-3 rounded-lg bg-gray-100 shadow-md p-3">
                   
-                  {/* Avatar (replacing image) */}
+                  {/* Avatar / image */}
                   <div className="col-span-1 flex items-center justify-center">
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[#1a1212] text-white text-2xl font-semibold">
-                      {item.name.charAt(0)}
-                    </div>
+                    {item.image ? (
+                      <Image
+                        src={item.image}
+                        alt={item.name}
+                        width={80}
+                        height={80}
+                        className="h-20 w-20 rounded-full object-cover"
+                      />
+                    ) : (
+                      <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[#1a1212] text-2xl font-semibold text-white">
+                        {item.name.charAt(0)}
+                      </div>
+                    )}
                   </div>
 
                   {/* Text */}
