@@ -27,17 +27,6 @@ function Publications() {
           publication agreement and the publisher&apos;s editorial policies.
         </p>
 
-        <p className="font-semibold">
-          Publication in IEEE Xplore is subject to:
-        </p>
-
-        <ul className="ml-6 list-disc space-y-1 pl-6">
-          <li>Approval of the conference proposal by IEEE</li>
-          <li>
-            Compliance with IEEE quality standards and formatting guidelines
-          </li>
-        </ul>
-
         <p>
           The conference publication proposal has been submitted to leading
           professional publishers and is currently under review. The final
