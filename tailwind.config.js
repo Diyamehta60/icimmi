@@ -79,7 +79,6 @@ module.exports = {
     require("prettier-plugin-tailwindcss"),
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
-    require("@tailwindcss/line-clamp"),
     require("tailwind-scrollbar")({ nocompatible: true }),
   ],
   darkMode: "class",
