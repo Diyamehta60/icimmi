@@ -41,7 +41,7 @@ function Publications() {
           published in the IET Conference Proceedings, made available through
           the IET Digital Library and IEEE Xplore, and submitted for indexing
           in Scopus, IET Inspec and Ei Compendex. Final publication and
-          indexing are subject to IET and the respective databases' policies.
+          indexing are subject to IET and the respective databases policies.
         </p>
       </div>
 
