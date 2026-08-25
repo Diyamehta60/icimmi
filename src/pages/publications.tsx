@@ -46,7 +46,7 @@ function Publications() {
         </p>
 
         <div className="rounded-lg mt-6 mb-4">
-          <h2 className="mb-2 text-xl font-bold">Paper Template</h2>
+          <h2 className="mb-2 text-xl font-bold">Paper Template (Click here to download)</h2>
 
           <p className="text-gray-700">
             Click{' '}
