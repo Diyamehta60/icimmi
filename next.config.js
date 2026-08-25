@@ -29,11 +29,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/publications",
-        destination: "/publications",
-        permanent: true,
-      },
-      {
         source: "/IEEEFORMAT/:slug",
         destination: "/",
         permanent: true,
