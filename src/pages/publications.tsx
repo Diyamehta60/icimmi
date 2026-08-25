@@ -3,6 +3,7 @@ import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 import React from "react";
 
@@ -43,6 +44,18 @@ function Publications() {
           in Scopus, IET Inspec and Ei Compendex. Final publication and
           indexing are subject to IET and the respective databases' policies.
         </p>
+
+        <div className="rounded-lg mt-6 mb-4">
+          <h2 className="mb-2 text-xl font-bold">Paper Template</h2>
+
+          <p className="text-gray-700">
+            Click{' '}
+            <Link href="/Manuscript%20Preparation%20Guidelines.doc" target="_blank">
+              here
+            </Link>{' '}
+            (link to doc file) to download.
+          </p>
+        </div>
       </div>
 
       <Sponsored />

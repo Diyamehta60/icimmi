@@ -157,11 +157,15 @@ export default function PaperSubmission() {
       </div> */}
 
       <div className="rounded-lg mb-10">
-        <h2 className="mb-2 text-xl font-bold">Paper Template (Coming Soon)</h2>
+        <h2 className="mb-2 text-xl font-bold">
+          <Link href="/Manuscript%20Preparation%20Guidelines.doc" target="_blank">
+            Paper Template
+          </Link>
+        </h2>
 
         <p className="text-gray-700">
-          The official conference paper template and formatting guidelines will
-          be made available shortly.
+          The official conference paper template and formatting guidelines are
+          available for download via the link above.
         </p>
       </div>
 
