@@ -46,15 +46,15 @@ function Publications() {
         </p>
 
         <div className="rounded-lg mt-6 mb-4">
-          <h2 className="mb-2 text-xl font-bold">Paper Template (Click here to download)</h2>
-
-          <p className="text-gray-700">
-            Click{' '}
-            <Link href="/Manuscript%20Preparation%20Guidelines.doc" target="_blank">
-              here
-            </Link>{' '}
-            (link to doc file) to download.
-          </p>
+          <h2 className="mb-2 text-xl font-bold">
+            <Link
+              href="/Manuscript%20Preparation%20Guidelines.doc"
+              target="_blank"
+              className="text-blue-600 underline hover:text-blue-800"
+            >
+              Download Paper Template
+            </Link>
+          </h2>
         </div>
       </div>
 

@@ -12,19 +12,19 @@ const dates = [
   },
   {
     label: "Review & Decisions",
-    date: "Oct 03, 2026",
+    date: "Oct 15, 2026",
     color: "blue",
     gone: false,
   },
   {
     label: "Camera Ready Submission Deadline",
-    date: "Oct 18, 2026",
+    date: "Oct 31, 2026",
     color: "blue",
     gone: false,
   },
   {
     label: "Registration Deadline",
-    date: "Oct 24, 2026",
+    date: "Oct 31, 2026",
     color: "orange",
     gone: false,
   },
